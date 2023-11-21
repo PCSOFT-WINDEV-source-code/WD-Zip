@@ -1,0 +1,3662 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_MAIN
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_MAIN
+ identifier : 0x274d91a013ed19d6
+ internal_properties : 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
+ properties :
+  x : 120
+  y : 50
+  width : 1095
+  height : 764
+  widthClient : 1093
+  heightClient : 732
+ controls :
+  -
+    name : BTN_NEW
+    identifier : 0x274d91a0142019d6
+    internal_properties : CAAAAAgAAADPvvhhsOTgYHVme7vG62UogcYkRxR0SoVUVNgvQYj0P2H07k431zkySzAGd+IU5qrYx6+nxg/nRFtnhFZ0JWdLEgmmTP9MApfz8w0aRZgzjaghbSrNZPu7sKkk8XMEdcQS848ZkFWKDlVrhVMNFuKFCHDMPUHbG9ZEkNi772K7udJLPnNvp4Wt2gBPYk8WHotUjLx/KgkMXdYXf9aVJeXB7tn35Yt2fFotrNED5eDRUPWOIvCuSAnfZTdR6VoeYAZVjj+CrJv+Q6K9PrKrK63DmGDkpVkPp7d/Y0CbFmCTpkhLePgCWtGVmlft8Lrf4JrgPWcvMcSJ2I3Qy/7+LrfRE+C0/gpUFU34Oi/CB5ivSDVC6gtOPj3n1BldzeMIBV1C4dx3+K/KCBO0TYbbn79ZDOiE6Zu3JuaKHYiv6+h/eF+SJK6hTHdfNPLXpUvAusHL7U7gNxo3rJPbpfBz3irCtlidlXiNQb4TCIAyK0r5bQ1I+GrzjjDfj8/reOvGOjYhhm2Y1nI7rSRvqYZsgkdVszF5VligX66I78iE4tZj1qz+UUm96BgBr/8BoMZrkOhg1VV2y1nAod8ld8H5Dk1iv60MqXZIvdxQVWqkqxPQEFgcPrQHqoD6a3eE/xdq0RL4LtT7FlC2aDeoOUS52ihiyN5Lc4gWmwbBtY4uyODk9B8hBSNgkqP4Kg3lnzmeZz/9Dom/3ACtDTmaXzcV2i58Z+gXSi8NL3ktA+zLZHXMJolWyaD99yyvWUciyIHhUkz+ezMOjbbBaLjRDLtS361JgGNuX+wEhoXdyPp3Pl26lprG5qlSjHJjgWJL2rghH7FiE0zH6v1lwi//A4p1jxY1YBndyy7jNvfnuvEKk+u7W77nGs4YN31zeA7UZ1hVucatj6wWrSuwGvQmYfP+cVDsDv7RIUSKwiXA5MDxbAzqBaSKMmVkrzTGtdTn3xmUUjMmR1Fuw3rpClCeOxqCeVMWS/apx5hx2l2R6H6vO/VlMSY3J31GLDdEA9HjXf/st7TW+Tf/8BPPrZpOrfLVkKH1UB5O8nonlQF/VvsQSHkI1Ek=
+    properties :
+     x : 3
+     y : 4
+     width : 148
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         
+         
+         
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAACdV0jC6xWvguU2YzyIMzbPTYfWoB57j18dvMcK7HEpcbd66PxtlsVtNnXTaqgWeyTt2Pi4xj7zJ3OiKZpL5aFBSPyl0MydxYdVH8sBKe/bJ0bsNXRV0O+ORS1mERJ2xm2MlOiW0VXD6e7AYTo=
+        code : |1+
+         // Open the file picker in selection mode 
+         sArchiveName	is string
+         sArchiveName = fSelect("C:", "", "Create an archive", <§$0098§>+TAB+"*.wdz;*.zip;*.tar.gz;*t.ar;*.7z;*", "wdz", fselCreate+fselExist)
+         
+         // Check the selection
+         IF sArchiveName<>"" THEN
+         	// Create an archive
+         	CreateArchive(sArchiveName)
+         END
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+      -
+        code : |1-
+         
+        type : 66051
+  -
+    name : BTN_OPEN
+    identifier : 0x274d91a0142119d6
+    internal_properties : CAAAAAgAAADb3JrDjQ+2gmDj1hV+YQhFBabacc0FIjaWfEpz51yOVZhUIRRNQ2Vz+z97n55uz3fZh559MJTG0laby09tinOnT3ksytLMIz/y1vhwkz/OTqokgo9S6wxl/R4g3eKynG06nJQ4A9b3CSkXpUao4ZIP5vAUnaIYTNVVl5Quv6TyiMCLaiVzgSEcCIYhX7C1CQN3IjdJ2KXK1KbeGfMDiaZ1M0Y4TP5mbnTx1p/Y8vT7g5MNQnDbyTTJgWuwJAG5Wlnj9XsGK3t2HlMs49MkmMFtM4efocO+KyGtmAZfmeE2MNCnuekTy+JCSPMlThQllJvWwhf/hwzeY/h827OWu5ESQVYd8xq5yxichVL076PAPXN9YZ1h1C5RrhgwfesbYWUqskoMEp46VJW01il7ktqs8VMZ8Qba/xrYHJdXOSSXkSVXgDYhB27nPdoLgSmK6y5pMbmO+hGetB0o58ZJoT8Cdc5zb7L895e/bqh7SN6u4FMF4LtUHg6WcEcPY6JInWoaQlngRiOVT0wUASk2R6ett6bSk8LJSL0vO9pAVVlc7oU92tWbwSvyC+beHdJNVu3IJ/0hQSp8KzCHC9FYs/5ADOp9JUkQHaLHU+K0GJpL0Nud8zjAqvIGSSJRon/CmWFtqy1uZmtd4y3DLh3ftA5XqvYXBFYJhqfT6Ps7hAhES1OtHXqac6gzGJO9ETjnFOXCvdQvSBt+jiszal6XMvLVH17xT/dM7gD3zpnm/lkApaXCIeH31ito8+Rha82vPCtOR/vRBVVo0YKQ1WiEuQvI8mOyvtCXyRghR+9MpAnmb6KaxrpwRQ8iP1k/za6Os2C1+QQtDbOqyLpGirO3GYIiNAE+I/oBMRp5wT1EruyMpAgwyuXr374Dx+Hqb1udYGOPPj4+G+WNN3fwDYBQu+E+r89WxQm/w0jqavqFTyAU9TcXkwMz2gNB4s/vswVYSXbzZhHDsWPlmNfUsPo5ovfORNnnKv/gvFlFziihOZyoea6rotZDCvbmIVoh5jThOV+J8ivJgGRl5SNEm7JiF2s9yxMXkv+Jz5Ms3R9/08SyYjqlEkj8
+    properties :
+     x : 156
+     y : 4
+     width : 164
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAAC1QV0TG6mml/l+i8FyqoxffFbIvrmFp4k7qGIEMG9bd2DdwZmmTeP/tCeEdbcimYZncyk/evv4G2p7W4wVae/mXkIkzo1K7P6Wh8GwWOhjOpRJaKxWelyLLqfyLgKMf0GGOi1V/4oaqbuOahE0+XPLBrUj5af2h+Py073g6RY6OQ==
+        code : |1+
+         // Open the file picker in selection mode 
+         sArchiveName	is string
+         sArchiveName = fSelect("C:", "", <§$0097§>,<§$00a8§>+TAB+"*.wdz;*.zip;*.rar;*.tar.gz;*.tar;*.7z"+CR+<§$0099§>+TAB+"*.exe"+CR+<§$009a§>+TAB+"*.*", "wdz", fselOpen+fselExist)
+         
+         
+         // Check the input
+         IF sArchiveName<>"" THEN
+         	// Open the archive and display its content
+         	OpenArchive(sArchiveName)
+         END
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_ADD
+    identifier : 0x274d91a0140319d6
+    internal_properties : CAAAAAgAAAA/HXH5llhWjckalMLC4NnXuW8tP4n8Ay5yp9aSbcQBq0JFoUofgvkel8h/3LWNHjTwRET10BYz3hxFHkKJsrqjysbXdUexmGmkrM0os9z1ApXFuTgiNFHdkZogNfa6TLK7fVqpmP5z/ADEGOmhLKtlp6ivhPqQMt8d1jsqC56UyVywi4Xsp2j3wgPcTsTNgxtjynpHrG7HoNuYTg2Eks2u6ASSaQBkxFiu0BlsYGKwtEo17/8MWg66DNOxfYQ4CczugP7aqCbWbEV6djEFwcMcclR1b1+VDJq8CtuFOe9fk+2/AFGxzhK9X4V14Cvh7z1vthGPPubZYZrwouoafiaVgwYHwy9wYI3Py2VJC5iBNNjughPbYjLSYangrpXSWTKK+nWCR19f7npsfkd3U1q/vcMbm1ZAIl2wPNsf1x2eiYKdv0y/4bMNHPIRutNU0aIbVZ+RPQQxslwsTn8xIXgQF0aPbDbnfds/lIeL2gISgFDpbEXbHZuLi/YBue7bXpJapt0hbtoV1EG9HRC15k2zyTQV2aSF57kREGMMzWfTiEC93TBCJdsBUzemRoi7p6fEQyeE3rYcaB09su6YtTfEHsnEi/14d5zMN4aTBnMeiQEPM5V6wlWSA1nvnubaElzODtF1Yjk6x/SVnyo+Cv5Vp1qIwleYo1JhZ2XMGW+dKYOg11FvRb/+Az+CQOOv/D2RecCQguQ5Nzmlz8WcqXvfQ9nAuGMZ+pkntwKlLAzL7quXLfW+3g2V44CqiY9R8q8E6U9mfv87q1vm4Y7ZUFB5tV3jWcTrPxVm0kQty0EvA5ldbKi616KRSyuaYMPi238wlVtXolcYBo/Jup3pftdAVpNsTZxzmd8ucGcyU0trNgtCkkds5uHgdkpWV13DA9EqCz0ImDa5FET8E7tvOCSgOvGkJO5lOlfa+pi1rGkadhTyVBOPEuZF4UPZtn0ShtWHXDH107rbysq13AmnLSBtjbFczFBWBeVmbYdCUHyeV3lXZgDEdHmOa+c45UjmXQnJG/KRHY2qazfjBwVHkig=
+    properties :
+     x : 5
+     y : 658
+     width : 89
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Check whether the archive exists
+         IF zipExist(gMyArchive)=False THEN
+         	IF YesNo(<§$00a5§>)=Yes THEN
+         		ExecuteProcess(BTN_NEW, trtClick)
+         		IF zipExist(gMyArchive)=False THEN RETURN
+         	ELSE
+         		RETURN
+         		
+         	END
+         END
+         
+         // Open the file picker in multiple selection mode 
+         sListFile is string
+         sListFile = fSelect("C:", "", <§$009b§>, <§$009a§>+TAB+"*.*", "*", fselOpen+fselExist+fselMulti)
+         
+         // If files are selected
+         IF sListFile<>"" THEN
+         	
+         	ListDeleteAll(LIST_HIDDEN)
+         	ListAdd(LIST_HIDDEN,sListFile)
+         	
+         	// Adds the files found in the hidden list to the archive
+         	AddFileList()
+         	
+         	// Update the buttons
+         	UpdStatusButtons()
+         END
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_DELETE
+    identifier : 0x274d91a0140419d6
+    internal_properties : CAAAAAgAAABx/XytPAXDnhxRljReL4prZzF+jLa4aIsjsLO9e80no8cFRnGlT/akVz9Uz6iZNKnlCMCxVSS+nH9bNP3HZPwsiL6xRwLCXeuER2XdLiWBcS97kFkgPOMXtarxJZuydv2FGFDTlQI9zcq+PxehTX2APyCXBgqQKbqaIJHGHFrGIqyIk3zbNI+67rjsm3pZt4RdMABU6uJjSOnY3WiTSN6I3mJEQllc6nhWXAv21uM8QE1u0eY2jmK66Ihc3vg5+bXq0tzV0/PiMAVhbE4RR6td0g6WuM/eEd6tsM1D0jgRgeGuihRGpxVoX0q8gwHCaiuERf8J42Ym9/MVDRnZ4mtFm6LV4oygOlEl84RU0vrQnM7IYS3mXFYhOev4IOmhvCgv4V43QV39zAEt5GppCO7DCgINLdwsJb3zwoc7L8nJCkhiur4bfxCSupBtRNJrL4hh3FsQszf7kPZ59DjybJPTiPNuLrzxq62gFLj8rCgeGuKB43+zFeGsoo2COYQccyQJrTAM2RX+5JPyOFniXYAOIAsZOesAAA0bbywagTJyiqOrLS/5MEt4T09oVdGEICi6LRnu2PValLgizTVqkmw60sNP2E+0htsvCR3hoRLwvehlC3jVAIkfjnGBvDPLauzOwmQQH+PTcNwwRvLvDfZeIMRa/17mJbtPKNA/t9t/o4+y5APCBiEH46XC16E/7kT3+EYYz2QRUeSyv5QLLe7OCKJgX7gQOQ8j9tOykFdzebGa+LbmJZhnC5Z+E2QlyL0RondlHVwydtftIAKpyHaej1yRFFy0Xai6CtbPztYzy4px1f7l23pQlsLpFjSg/6rVzgfrOuuPgxVVVBcA3h8ZGT1NO6P9rHQ0k/QsiCPgMFU5ziasVwiZMXyO0r1cGJP9WAligbs3KedP1z9w3Rigy2hXLNT08wdn0I61JMDjsel4Bj8RvbBVo6SdtLlOXPl2/rl6UqTFXd7m5wg/7X/10yK9peTcUmJxDxOh8v7uIW3cnbPefp3lb1IWP2iOE7fLcYKlzklO7BlTxcSs915GwEv0dzr6MLwzkKs0
+    properties :
+     x : 101
+     y : 658
+     width : 109
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         DeleteFiles()
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_MERGE
+    identifier : 0x274d91a0140519d6
+    internal_properties : CAAAAAgAAABd1taGSdTE1yObZ3LzZYAIJaaV5e6RfkU/+RVjLo7PKW/7Q4LGuu+1TV7+golILQQrkKm7JLqMNrSeFL1cuclz11+3Yd9YBR1XNBrsrnyNpItwRS8Ij8ULKc+WXgYLm8rp7Jm6HGvq+k6UcE0ktvDv7rbJVBjroEEQkC+n6vuRr2cdcJN709bvzXqo2O58Hoo2plCoxKlfPWiuR5JVywxvV3JPrTB+IHOqpdovPNVBM6bNnunK5btDSlUwFZGe7e1G6jwnW3JBx8ZjfDlDT2pxoWT9SHT6A9xH19afe/aQp5G8TmqaAIWuSnswgV/E+p7GuGOE8Kfxlv5UCRgIS7BfGQI3/HDHjlTv07IwtauIcP38LstY/0siEPL/KHRLwDJmo/xvHnmh4iPaW3EwZR0UR9z0/zq3v5eHewzBcrnt5ZbHQS+qF1T+Ah+1kG6gBi7d1nd0Od93Pf/Dv6UC7sMmSEmd6qZ3zRjm/M79DyYYxyjdtZIJCSyAaResBksx3orx7v2brQ22Pnscscn9oc6jxrpyeBOYENPorsFLff4AJOtVXJ3T3LYlLv38bRbwkN8ht/pNH5X74GK7gAc6FGgA3Z1PhPrRyAKDd0aI4mI/IQb1ClIL3YpQuNsRsfL3Vc5fCnRuf7KzZQupM8EcUf/rSnRxPS67wB7o02F1KUy8t4IywCzuBpJuxrd6Mzee06tw393PcUvCqcDR+6beIow1lskXzZjy8Xt0pRDiYL/yQhCdsiSdLRqNGvrUpgu8G8EJFQI/V1iQAwhAG38TP1/ZlM8O0gkkiv+3tqgEARgCwUhjS91nRjPTIl/un7MX6P8PWdDlWgcUWeW4r5tIE2lJijqlsrGmKJB4z75DRa9Gapp74a6XwaRzvxpWmY3k9M8smzN2BtLGHe5lRDhqrNJwL9WJ6xmWtmzEvXyIjrxAYpdyZe1RiyOCZv16ORDQrGz1+IQkapyZJ9vfUKZU5vqqG/n1e+8274cwh4dyalaYyD+7Q37C6uPAVHyN4jippP9wN8HD+qxRYUg+BSaTMyOwBCnY6aI5
+    properties :
+     x : 964
+     y : 658
+     width : 122
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Merge the multi-archives into a single archive
+         GroupArchive()
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_DIVIDE
+    identifier : 0x274d91a0140619d6
+    internal_properties : CAAAAAgAAACgqiK10KgVQhiYdCIUXFQtrtVxWAvHf/RuIsIqlPxIQ+1gFydRMqzOXrPkUi1BBURj5YoaPwJvfTcNzX3z5j8PVwM9qKLiwXzr9zmUV9D4DRlpe4uVjDi0XhrhD9jtR7D2t/WewvqU8/apGUmhy4PXSMg7BEf2lDyOKNLxN/NPKZyT1PZ4vfffM6Or8awzSGl8J8T7jp8RrBjyYIslJMJbP80YlzctZ75g1eaCeg9Uynfk3OzGBCSHhwyrcXsDopqeAYqabAZYFFvq2tjrDR429KfGUzCCg24KwPE9b8e9ZZ31OjmV8g1HJZ3pWXa06HvbtAFU2x/qdc1Q7bhHL+pDpjO92DJicj6W8s6Eky0W/Q69QAgh4MeHo0TNmCb8dhusQpsKiVuQ9OCpyltAGrNEo5F/xD6RLLNIw8u8yFI/RpLucSDwuQqOzQvyFZ5QqH997OD1bYIlb0IaRoWWDr2UZYC0FcKvyIxFMXBC8HHbMKwwpgV0/LhFn/PbLhuvbqAtkhNGtanLv14NdB/cONqaqnJktWby0HEXmC5KuQ2hX0JPvcO82IslV5B6fChQ3jHjCyTTOXzKC5SyaxSNElDkewZnQnj3+1tQ+rR2MKwnT1carDnDEButUbVj4kXwsylDPI6wjko9h+gmM1VlBpJbJ+pP5pobDFZzmGE8lytxJQBzzktjyxt/5Jf0jh4eK8XWD39bggNMbItVw/Zop1qMl26P3dJ4zSlhFgy+jgrgFHjf4y5QdP/ABSFxq9NHiNDTx3qXtwVLbn7myUpwYqqzcO4gqFKazI0S2iu3knd9J/H/z/aMVfOTLbUnM9xEQHp9OvmWhKyPpsWWSEvw2BoadSkE1gIK2m5fVMZ2eoZGm9Sm9B4WF4o7rg9sxUWV9xgeYpMcPa3eC9/LrSHvXlDP8fT2XfTsa2ughgY9NfGTGjmQBucpWVRXbch9jfdSIdQjapVsJH5MLKTu6vlD9SJS0cf/lXUvnnwR1RsQrrbNMzwY1GUPu9Stdun7mURF8I9eUbDAk/mSLHrZ+tkRrB7L+QsNOg==
+    properties :
+     x : 836
+     y : 658
+     width : 122
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Splits an archive into several sub-archives
+         SplitArchive()
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_MESSAGE1
+    identifier : 0x274d91a0140719d6
+    internal_properties : CAAAAAgAAADBxKx4Pcdt1lAgdMu0RfQnqwtSIwm+DP380U+H2Tw6JML+eeQp6LXqNPaUzVkMo4PNTNfOJSTpt0VJ7wMZOBTLLQDEhXHdxfl3jgnzRAaRb8sV+9OlPE7Mi0Xy7/9phpDlMdWSJQvujfi29VSKd33OgFDynpiO6dInk2lILxASmUOqSgVLA8jjul1fuov4OUkMD3oCQq8GC+cYeAZW8awmmkTKZ/ZS+cR/64nWPjbyWAQ68HXARcmWHljwDfj68bRinA2O0eKLfk3o8TcsfXg5VCYIOuyEr/Yvo6WxTpnhi2KH1UBwlkBry+oxgrqvcq3AJrdDOcbqO432sHyHafVbbhA/y4GPIZOpN5BS8MSXbV9H7vJGSHpOvsFmgIhbF8A91Sjj1PMbE3HT0e3FJWzAUWIuBvi80f6ikJDvJUckw1L9zlNV8alXZdzljw17ro27dHgQkCazXzHK9go2djXvxY1vN1VEFX7yibl0XZ8KRjh7q3NItHEmEwFuyQuKS80HSY2FkTe++xuqwGclYKIMxsf3BRXUduekpxx4nbxDprs6WfV9k5itE1shhZw3tkU=
+    properties :
+     x : 9
+     y : 710
+     width : 190
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_EXECUTABLE
+    identifier : 0x274d91a0140819d6
+    internal_properties : CAAAAAgAAAChgA95SoneKH1rSwxzTUsyKZhVJTTUN9JqKWSFxQ/eKdI+UgzHNNWbfT5kRYIbIG7mK43NB1JfAQ3NkHjSCOSHXMjSoyHWCz6iQYByRujA8SbC4wBkAZM+yBV6rdmP+mYK3jcSaJ76Qd8jQHzg8JEM94VPd+ATdeEAfBVKoIscEZsGYO9z2/5YB+ajL4dsEYpwtJo6xuUiTQ8z14YkuhRiIhabwgLykiOWU0pnQBCfsW8/Hs9hXQGZ7N91mtLBvdadLuPN4VlcKEn9BaykXIB+LFJ7qoKJxoaKxjSXwnRWn4KyahC68EsyJunwGZBtX5/mr/6zaX0SYpXuGMe6xJ3/zz48JqmIz2JmxVRw/9mUTaVJMltlNd2cGVst2KCJ9DV7PqHIl0QH4sBUJrhSLXCz8GTf6yM6UiaCr7tuP28vvDLycFafpHBBSrBcGyRp5eDyJzShDvLOyMhPocsmY1b4WCInSGRaNXQ0PwGF0g8CZwJF6/Yv8dk81SdE4uDlQNYsNoiJSvqQrqacjXblCZxg1zB1tquzGN6H9EsMeVjnizSBjd0Z27CQUYMm1sSMebiom9t9ZQxhrSUh8qbMuhFpwAeuJMhQfqVsHcjz4i6AoikdvdjzFsgFGe0n0q5D5rMS/25LDpKK11PYloMDNoshPtnbsCfdtxCQWLKJGouESUCJvM97Fk0WpjzbM0KzoW/Q9B96jJyWbjCz2gdHJkeUFfnyq+U59HZGydQjYmPpm5UV8EhcUA+re6B+9aqEoMboHNoCTulCOGqt1G5w/r1oJzsrUIiFDX8kqQh5GmAXzzKYXvjPnVsyOZU63MrxG3jRmxa/FYvXyYf0p6Jcc9zOdXp4eIvpTM6McHMjkXEkwii9d4BnAC8H82Vt7L/AeWph3xDVWakWecPEmZpIg2d2DajA9XTyhODKru9vkLiZqaH1eMDGdtgpo7f4xc3lxPZ3miwKbxbL9EiABbCYsKaP1v/Ahv+pqz+5QeYOhbrukE1pdTj4Z0EjK9Wpi2ARI7erJ1JmFtQHb+WPcUbJQhJ+qWf3T04C0sOnBPEbs/5erqM=
+    properties :
+     x : 705
+     y : 658
+     width : 125
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         // Create a self-extracting archive
+         CreateSelfExtracting()
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_SEARCH
+    identifier : 0x274d91a0140919d6
+    internal_properties : CAAAAAgAAACdm6OqJTVE5ylLOSgB9tRC4kQ4rRuVRWczc7ffBfpOS3EjP0r6g5sVb2Hb3hfqIrULfJNEV7KJS04dXx9hn+8ElzBiiDmGmZti0+C1EuiO1XdWMl/gXH364orEgn2taqKLYxAEoTlD4O82eEJC5evlG+P15n1LlD7qjT7FhizzNBO/3zh3r73dNq2ZhamjNMfwsEPZwnZ8tpT/yZ6laX0P3uDCooHuYD0/jt7Q0QBMjZekYgfehy9H90eQTGOlDBr6iEJZx3U3XBr4lYtSMDh9a1UXovtJLMLfU1nq3rAskEDcKzP4t+yr1PaDTGZ6Xzr0AAPhJKqfYmb5uIhJOOK1JUx+Uc/OER9dJwFFbzyTwhLnAUgbnuNO/BR2crmBfpZsAH6NFiKyjFcsMNU6KWT8Sv7YwEJ4eDItJCQjoIYpotgPQFt+kyVGGIU8XsCfpH3XPQp++wZ6Tu+jvHTE3jcjw+8Ivh9J3UZkc3qI4PneoopUhyd8PcEWaMM0gOpMnQ1SxEKVabLnnqLFlk/wbUUOEN/kimMLXXm6BU3lnz/6D1TWJHJaGEXP9kXL3X6BjrXCCOFtKktmvwhEw5lFvO5afwXE0fyZi4ObGyrYFUWED9UDK7K2Q99OTqp/aZXqwbQn3+XB66ycfjj3pBP1sm4In116NgY/M9G/+yDwaccdutPAGjSklxNOR7l8a0lS3vtHV9GFhQRLUNGIThwCdsOF+X/L6z+SzmRR7RIFimtEP3hXyEaaGpnExA1i8sncUSns2GP34cEuOWEVOxnCWajRcWeeLcPjyjJaUagHj3PGDVlg8j+3MmEWM2PQvuurXPqyEIhhgFkCY4ohD/qIFzsQm9YOloVowakUdcwMydEwGz5bPzI8nFHncNH/zpBV4gLbaK32Mg==
+    properties :
+     x : -167
+     y : 12
+     width : 63
+     height : 60
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // Find a file in an archive
+         Search()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_ICON
+    identifier : 0x274d91a0141719d6
+    internal_properties : CAAAAAgAAAC1frMPWfLyp9bTjpjuERP6Oa7Vk1mJBzqVWGxNkZct47/r9unBEmBsfYTUV3HUHnRGhdJfk9wTRxJPph6onbQMchlV/3vKAb4KvrQiRTxLKXE0PidMxx11GJuIheHl6cRbuM1/2sVvJGpRhG3DUn96pTMfP4cDzlEt8Flk69p/A+aDQH9frct5Avy3piNLOfkQdzxNMnOAn0uMlF4bFqOQve7/68xna66+62Dk0PHx7kdJim+b6/XAy1Qb4zd+ffSS3SSpwafWIT8eKiYTT/ljNOtF8XFfzLEg6PAa6eFGLimsBOFPy5cTH9OeUdtp3O3fsGc9ohiN1JEgmph2QjPVNr5K9UhnbEyuHMFHaIjwKp7Cd9vWeNxljFZYzJDXByoYpHvYw0bStuCdoFZtpy6PXbzQuCgbAsBjJy4Pwn+igdRyQXpaydJDt1J8sruuvFJgPSqgbH21SYswMrWtguDV1vrC1/Xbw0igETzMeO4Q+2pmuCDHTKIEicSPFTeDjR2uye2d9+sBre0jdUbvZVS5b9a/K9FXiUMKD2ny4f9L3nIZoR8zwgjurvJdr4g8rWW39myXtZs7Thf2CRZ0LhDzbfmnluS2cvdwH456ZOdHWQRzGTW3i9xFrDtObdAjfY0txAO3UtjtiP4V2VNuF2z0vS5Qk+7KDgCrNv5eh+7XVKQ4VSahs1v482VOPYzrl5eFJ6SgaRskEoOdkzxjGZWbuK106kgIgNayPmzclb3SoyyJZuRUzHR8Qtd33WDtNSlgjvrgIdNw3+Mfely/v1WZkBDIgCPAU46R5fZu5sh8dAZ6S8tB8p9NqaghpZNS+Fasrtygmvld9RS9IPVERZppTqPz3ITqXJ0=
+    properties :
+     x : -168
+     y : -24
+     width : 32
+     height : 32
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_EXTRACT_ALL
+    identifier : 0x274d91a0141f19d6
+    internal_properties : CAAAAAgAAAAvr//YWgExV5UGWIbzm3/ExzFPf/bbUQiASzCj+g53/+nZu87g14r0elcNzuty7rGLTsfBdxINker0vqp+WairT4bZyKT4ehkI5G6LzCiAtg+STRE5JtGHgjM9b0r3rXTAvMt1HaOzVLXY8KGfixIbxIza2bzKdPF9BK49WrXiRaQSqZpTcY5QjNj+tETvudLmZkkGIUHqS00GDvJpbYwgeMfYKVc1curiv6k9/nJPozU1GOMM78wRLAklgKzzMDZu0/1h7GZZ7Aj8ZU9GM/pYlkZ9Aaj+edaNQpXwjKJpS780WOJP73L/ciyr8BIwVi/XNI83K0IUBe8QD60NOtd6GdmHIMh7ZVPiJgdzU4czn6S9tHvcUp+N8ELVVUk+JUQCibtd8DsOY0JRyKPsexwKxfIiqKCXikgsDcmMCUjeUBlNJcMgvOInsMPE/WTJp7q4LKFzJQLfSjLL1MQMp0GdWNYJUq51bCCLCS4O5MZ+Ns0uSMosNssgfb04AOqnmKWH2famgix9GUDjAmkYrrSxAMpKhtN8Pr2Nx2sbkWHrB8A8kCdhlzHz+3ZrZ02jck4nRSmI0RXQgbfA65+4Z2YLt8Arllgg9q7qG3IMcVGvF01hfqQJ0ddORwOx5rPeleB5tMda5ZZJ17QtKKCIaAl6YqwTbAviyl/eL+3/xk/Z0irFnaP2Oouc/26SMmjU65CfxNf/PIb51x1w3Mz+IybeRMV/UjcH+R29g7yi7xYYyjZwxnQEcjdKBG3P2MArYSLttnXFtGZ9ych/ucuy1O/qQ3zIpHAEODF/gefMLwqQgqrUK/OScBRE0/C0RYwH11ECou8dcN9FVoTRcBE1y6dWpk7Bap3RJrUfxWSH5pr55X4TaSl67yq8WE2kPWHAIUCjUVLhZGe9BtEkWhrALUaG0ot+OC7a51KMjkUfjBiYOXu6bU+CUHm9nk0PNZuVwnuwRPn6NaohHb8nXcog1XftY/QfXtmhUeg2+lLl3J6BS2jBRAcvhooNsQgJgX6q3r5IMH/FWgbcEHsW20rrCMuif+vaeaNLTaMju95SPpOFw1pexpbWiCQVIUVEgLdEPapAemqfQvfvVj6OXGjF/FQD0yX85FUQKWZbHSG4puyjas/OQL7w4iKgFdOmYqqwhlxYnMg3DVOI3JQhZF3KFkIRIGPet8UnmE00ysHt555IIMBC83MPMQdtBw==
+    properties :
+     x : 959
+     y : 51
+     width : 128
+     height : 39
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        internal_properties : CAAAAAgAAABDNRqBrUu3hs8cj4rkL8DJoz18DIjNU/sfUvOAWIWvfwFsLlhDYNF9uHNzREjmrT53Wuog4LTqDBb1oBUoqFYspVnsE60EgOB85lr03qqQYoMx8MviQw6PWACF3N+5DzwNXd+pylyGKiyOv+Q=
+        code : |1-
+         // Select the entire table
+         TableSelectPlus(TABLE_ARCHIVE)
+         // Extrat the selection = the entire table = all the files
+         DisplaySelectionDetails()
+         FileExtraction()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIST_HIDDEN
+    identifier : 0x274d91a0141819d6
+    internal_properties : CAAAAAgAAACIUbYR5+yDhfbCJoq5/Y+87p6pcP8eyyh5HEKx6R0Yzls3iIyhqdXdiUNIERhTyUDWc89J82iF8uHlYdPtQbOeuToJMoh6rDO7d/tLAILwemsYVR8dcb10c4vsnlI7H2DgLjr3hFnNYRkkCnckv8FlmpleQ0izKw4oINjNTI6wAL85V6woVa3aivAPP1VUcfCT5m0sDmmWCjP+SmvzkJgzAYIwpTj/wpaQ3bTprY97WRFMDU2iloCjGZiTN54OkgmtqE2nIEEwWjBSoN2bRBSVs4iNm4J5Xc7BR7NXpbLno4Kbibf5xxhqDAyFOwzRaL37/W+W2IHjQNbwISpXy/aXWTSyupE98aPTn2Ei7mD9JvC7H70cRQftfzcsvRc/9AenmPUsXkc9GW8TG4beB+leGkeaTFyiK5FVnbkodk9dlZM8tSRrYinVj/j3F0YrxOIUYiMDY+6kwElIEKJmIh94NXnln4tNDmJJFbnRcCvdtLU+rHq65n8P2lHOpj7oahSVxbMX51qXn8XI0K6Wg+QhXIHFFWwr3TaH2NRB9ZBX40pL4uSDFb9DF3jUTtBk8Nu1n0Mrx4vVUqb/LjB824fkNjS4p3RUC7+SEsxZu3SNOYvR7F3zQwgu8FQTfhsMcQZhwWF6yMqK2bjIenRqYOETQB2V9dagxwYraVhUOnkOFl5ProNQmMLhzNbtM2sXgzvXflnrgTVSUGIUEiJAi9OK9aB1CjcssdcYHb7+YqFpyeLHnYlIv6aQYfQzeJwEyl7yGH8QzhESz08N/C0E/gHFkgLn+mUbC4PO26A/dNScNiMhNMOs+cg7gluPh25K6kcxoOkJLoO2lO0tOrwXi4xtO1R7FyWWVqVHshVFyaj4LhYm3j/7GO5YNF3hFlD5XmLkDTuHtwOJtBqguWRhirxzDjG7wXTPLnn+QJFh+RDMCoylf9Z3bA==
+    properties :
+     x : -166
+     y : 114
+     width : 81
+     height : 61
+    type : 7
+    code_elements :
+     type_code : 7
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+  -
+    name : Static1
+    identifier : 0x274d91a0140219d6
+    internal_properties : CAAAAAgAAABivRMizE/9nPDHTSVSli640cfZGrzzUXB+rA/FKTEEvU/x6aNAI7cgkXVHndD5LsgA+bIBCs4FGRNQf59PzikBOc39eo2DDz+4s+ssmLwIB5WmotgnlGzYMs7/a1EdWlrT4FPFZpM/vCYmdq4jYepWrBQY7Qt4wxzqLU0+1Ttt/9vZVbAb2fO723fy3G+69v/nDdWgiGOecOIkzuL+p/yHcJGD7u/5lCTL3tGcIIewQsJZuI6qbbw7je6KD4zSz/KUrfCGy5QKjMRX4B3GLNxu4EMvIdM0DyhS7QOJaSMhllF343zaEiRXysni9u8xz05/Ge+hQR/Ad6BhaiBSNgY6Z9KIMclVCxEotCWtzb6jlDmriMiQkhFe5b7W+pB0PZswucahvWX5iylGsDnyCIWnmQU9YNw/4XfmdkOske4EJSp4zt1KNddPM/CM6Xvx+Yqw4xXwjBSSuMzQaQa4cZB13d3I5MO2al2cG1AQBLX4v/OmIdEl
+    properties :
+     x : -605
+     y : -137
+     width : 488
+     height : 76
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_MESSAGE2
+    identifier : 0x274d91a0141919d6
+    internal_properties : CAAAAAgAAAADLY5s/W200QAm0gCDX5QbfCpolzrCxdloz6MlIvvEmnXdVhF8UL3mvE6rY2sUGYjR+IGcMYdFPT6B53uUZQIsIZ5ukrOEit6qQum8QfyRcjcrxof2oJ07gkJzq1mEVpem3mXHWFyk1dXetT5ksijlOqHBWsSsozK+MLd28cYxvh7OSzQoz6w7f9+lPZaeVLfnrwE7RziaW439bWdkiwU1nKEK4SZ1u19eoU0nHvmWhvH7NDZUw/1LK/LKu4WFXVE894fLkbdFjQuQjqe6qsHlA0qwj4u7NpEHgYEM7o5G2Hm+ktZpaqur+J/pHeCJYcPfTzrNo7XWpiKTdqvviqKCZHAF4Gz4XNGwMSY1rxzlE/vqITet8X9YN58jfo5Q8aViH539Awq3S/852dbebGh5k/rOiTm1C7uVFiEQBFH4QZUjhnVjQDtLK8ZTpXUBp4T+UFUEbhS72Zm0BlTrWxEE1JAWKtDaPkLDP12FoacV7/TpIV1xz8DO/eQmnF9+a0YGeE6Ngo+czftRy4TCtsBEdgRVUMT+FEqq50Lw+Vdl3TQrnw4KAzwND4b/pA==
+    properties :
+     x : 207
+     y : 710
+     width : 221
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_MESSAGE3
+    identifier : 0x274d91a0141a19d6
+    internal_properties : CAAAAAgAAAD/AWDipV44vweCEZ0QOzTlJ+Rd8eTM6unY0QWBGZonYCEMimfagHRoK+vqP7QBtpXejYzPE25i5c0veum7tOb6v+a1Z8ODfsx/qPebbcPJrWiX2elYAikUPgaBsdmD2K25L+7ch33I8vq9JRGmiJqfRvzYcqwTRtOa4U3JB8CN/bEmrWFn4SHfw/U2qGOsbiGail5sqCABynNNPe5EP40dHWMJ5Kfo7HoxEAxQ/RJSNx6y8Ekk7UcNo8IPPBZGG4qroZxzbBYGs88FdiQUnzC3Hl5xJAfMZ9XGSqKB7Dhqi49/DdrXX84sndfCUUkXQ/S2Ee9TAoyhRY+k4ontSTE1X5FHOb8KmkeTGWDstbXmHru2vWTjSUg1yLTcjB7X+wS1z/dkfDWMpOWS/t49IFD5c1zUeZ48E7KQP5Yec1P656OjQPfUZj4+5PgzbDPJuRieZeK53hKkyxqnFHDu6AiOOGVSPVgj9pkf0TMD2gvV3bKcIwBnkilx4NmrNYMKFAFL3oq/H6Hi
+    properties :
+     x : 435
+     y : 710
+     width : 438
+     height : 20
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : PROGBAR_CurrentProcess
+    identifier : 0x274d91a0141b19d6
+    internal_properties : CAAAAAgAAABqfIEIXJT9XloZU8aQqxgQs3a236vQ+UPAnPd1vy2TxZGZ/WEC9hGx/h4RSyIA9v+W8TSFO/xp+GWF7w7e8vixqdevAGEZED4+JKsf+YxUal6ExwU2UKdagy4U89OgtSl5kyBML+NodrphBkUVgd97EO3xbU92mvjur8fZixLL2XpmjxEGFySvwK+Rmcq2el1UL/+Uyi8wj/mH2eWCQTA6WEIVrYBALR4OyYr2hnTXwJfJU0nTiQJcmjAdlmgcATKfEFyJT3WXhXAK+yRUsHjgs/4ZQrToXoly1SijLrXY2pgPwy4pGdwB7J0OfUJeFqABWSAwocLCXCsVdug+C8QLaFHDY0V7rwMqpAWwUOtSCaOLNNXOtT3//3hvaSUGTyt3NkWXMMZUp2P5bSMovxwK+7mDBL+ZN2t7u5QDt3B0tIRzrMnZwC2Hp+5AXnxBRpHcm98gNZO1ApwafmxVRLgUdba0YDLrFFTx0ohUuenYFvYmxqACRkigekPFq2MNmzjmvnfCyLzQCNIsHJBz1AFfJMPWK1H7kov+wwNZ8vVTnjxGYBh5PpCgSCzCq5VmzJl13RxYvYvb8DT+LnFZeGVxMR3zFqS6LW8NtYY5qhQAolYxda6vW1LmsU8zVh9IxTPuN92zgZM9//jAhiWy6/WO5s6hHvMC8rYT+523DWC9UD44ySzdZStT7NFJJxWf7hqS8jYNstHpWrF9IgooEPp3oVEyXOk/cZKQvQ+B/CYtnwoMCGEtPUvXi5rT3OPlJZuCW9mVZvIaaOZZBl5yDeZag5idt7vssGohBDDpJcWkrrWNs5//2jquFHWX5/frnpzS6OdYZ5FiZqqAsF4C3tz0gMZkREqe6cFJP/voqW/3YfqhrvonU5uZ2g3ssy/2qCCIF4fz5ruLYvxYaifg3rISW8jMTJhJuxn/xFaCr4r+2Xn5
+    properties :
+     x : 875
+     y : 712
+     width : 83
+     height : 14
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : IMG_Bckgrd_top_dark
+    identifier : 0x274d91a0141c19d6
+    internal_properties : CAAAAAgAAAADJS0bJSmuc4XUdNCkwyntEzHgndUpejvGrLdDZH3lJ6E4PyeEXBCXUSG0kXBjmgtLn1A+MTq8maVj7JQmNiRJDnF0/X3eUAINId50vXDc7s90Yh7oKagF5IpG5Oh5/t6Es1ajrm317pAMCMsYiTEbl2xx48+tUxqSqn0r12HFMCJ+SVJIv7mzTmBMqxU4ar/Zxaq7kTRaiv8RmH+5JFmalDFi4C9Fqz2nfri4lkw/rhO6cs5q6Xrs3Z4H1Cg23MMM/9DlFjdhkwWEKgjGjdgJo384kBR00H+5HMx5XCoA2BwfA93K8W6y9tsxmtF9xuNqOdLI9SpInBet+Sbi57nbkvL4WwF8wam8PsrBE5r4cbM/PHs5BJjS9kTANp+WvErr0cftgW/O8LOR718+COqE+8OWZEogw95Tfgdo4CXZ03YEpFestfPYuC9efjYHQDtDA4G29FnSZesThpITIN6p3TLhSN2miDxc7+HmFJAGMBOwk0VWvMY4mmZa9VaTbjADbMXB88NIhqSZ97o6NAG33MxwuJQHM7JCd2AhOKejYFRMUqkB2YwYqnUrM2uXw7/odUXxp6EFpw+8l/7zR+1Bj7GDCTyVhQgoxXC2eiXs5MUGZZIjrbrX+cCNf0Iz3jbKMXXyLoRxhpestQiySwCzBwy9S2gizsEs7M+YuwYp+k7lcjevpvrxXONoXokj/VjbccM3BTyfAu2bUlvqLt41oxcZjJ7NO8wYAFowar0QPZs9ktg0X0cpyfKnUD66mChc3aot/+MmT3MOgbo+AhMpTpCOMGbtGkPYh1UU+MANoRWZebr9c7gm5z5GQ4oidaCPQxWYp2KCMzoQ1i52KAO42+kR5DyJAbpsPYIq37DM336C7TJDJb/F6Y7/pA==
+    properties :
+     y : -5
+     width : 1096
+     height : 39
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Bckgrd_top
+    identifier : 0x274d91a0141d19d6
+    internal_properties : CAAAAAgAAABYQVSno7/7p5utI3Q5aRxYuA1LhlwJrbvC5TLxvMgBmcA1VtU3TivzWTp7NrAkjnNQZ9gVygLy9kgXFgmrHFo+81beqTVRiqwKKYYfnoTiwufkaGKMv3Vr/TergM7jtq4rsOyeJKAZDIlE1cXhGE24mAqog4bZ7IUYvp7PCFoElpOASCUTGiLktwBKSdJWBuH6H/FrM5lD+FggZyPNrH+Ps4GXQRuE/YFm/bVVNzJbFXDQ/Q0DGUwsg3a4d7EkPYw9xV3FYDJB35B0LXWNMn2B1NLV14LwMUlET9hZSxbeLzmNmcO4sSNXG9scEHiiw11gsDUlIyhc8mv6l0oxVpIKRIVUvQoGCaD9P3G4W+mD7ALBfKyNwC9h/oppK+MgkJ+FW+KZrFo88KWfjqO53XmruEyTLbXJJWG6syELyZK1BD5MIk6tuhQZm7UqbbJkODKvO8mHmNpC5oq10r/hGwXruMESUqNt48CFGxwGTzr0nAHhh8EMn95PyDMkoXYYIeDFZtBE7ZH54KJISSFz6YPms5R0xD6223IE4qWqGwexZy2t5nbbrJG9IvRYDZc+0uPdAeHrg6YS8hte6288nvY8UUUg8a6sVzAJeZYF6EUKnnoAZgmVkhI7LOqpcpWPDzKptE4XwBHwoyjyCKuhVa8=
+    properties :
+     x : -4
+     y : -33
+     width : 1104
+     height : 64
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_Bckgrd_bottom
+    identifier : 0x274d91a0140119d6
+    internal_properties : CAAAAAgAAABKzIDE1L+CqZ6iVj4Y4z0imZ4xIxN0vUg2QoXLVbWR/f0k29N7ETezUhI+rOGhJN1MSZ4TUt7sxI2uEXlUGBhgi4cZrkH7oBPFgOEPhhTEfNWhz8UPdh9svzAjy4JolouZsqgo6qNHOnZ5/6jiorBgEZYaSjbtIHkjvGHIPvJNHV3m5ffiqNJah9wH1N94WuCVIOdoTqYbHTm4O5txn37KRtP6e6m8tuLq/B7KLtDUJJ77Trj7TYmp26c4UgYL/oaWJf/uY2G81n7JB6I2AoVRxuvK1oDUIwaXfWnUBjt3t7G+AqvILiAgw/uSeIQDJ5itfTjAAJYcZgSLOQwb0ct9zR9bYInSqialtXkp4gtNhMeX+pLK+RsoJpJkzK+0T9waG+BfpTYE2ockglxLqwlHASMUcZDgfueXMJZ3mjTOuFmwONI0+e7PWyWla76Jp6LHnz3uIxN6pi3R/M8mTVNfp+GEckBVZa3SRkiI/LXe9V7+FWjETF6lryzQ0SVA+aEvt0vp0dDnEVl73H2C2/JJCCawkfFJM+xSYoINhd1G8gAY66RVorytjGP+4ir8Y7omG2uGcH+Uusc2X0jQ++DSsRzFFdsRBWoTbsZX1X3QhTng5dcXRB0QclxZxV7flntzItZaWLpyREOz4ZUx
+    properties :
+     x : -1
+     y : 648
+     width : 1100
+     height : 90
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_EXTRACT
+    identifier : 0x274d91a0141e19d6
+    internal_properties : CAAAAAgAAAA6K3KQA8GHzNm/xkFj3Z/TAX6mHh7H9TJlB12RRP5USTgbXsCa7yWOf8oFH3RM+/VSYaeWUQB18OH159/V990ukeDqHL3WXXK9zXWXhetY1FCZitiMS5s8wPLqMdXmubnxdGExd8S9Sv7O6LXrSL4Rrdzi3eHMvl84LXpdtaCx92OU6greNwXq3Du/07bt7AcLFkl1Ev7EKdQKEmF7JcufPDhR//2enIvVRhD/DgHSFrETvhSXLf5n7j/1SSAeDa9dEfTMBmhmgIyXQWKcRZlUjteZQdVusovUdEg5NuaJTp24z3nZNQt1GDRX7JCHMdfUSp9jmJ32sk0C+LARqEAD2gAP9Ywrt8Kw6DuEGc0D5fX9RCNrZZ67jgpPFE2dFWHJ8wrY9z4RrnU4JZrxuj6PJ++HsIhyyPTEmlUXSpOxyhsPNRSSMueGW8hBFZqVqam/opvnUviGop86CkYyUE3A3S9mgAFwVD0zwUF3vXhTltY/h/WFb9+gQNx3feh4Fd4sIV48EImkHNjhC7d9k8M6/w4ISatiWcBqww7hVk/SWiCsggiB/CWHcZcU0NzRenUvyrx/kSG7pj8/SIJYkux405KFrQcfLD94aMZvqumSNW2ut6YudYhf2zdb2Sk5QqMYr4KSxbwKdygwX9uk//EEmDqtsWLXvEAJ8Y7m0nJAbniowXCWdIyXOrZm6TZqh7ctWzJAuXVIPSUlb0I/50VKuBUXmQ9lpPIXEbfvNuXaFfmY1z/HTssyvFrue6oC2c4BBEf01wk0j1iUzAqisReSoeO6rl5wfQYDvNtF7VqOrTp6EafYkzpLgSOVNbwv0w6oYPZ4zpPS+iCtkpUTe6pFt32ASaIHCTx/mMeTjB+lRPmwHfUGrjMunZdCapp1mLm+QC2zeNoYJt+b2kskEa60JlTbN5jwk968APeGZfyXj9Dv5sajzBaPeMOPOB26Zrc7Iw7VqXHe85tPilWnLduvv23A2HTd9Tq245us2VlNgd5UXk+QQqYfeGMzozv0AUaHdQSXQA4yeU1DZfsHly0=
+    properties :
+     x : 216
+     y : 658
+     width : 98
+     height : 32
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1+
+         FileExtraction()
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : IMG_Top_file_icon
+    identifier : 0x274d91a0142219d6
+    internal_properties : CAAAAAgAAAABGDzYR+5OMHqenOA9yCjuGZxngYWbfQKL9gcPfmxA4/ohFDgxd0Y7JIrtdhrBO2ES1p2lhzxtcbldhl1jWmJw8IsLQWRe/XP82qmLiYdpsE1Egqa6yI7zwJgdXrrabDTXj9ra/rFVicF+JAysoo2b9u/Tc5GGKKMDtIUVvPdb9vbhR3jIhTEgdouFisnKJVOS5c37N+WPSPZ9zf1l+iRNrLPNNLARqR8e+Vo/2IZKUhvJseh4zZrqCSbk4IIdBrzDkvFfk1cU7U++RYvwxRn+xWVLDtEsTtmSbQgdUvOymHVZf+wSLSDs/ut929KUerAZMdKeKv+Ck8GAMT/d2apKqMDDlaMWirZOfiF6EfusVNDsQn2M/5J2mNJ+ToW/dA6SP4gnFLGFOxxe1dnpFp1en6I7pxJwsBQTemoFN4tg9R7eBmVqQjPwnnH38Ix/NvFLzkXvqmuXpecyxKHOtBMc4GGvx+lO7R2bDc0PW0MeA46XpaVgI4fu5mr9PsuxfIxiqaG0ALgHHuV+4NZu4rHKd0lddLHEKK3A5Ws6H3TR+e1kaRFR4VvfIFedEezeqfakHDBv52y8BdJFlxmN4rNLrnECoTRtdfGMWvhoZQSWNUqSU3dGkhb0Xu+5NsQ1Nhkrmhziy9Yql1HkE0H070tQx7qFCaC1viCwj2sN41eV99SlQB5FiMtIZ2kCrCj4xi/hyfYzs3klpkvOZLmnihy3SHonHZX1jhNRQFYv9yMODQ==
+    properties :
+     x : 8
+     y : 40
+     width : 60
+     height : 60
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_ArchiveName
+    identifier : 0x274d91a0142319d6
+    internal_properties : CAAAAAgAAADzMh9DtStY8KcebVeSohYo+o5l3eaPusvTVpwhCJBfilPoQw/84qMLzFfMTP/PLYkIXUS8YMY4yqUSwV7P1E4CkogdfvcbYOdXJandYYJY3taaKVvTnxdULHM4WX3uW5B6fSuHLYb+hKTsSLaX+G79g46++VaRqL1sPM0KA7v8/UgI7UVNJI1SScADnRDgc33wnZ0rswZ9TuQ4Ova+aVk5NHDE8IYB2W2h1FWkZ0k69Q2FwrunmNfXzJuqIe9EP78r5vTuBFDtZwZxWowbKjseRarLkHcPiWME9VZZzBSCnFOT5Ly12A3zcHoA7Y+I9/AMaNbM577QzBWjQa7dTBX1jZMLyjVEaP4Ggil4pdyxwN/1iUuOVfkCaNoigBiosvqNX6STWKapG/YqyWD3nRJ2ci93BobnTky++JTD0Qywc+8UbQP+LzcRKXdNEttmkTi5HM+6QXThL2Ab9eZjDM0K+czlPZ9IEgUeoAZEdUKHYLx9W6skUYtx1avLACcnpIU21Gg=
+    properties :
+     x : 77
+     y : 50
+     width : 352
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_ArchivePath
+    identifier : 0x274d91a0142419d6
+    internal_properties : CAAAAAgAAACBcLvCD5Hw5N7SS/sWLyIKWZqDhS6uYC2bDMFBaKzNILXRL6plxLQWBd33HgD0Jx88dYcT3ZIUlhaFCxjM14JbelWjRQgnlFpde8ZU+6m4Vc1ejsAy8mD5PCotC98/8GQgHq/FDx4Bg9KYBMoL3EpaV9AoNCKmyuR5bBB21xGMC41zTMDarqUNjr/u+uwkvESHsWrvGbv0LRWLHhxFhc6Lj41s6m85tRFSCGAAzS9Ud4LEylYQayB7PM9XtIOesF/BNSvzp3e3sL1GXhHLbqAQMiUn0jDHgsklqxa3cc3LuN4e592301PAVwXHol6OxPNW3UEc/EQT605eZBf8IMR4npX2eWYYegB0RD5aW2KtA0nfrQSuE/rU4rClFQKWjPqtdSM8gsYBstdq01/vXzA8IPsK5WjPbcOXSL9fQuQugZin9aNXiLN0QADwURIYhTREi5hXx6uG2F9RN1DERPlWr1EglakPOVyFaVbYLOUWIHjF9s7lWct8XR88mmuKpFt3/45ENKsxL4zZ3+YS
+    properties :
+     x : 77
+     y : 79
+     width : 352
+     height : 18
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_ARCHIVE_INFO
+    identifier : 0x274d91a0142519d6
+    internal_properties : CAAAAAgAAAAxk81LhVe9jUHYMw6MpARPE53veKJNP2tGekDnaiF6LeYHsIVf5q7mW1due8zSGG8WtzHnsJJ6WUH76UZ+q2eAYOnYCspig4vUTYwe5opMd62GisvCogk34oJpddPwA6Ozpd9V8K8SRZtdY2LnN76oAz6zK+AVU1YGfHNSKyl28OWFf8Xg9Lq3arQOnE5XoZVOZ/qWAk7SjRV4eJXE2YHa89XIUoqPueay1Yl/URza5BX5sc7XG68R//8mFtpAW5Q40CEQ4AjBnyyIelSge8O6F9KCVwbIPUvqLagTrvXJfmJAQAq1Lj8M+moGUunTkhUCLg2/E/gNk9DezeICo8mcFLaBgl+fTZbC7g1pwkF2ZC64GjOEMAGLy9yc+M/0r9LuB+KNw0tFdXQifMUTZNZUIehH4kCqI6wktb3OMzx8ushuOdxzb39eHo7x+Pzftpk1iYjK323V6cmM5CCp+VhTH4V+fyAjQgTbiJeEmQrapz9u9KDd1ZSSQVXlSxTu1ttkXQPvw86PdxTkUJAJD83BPX97oYkEkxGb7cofn4Mwcv3/zpgyUiOU4tUaoedhuJpsyhCROWN/o/0cPVfucoPaUD2a1k5kb6OEXaNZfSXhkidqmlS6O4TDGw194JnjExA6Z6qxKGQdlyDAObc4Of4ek96f+21kXppciwC5wjvXSzP3SlPjITSvz1KhaJnbEaXAdF3oc+rUmPSfQBpEgYMMK9MZ4I67tWJ+zChW2idscySgt0Btf3VZKKgJI4IKbc0eiWLc8rmyaAEoYmawvsUngfjeZeCm1es1Pld+2IAZb//CslBA6oU9Pv9jKmTPDL+lvge3jT9Le82ceTFd/0oeGr1W6REPLl68EQjPbc1zIdlQtkv/YYG1ndLDCR272ghmkS4ksWMowyihpW2YCtYirmDGTcbGYco6LGII/bjhc7NDEM0BadJeqp3MaGjeBRBw5HXZe8VCYMcas6PCrwnPEusmBQH6xeLiBfPifLIIoS05Z5ZLQ4r22vJLTjYqdYkWtyUZacAJsfoIps4G8j8QA+85EoYc8WzMbgLwLXttCO4frrr+eokjinilcRxzzjlZ5dKnCSDcf9oOn8gQYJFRNDRrv8CigjdZDOIpRJo0taK3paOcxETVX8a5UMgDMRoRIBurKLlO+2Uq2HrD7ZkWQVRab9lZa7ZiXjmr65x8JI46nCLm9M7hoEyN1g==
+    properties :
+     x : 693
+     y : 51
+     width : 260
+     height : 39
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         // Open the information of our archive 
+         Open(WIN_ARCHIVE_INFO)
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_separator
+    identifier : 0x274d91a0142619d6
+    internal_properties : CAAAAAgAAABLUNzbjyRtrMw3y5rxz1JEf7bziiDAcVnDU3SsuogBKtff+KUEgDLH/9x/nU/r3ZqaENXSWlk6lZO3QBFdswiCIImNb9F7KsQ6LvY4o66dK7J6VuwmY4zS7dp/WVyE//t9znJtOPdkLNqycaMRRKMMIEHa87wsxP2NvRGfAgL2tVrjX2sFcTctlNzq+qdrkJfm6B4pNfwCdVtMFjxrn+qB2rmaZvvZezqxaDkc5glLclQzc27esVarEJClDqTIBF1YxnhQNXSiLk/KHOZquWeMC/uKwpOQZjetd1aU42sooJzUb8ijhFjv/dERd8AmSoSwahFeXmE+FfcFKMoWnEXyhP033FhqpSuKRV7QZEqWQiPxfigd4TazTdbQ17COC4WItCI7wJ9urdPvABpGVkCWVBbWTMRm3HosS9VrEg7zwUbS
+    properties :
+     x : 146
+     y : 7
+     width : 7
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : IMG_Logo
+    identifier : 0x274d91a0142719d6
+    internal_properties : CAAAAAgAAABoPcp3f3q4MTEF03xMYS7m4xEAmyqhV9L7M3E7zxe01EaEXqDA9wp9Yo743oxe43rBhMGj76s7DGnYO5bG6aOopPOSYhy9SpWSFGUbMOlcmHKnNskYXsACtbBorE/iQZN71cF+jlYTVGz6KHmfKfamO34UNXAOmAUghYwjS7iFY7PHjDiTZ+cY6QAH7NClmhphTdL/m/y5Ahll7iWXw97hbqW/krk+EBwjZ1eVZpSITRoQERpoZ0DqqsL4/0mNolxpoMfbyXpVO4ZaubVJB5wcOySb7uAyVveDqxQJTcGu822jIaeMGN5XoHMElY2gzu0Te8DBnZkbr0zIEiAIB3oTX0VqqqVUlTnTaEUhom7Cjlcfz9NdvULj7QOThUVmyc4xgxtDou74IhCbUj0Ub0otnPx4qSjz4QmioYYVMoiEr/K/6M2kaILX4ctwYsw/hC1WQgKs035TUjrs5/wZ0YaIPUFsbBNMyClFpGSzhHd/Ud52MQBDoS5ujFVNfyK+seLfeiNQM/CswCmoVhMiiXJhTRBlUEXKAx7nF/sDflRJixV/eFgXcg5sdIR7myGd0ZY3Ihn3FkipkdyLR1HJ+nDTWkkIkh3IAl0C13BRhaihWmVZ5kgFwiYNcVY/GWqO3tiI9JoJMvfoPecbYbXn72vyYXkdIfqX43NoytZh2Nem3RU+Rt8lZM6XgrJm1FHEttANUyXYHzosiaQVKoHzUU8lXkdOxB2Wk4qg
+    properties :
+     x : 964
+     y : 696
+     width : 123
+     height : 30
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_Dissociate_extensions
+    identifier : 0x274d91a0142819d6
+    internal_properties : CAAAAAgAAACcEEYNq6UIaqCJd7BjbmTvhQrnLxLJEIBfoKTPNafgW82sQEKcNWSOpiLm2X0k9VhF1+/U9fu1+rP3MroLT7WQj7dGdb3hK9ArBj8bKJ7DYf1Kxn7SH78ZRh3QcSDiWUrxE+Xs8A/mBT025boLiDVagTrnh25q0K2EchS9iLSPrpcus0Ok5kQBqHgcjoFYXDXNk59njmFtVhu3q9pjzZSM1pupcu8Q1NZ/fImnyuA95BuOW7N23p15pZgTr8Bl+unLcsuPpVApjGkV7H+NK/eqMmPHz8iFiDhyH9PMfUknd+zr6rBqVkk7vFmQ2ThidjGGhfBi5+nQVz0STCd31a91+DkJ0R+gXjUa9UvkZ8FKCk9ybKs85aAM+NSq1fkWXZQ9lKVN7qYSa/mC1DUhz3I4Y+yOKcPpT5pj3G4TWG1UroPTmrVswi7nABGPfr+pW8LUN5I6F50Ic/rO6YIszRpQcAIqQeXz5Fv6idbUZgNzS2EmTozqT5imrRhcuCT3nGKGAgQj91z0KnNs7iNOGfSApwQHAnqU5QQXHW7ymgAbWz6PqTLXLXObLjCija9I5pp94gqECEsOtUdzKSmopb1OdBP5z1Zam9Un3b5cF0pOs99lLC5dZkkU9CxtEIaxEK6dmOvthe7BYzlwo21jmnAd1po6cLF6lFZyfW1KdRhu2Ryi710yc8FAaUAJiIaUjWUzfSxbmOc/kW7cORyDwI312Dh0cEIBM5M39qEugoz3thHjq01GopFBIxaFgV7DEHueAoiY20duOX/35ZMB7fafJWB2sxcAKbtAXfciyTRKBji3c4U35Dkhz80kGDtl54rGMFSHFx2zGJ/bpwDobJ975mWhanu5uNha/+i9qKocQPaFmOvO5hxgUfRLZmjAs79soj9wwCNxsXmOlzVW6lo8IHUeBApN26FyFtKpaEsRDpv78PW78PR/ubhZDswiqJk629rfH37QPboDgrxtm3V8/gzBHypYTDHJeiYEzRfG9QjHgMtr+FflG8Aycezs6lGDSskPhs2R31qWX+x9bZZzI091OKJgGWHWtaTUE4DTvx+RN34Ehu6aOt4PJk1AmBlAjsg3PgZsz/BXXgtlo2WDm4/KZpH0JVRXf6p8P/QLGadGv0es9YKsTNlJi2yut4YyfLkO/8kA4tVijM7NBEgBItYdppe+sOVdIxrgsRM9p3NRppAMBHretA==
+    properties :
+     x : 817
+     y : 6
+     width : 270
+     height : 22
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         IF InTestMode() = True OR InAutomaticTestMode() = True THEN
+         	BTN_Dissociate_extensions..Visible =False
+         END
+        type : 14
+      -
+        internal_properties : CAAAAAgAAABfGQ6FJRLYYivAy27Ay7iJZ3EkMIjRI59rVtcsdNG3z9XgBlRzvIHhHP9PkLyKna47zsK84BhcrvwzoncuskAag0terQumKgqi5ByWJGRqsBEjAsUIHUhJjvb/1t0LuWqrj4kbeE8mPjCCo/g=
+        code : |1+
+         IF InTestMode() = False AND InAutomaticTestMode() = False THEN
+         	
+         	IF LoadParameter("RegistryStatus",False)=True THEN
+         		// Saves the fact that the application must delete its information from the registry
+         		SaveParameter("DeleteRegistry",True)
+         		
+         		// Restart the application in admin mode in order to access the registry
+         		RunAppWithElevation(ExeInfo(exeName))
+         		
+         	ELSE
+         		Info(<§$00b4§>)
+         	END
+         END
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Associate_extensions
+    identifier : 0x274d91a0142919d6
+    internal_properties : CAAAAAgAAABcxq/ersRfFYfh7wSG/YTkDRztD/5XD/pjc+3Zr5unzzuk1MhySRHYO8FQcO4qVrf6yZ/W+hmCRoih8sNxu8DaKtTLoOTWrXDGUX2JI9ShO5/wgnLXc3SVx0EdalCr7jGXGoYnmvRY5PGlu3oMTO40lvOVSQFMEM0nfxWHCYVGhWneSeQyz///5b2Rzu4vzGvrqcK/OgHCDsV95mxB+pFX0xpiAYlccYCCtmAnqdQQsVCIOLbRWLZX0kanU28/FxNpPECjmMe1Ey5xXjMZJxC1MrI1k7dQl3bS6OyKSdSzM8N4+khc3L6+/BjgT0dV1oHWQ2lZXMQ4A51szJx/5/PfPVb9wJcmt3Tp+V7UzLgTZZ5M6sJBoe9AErOqjkiuz9FEqW+lObyxxTYAMPGz2Vym5mFHJ0Uz8uw6hxgkKL5E7xburqRAIE5+hGMOYYh85jIYS2zE3iWFLsbeVnF1Vby/BCZzwls9sHtLTLe12r+Ii7XAGi0/EcDvVq7pdivQ1fZZSZxczJLzlurRvRlSSksgR6577vtLRuX2VoTuX6pQrew5WC7qfDhJPa8IWp//LVT+RYFUQX9AEvMwqSawpztnLGHo5LYsyvm4kAiVLukuF2sLf8GP6I1tcnyFu4/3fGzM22mzNx9mK/r/ltDv8bTx80ZTZ7qUjYtnVO7+61KBah4ip9iynfCempZZQsUZ3m1VUfwgiREwwU/dgzekqb2SXqqz3GQuuab6V8SwFjP9zG9IUCwfGYvP6iV+CZ0WEFW1uH7ffELWQU7zhtkQ+1A3J4tQVaUxgJq1ryOdt4izqRSH5wcxs58g/9R7HbKtU/plva6Ttfz/Xvw2XIVgJxOdbDm+SdYd3Ak6oN9k9US+Sd15en7AEm+Gfx01O5g+nmpYvE0GPMoy+8B79hOFjkevDq7BM0wdKLl0HrlBosySdS0dnU/9qbCYcdxfFaBqYi6yl0zBSuxaORyoU4z9Do/wcm1rDp9SK+eckuLgXi5AxoxbTN+j5D4/0q9OZD0WHWGOfVqsLihOA231J666+WyBC58mKmigeFT7jFk2D797fM/ZAvMafwQjWCtDcEbubM4gAq1kaJFesV8vA9IpbAFRKqb08KZ4WjQvRw3cuHN8h5wPXEjP0KHm0RPNUorp3Bm9yVO7yKX+7AQqOTE060gmGJLqYOToPw==
+    properties :
+     x : 553
+     y : 6
+     width : 247
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         IF InTestMode() = True OR InAutomaticTestMode() = True THEN
+         	BTN_Associate_extensions..Visible =False
+         END
+        type : 14
+      -
+        internal_properties : CAAAAAgAAABfGQ6FJRLYYivAy27Ay7iJZ3EkMIjRI59rVtcsdNG3z9XgBlRzvIHhHP9PkLyKna47zsK84BhcrvwzoncuskAag0terQumKgqi5ByWJGRqsBEjAsUIHUhJjvb/1t0LuWqrj4kbeE8mPjCCo/g=
+        code : |1+
+         IF InTestMode() = False AND InAutomaticTestMode() = False THEN
+         	
+         	IF LoadParameter("RegistryStatus",False)=False 
+         		// Saves the fact that the application must delete its information from the registry
+         		SaveParameter("RegistryOK",True)
+         		
+         		// Restart the application in admin mode in order to access the registry
+         		RunAppWithElevation(ExeInfo(exeName))
+         		
+         	ELSE
+         		Info(<§$00b3§>)
+         	END
+         	
+         END
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : STC_splitter1
+    identifier : 0x274d91a0142a19d6
+    internal_properties : CAAAAAgAAADbSijcYVa0yU2kMGDmBDxFlc+59phzaMeFqyFqyjiTjyKWY4WXNfCK91W1rvzOvk9VZo2Lr5JWfFtwEzWU9AvsgRQOtA1FFc/0wQ9VpOHGJrvPqKGAWlIAwi02rFgmkn2C3a0Iz/jvqwRjUFT6QgJnMGm8kDDgPHe8wDEvHDcyAzwaagMarI6s1rQtUp5sr6xoFDHTQ/C+KMMI+IzQMKkE29hJMpJkRoimPspsI2I5LUwFB1jDTKa3XRPTC1EZoEF9m1JdtlBlrnTSn9p7Ite3dx9el3Wa23YQm5CaXWjRocQGhrxrmbysvRR/Fth33xrwqfQwCQtkrrlruC/x5Jrf7rwP7Xt2KMX4yuIwU+/FJbxkLRenGlAPaWat3YnixK7W1oELmB7ri7K7t7qK2XlsFVCTsKC6Qwdn8dh28ZM8yF0=
+    properties :
+     x : 805
+     y : 9
+     width : 7
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         IF InTestMode() = True OR InAutomaticTestMode() = True THEN
+         	STC_splitter1..Visible =False
+         END
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : TABLE_ARCHIVE
+    identifier : 0x274d91a0140a19d6
+    internal_properties : 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
+    properties :
+     x : 9
+     y : 136
+     width : 1074
+     height : 499
+    columns :
+     -
+       name : COL_ARCHIVE_SUBSCRIPT
+       identifier : 0x274d91a0140b19d6
+       internal_properties : CAAAAAgAAAAeZoNvfOSt6mrWQ3hf9jPktywBrVAAG3e6XZF86sst9QfA0KLnBEYR1wX6EGLRLHn+mx5ZtS60mfuv7CLf/+R1p+WSST7spsKRuazc8rYMV8+GNFCeFi+emzG3ODTY5o6m1W8fyBYBmGS63FUGKuE038phwtfL+Hy2g8QOZWk/66CthQQovFLyn8vVOy3D6VZCopLgb9yiEm6/6JH/fbEL+zz99g7RN2nbSV5FU0TPT2ibrik2bRIV
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAADXejY9UMLWUcbBVf+bGCnJ4djH3wTwgZq2+1mxELRWIB6CJ0egMChJqr/K/9Q6mRP0s59AHkBd97SRzump/v8gh8YVPeCbBRNxBYrCT/s0OrIuJzOTiHi7HzAICO/lat+2RQ9jqlQQTobSEHlCONt6rTsQisVpZ/p1XWA3bBuYQO12+qJRwaBRvbO1Si55RXXfn5ke8lD6QPn2pKBh7EtXf5yeHkRbeOQ/G40ftEUfQ2gapJfBtvxM42N1YTX2ZHwzx9fW4ma07A9r/ovUM8uz4zp4GLQyl472fxfQhzvmKOemshxb5GLf/nFOLbM8vgz4ks8gGkSE1lD1xPCBsukVqut7THawvQPD+XdtlxzHXKFAkDEURjE9gXkEU5dqhfKA/eUioZ96J0KdIPkgd8B5aQmwRp+s9MCpVDYU4l0AwSbgHcDS97gjTFhBahUenZfBrOmDL1G2WhNKIS/5InjFKVOE4o891MYH9Hc+y4m8+v7sd6zOWfM8CcXh+Ls9MfzPBfbFzI6k9/5FNjNTaNjQVQSMV+7OL6yozHciqSQu5P25g4nYFxH+UlocgUusTa846DlE2cgKM6OAkOdNCNJmunpFDC2Da1boZgAjZvjNtBnBiUhFqeli2UEOjZ7c8laauy46iLCXZHscI4MHzT2JKhT0XplVgux9OYqjWwvw7NhWnahsPW6uRNXryy2czjPkLcwYBslAb+YL52V75rJf+RBPcXr/YMunhIZbexs//1U/H6AzcwRIioReF1oAi4conVEs0WRGicMUiOrb6JvHjkuiH6LEOZY4/qBYSzQ2JJK0rfyXjN5k7YavwGkxLPdyOeuKy0WShkNt9MiSHRirrJFjrkenMmWCzJsSWMgTkeCgv4Y9RweDGOjLcCDuXdgajVi7BtYtEJTo4HSjN9NDovg1sreVtW5XTF9MSQMMvs5yE7NFcsUzXTMABJYcFpvaVO3d5VnRWOEVCP3ImvbKSw==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_ICON
+       identifier : 0x274d91a0140c19d6
+       internal_properties : CAAAAAgAAACKNGeZVLOaddQYJl15H7FvUKIHPwuw1eoSZbgbKsDeuFqQcChPdhB8bI/fmBV99SlLC+8qOT5CymrkZD+tAgfZtmB0fh1VTS7Ezv3IqI2wP32uaJUNvlW63or9sS4F/GW2gNXYz9jOQhI406pSYLokbWwp5+MCDL40QvUANPnfq4oDgBG6+cbYRugYx/kgb+6SBJ3VcjLLdXefQcT54rCDgq2+pnCd+FyGGB5ZYPfyUdk4P82NJujGoA==
+       type : 40
+       content :
+        internal_properties : CAAAAAgAAABjtGooSKjktmcDsJrulXlXRWHNlesofiSZslwhMFsJ4T4xvfKF5yz7mlDSRK6MFdEgyw+zzWKmlHdmlHnomqYK27vmqPDscmO/Fa6e48pPALcsB7Fn+OjhyOr4psLRRsREQVXaRguK9k5dL+qlOmYUocRyTNWukAegRnkkdIul7ANCIuTtU7ON8U6jTBdCAGzUshDC3wAhbaT+RGpht4dXE3l/zZo01tTHR42RvEPDoDFbHp3dgYcAS4s5bPfXU+4Roc0T9jUyrqF/GJWlmPGd3a2o9I0BBkyRfejmqv2Be3rCEvwUo2j0l24Q9xfV1JQxDdvBFJdVBueGzFRWTvGpO5hciDrlTcKQ5fuqS7siXaB0LM5dIq62valC9nofnQhbdVhvtQCV2DS0eFtm0xpTjye5a8z1nTDpauI=
+        properties : {}
+        controls :
+         -
+           name : IMG_File
+           identifier : 0x274d91a0140d19d6
+           internal_properties : CAAAAAgAAAA0vxBhRRhugY0KrEZsKDTKtAITTBOFQyfZ615OeW7RAp1/VElQ6A9uEhdD703+C/hDMOqzQ6i1GMsNssek7Z17lm89NVkMAnyMRIUoILUufiQLmxpwLpNvFt530A73+A1JtbFFu7IVCidX5S9GVCBZ2VxvkucQcHffRuCIroPUM2pfQBC8V/lYC+9ojBm14ucj3tyIZNpnfS/e7eOebMbeeZ2s9TLpsNBxWwyymV5zPukX6ONggn3uMIdj7parg3lR5kf0fREuKu864KUmtsKSoCwtIlGtJcyBuiFo/CuLuTwMLjZqmsvF1DL4t779l6k3DHlPcS3SK2AlKd6KqU8gLN5KPXrSPUGG8DTvokzVNJfuCSQ87eNEQr9aUVRuikH+XIDsU89kox9/pJPeay/m3vP+38L6uWsGHYkP4t3Deuak4pMXyMadUrupPOiQC6uyDP4ZhQdLw6k2pQp13pTTRR52YW3r9BKAiycEJbQ+PxEJWA7JDue0HXBSaTLpRwj6cLn04YDLwHlULHvCneRo9h+Ct+b9j1dRMkvV8mjpPqt9qMaixJF/q2r6zXaGfAZ1cJccRVe9snvv64zxoUj13E3UWZpkNh8hBIK7YoPjAdYgk/vvfnYJNuPehR+IV1rQira34/Z+W376dI2SM1VTy1Tsk1BN1wogFS0=
+           properties :
+            x : 12
+            y : 7
+            width : 28
+            height : 28
+           type : 8
+           code_elements :
+            type_code : 8
+            p_codes : []
+        type : 40
+       controls : []
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 34
+        p_codes :
+         -
+           enabled : false
+         -
+           type : 234
+           enabled : false
+         -
+           type : 43
+           enabled : false
+         -
+           type : 42
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_NAME
+       identifier : 0x274d91a0140e19d6
+       internal_properties : CAAAAAgAAADFDlHu0j5xYfd8YAqkTWNFTDIb+lLS+MbfqE6rmvrJO9pPm+yry5qYEnb4Fni2swAk5p4Py0oXt4LujzARlLil/PGVDjVQgH2cbxkhMeOW8DE651n8Gc6+PYtVIwGVqqx/cNuC6QdXVSjOzYWVxKDsry/Xu6UEwiS8s5liL9Vz2GdHpz3kZopMxEyj64Z/KZuuxu/YyOjUscTU3iFoZn36171HEWEKFDQXHw==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAA1ViCFZ0zQcn/x6Pccjt0uDduUe+DVmuo3AF3D+q1rnTmUzdjMj2fD0BnooCB/7WBBFWuIbpbuSCFaAAGNe+vyeWsHkYnEO8cnSQRoeFJz9wEh1+PQQnodBqWXI1bmlFduuqCRTzyQRPa4dYiRKGR6duulPURHvNHfLxYtoT2qizzQ9XJJSDwclY5KUnAESK7SGVY1A+CBoUhZ/IM+Yh/9lH6jHviSjy8NM0AcY2mjAGkUWWErw6xHrD6857Vcn8VsRYjZz9Th41oSBKA2ZdVCfpyilSW90kXYDAUhRQM4DEfNxSimTaHVaa5ti5WKuG/KTcxHFmV5EdC49guQyWDgC3Sbj1CWnVcPT85d0qUPnCujHO41Rugy6hgokI2siRkPqZBvEWhTxYOItgSQIGk7BNxm3WjrjxFN7SLvFkiYCMFrqGvvRBIMylnlO9meK7bWyPLzuyDKbWkl/+KA3qEbZIf7QRUXQcdVQaN5CINsMmNO6ZteKhqHgBFePGHf+GsSSdKW7CnqYrvJ431PHK3JEMz0nPK5uREfJHa86fq3pQoTdfhW8ievq1IjqxsMHNKReOnNs8cQIAD8OxP7yIsHC3zX6XkQnVkLHlfJrtrEozqxyYPnqj0nwukNe86ATRErQ/bvrl1HZa5cim+tD8AgQ1rCdaemFJGeeWMfoaMnj2kQB8M2aqhDGZVCo3+WD7ipmVDbsDDgnutLAHPD4FMU1iAvwNL4ZsCcIpv/mWFIHF5xiRvdVHpRpf5v2Y60Tn4/Oyc9a+O4oJLceVIJfGxg+VWUDM7VSbf5rP1e58LfIbGYiUkr0dRlShTWhrG7YfxXi6WrxVTGayATw5ICFSVkiU0Xb7fKlMZqSugH9KDwQFZ0tPT61qzGDx1i+G5JK/kliXLwdAMTazsRtHy1wGzFOa5rIDbxcHowOB3YB0ZWWdfM1NqdMhn8PJZ6LMufkYfWQOxnpJFYFuT0vIUJBIEBLtASpBT/M+Im5dhlpgE=
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_MODIFICATION
+       identifier : 0x274d91a0140f19d6
+       internal_properties : CAAAAAgAAAB8529yrsEqAkMlR6q+g8u21anK3ZNXO58Slj/aDHsV0EX2SIV94m9kjBnhaaAFlJi2Q0IwM/ILvHM4j+6qtHFnHeQeHbx08rK8GeqR69/7xDgUz9Z1xXgXfZhZfet1IyjoVgs5fWoeaSHm5kNYGmYqAlvGFTwWNHhx5M91Bo067PEBLHKeuJgqD82Mcj6vND2CbnP13iE7QmB/heiqmhQAuhaTSCceZQ==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACKsaSyYHt5kYvJ3BXEwM86I9uvxudsIlJNc8xyfqAcOGuHJ4g5cglYK7/lA/jGnnrLpvLTRu4hcPhCyfHxMC/arnFXls5Gij3MtCZOdFharHHnfvkyKc34iLLDbTtbxmcqan/JAk4pR3hu3EGFZ8lQatclW8Z4ZLIdR2d++D/i/dxLQHspBfSt+/VmafeTrPokQ0kYY06gCarHNnOS0P9aYVIUbMYMfo2KfXTrfHOeHxoEGC69787SLQ2cbZ0QXueWNKiguyZ9/d+lql82H6K6c2apRO9z7hnXR3sWfRzLcjYkRb8K6IFdc54FM6MMPeXRB1ErehjODrV8hyFuxrTTsUZqVX/iEUEFmwF2XwZqsTgaHA/js3n2/66Vb1EKgfQ6DRbpWfbWGi5BRhmHnCq1ff30dd5JBnwvwezT/VHra9EIaqlgtOIsfldix6qqTCMwZOhvzUiFCkFNBwamrRRy0dPn3NTg8CxwDWqsuhPQ/ky1OQ8bNpez8yN0ku6BASCZTTPze990fHy9A+mYlHCkb3LZIf0vqdGe4MCerEiesHErMj2RHtsT5sBjz2QiyxlogGR89jveNl0Wn2NC2pS8AMCyfMx8f3M8nJlb31bbvmORFpzi1B/pb/Xt/7lSGCDoKROgcT/vfVk0uDVC2cUlNDgrwmw6Mi+R7UFlmitETHycAGiLrka5hKFIkRhg7uMO36FQ22w88j5xNrEqNk7L17zYEWu+9OZT6OsjnFvbX8lL3Ma2EBoBbqgrwZMgPwP2iXieejPMPFdyOZ5yqLeP8B/BhWGVDWuA9F3qRsiuvAjgHqZCWUBJlV5cfFKHir1GD+I4vCTEsU8ljXTXh0KN5FdUGHDuoNBBVCBNlbp+YGICNXmf+HPOMC61q9pQQ43BtQljgZ33/Y6Z4S8B1m91JvonHbXUEMyerBTlJ2a75HbA1qwF02mVoQqDi87cf9k2OXapnB5/J01gkAa1HsWyKDDyqLbguzly3g==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_PATH
+       identifier : 0x274d91a0141019d6
+       internal_properties : CAAAAAgAAAA1hVMZkaYHFqHDVEWa+EW+6tBzH4/Npyp65iqQfZGhTgjafC/RLFErIDm9QyoEVmS9B3+XUiu+QRVbGkC4tuDOOr8zhPzyr1PJ2ss1eLC7T1wwdzwTtTtzJpLnnxhx11HhUKoDfFNNA2ZQXBYDDaCPAt2CI48l8BkrLVnhWdyqELz18XZEfilajTXrpQc87WH/LDWvkutcXR3ABAaT6VZmTWlOWcnQ
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAAVV1DBeOhEEu6lhVjaLJzwPb0tV2SC5sbF87G93gWyafEF/+5ZWrLuffeRmnlTKpK1TlkRDimk6d2yiFPwHlzstZJFYrIeNylU/7XqZfWXMZoFmx+so7IbMgmsXwFCCBWnv5bj79fuIo3tRMZ0kvIEbDzOxtk8rkXeTWw6Mums1d8mFcmRqq90td2UEpfuJSdZzFZcNcR3kRbrFdR9aFjtLfoCPbISiQQcNF80zRK+ZOKwJzpChsNEIPJhNAcnOA51OQcMFAm+SFPvCofB8UUCsw2EzVziXTcHXIi4Kri/8ryg6uBRp6ufEmhSOWMYfMGUzy1rbyW3qKvE91yUM0uw9IDQ5fUKaI9G5Xt8tb7/nP33F95nHpi2Q7CmtvjEm0HaELbz4tOv+yOoz7WlGQSAa57ZTrnt/BNOHu3atzmD/F4LNhZSUv3C4xcDi0DHeBQasbRdbQRiVkqHvhxhoAD2MDabw8qo0lXigLF4KeeozSfra7fKXoIyEdRZEvn9XUEb7OLfiq8to1Pu0tt/LDjTB4Em2cT1ypQJSX32aWb42SOqr+PuaMIM6+V+OyFMkcqY/UuI6YlHpTxDRL9xwB4PJJe1qBWUsNYbs0AtBEjpucV+KRpjNh7CWALc+9AAuo9oQsqybIUQgLiTBz09NaGK8kPEdi3+lzakMlileZn2ZVzJ6eAAtmfEVxBxc5GgnkzGDKLMTlJFwcmmm9uF4uqijeWLfQqqv7e8r9yBnV//4qO8QbTbtG1Oi1Ecf/6e2QDq9K+ii7HnHURxPsQpEA8IeELue+qd9t5fFRwY3z7QmyCVeYj/G+WgON/7eveV9JaW1B/AFTz93PZWUE5EI57WfjiV1kt6lZtMKQ+/nColArMGVZooEGFJSh4yzPuGD2sLdgon+Tg1rk0pF8E6RcHgtpU8xWHm8NeG+KVXWIDNqqGQFyBA7kgWW8xoyI9bEXCwd1tcE+iEnhGF9lf0UPOakg3iwv9Ynm3ADlSk8KfcvjUaFg==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_SIZE_O
+       identifier : 0x274d91a0141119d6
+       internal_properties : CAAAAAgAAABeNAy6gKHq7yirz68J/b59q/Ui8dS4kXpZAPQWOucQ9mDi9g185F4xTou7Jew3h0PKhFODDL7fnWoNpppNk7I2xxtfMNjqr73ZnmrUabL4Jzj9q6jLhy8ONQ1LvUQwhu2+uhyFU7bVWIqwSSHHT92zWuVzr3T8aa3KHesNXGPBY9ttFWzvWRTeiLVN6aDSkZrHVEc09GDB1bd3FGQaahUCIwodENyeO8o=
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAAkwzYncgSpKdkgm4p8Dcybdhc1Thv6AR3fpHcpjHODW2Qhm6AQm3LlisrU3aFJROvKBQZ9nAw1dq152RD7lcly3UUSCyuo++w3gZ+iy0b618NuGkxvhH4h2UJZEolpgZ/PGwtmshgEr3HaHxG+waU2SPTZffsuKw85Z2JLq43Os7dZTip28LrviCQSXxdFp+NPnwHuTKGoaEOBbgWJb1/iBjZpamuKidwgXdg9x2m1Imy8mMXyH+VSVyp4C6JtvdQgwIwDQB6SC29e69GVRbgonXTlbdmsRosWJzWlJ5J01ufxV97MtrBvW/hwPXhDGxCLk4E6cfRfpUfzYcBUuoyRpeTCGb8wQDkDTkBkkZy9ct/q8VaERk4tGlsNYUZVDio535C4r38hpYGIqGFY97RKC0H2KZHre/NOwTrX4mOATyktjof2wjLYNtV0/hHOxw0sAzy2X7I2lJAXJFSpmGct7KavcXR6h7KP/fXQ54P9pKgdZ0qpJDZQI/PnmTSCl+Sd3J1bi1wbFWoIqk7YvQYgyU2VY6PONMLOk++jlCkaigPUdodHN1xalJv0UsJZVYkkS+TGquhzjZkl3oCMw+hi4IlkcEBV5iBitfAYrdnnsCmg+DRa24jwuxIwUOfVkGac9AcWC9i2Cpl3rYS22PPV5j39ei7LCbwV8NAKYPCSBOKJ2IpVbctkwt4F6EyL3pm2rp0+NatHD5iobS5GbcqNpXfG6bvJF7OdA/7MdsiPdQ2YMFgcEV90KFFMBMVpWYvYHOCInrq5ay03RAf+2U3Hqv7Ne9/GpBhoS5z3bE9usiAPUFosJmGwdb/3TTw0DLno7DbGGNEH8q9ikmvv/Py9ZGDCLGwdgbsB0RGwF3bObnJNmLo6fIlzx76ZV5eWmC+OewySD4bOEmeScvU2Xa0E+vccJ70Mk9/Xb1ypIJ+ZHhyBgammzd7DY105XdDEERfB1+oYzqWq8ogAWngks3MBLuoEQfqff65vcJ1FFxtJRlzo9bqh6DPpIzBM6qUO
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_SIZE_C
+       identifier : 0x274d91a0141219d6
+       internal_properties : CAAAAAgAAABPts5jNKtcxvE7w+7BwN0zdBWMryryx4LLdw89AN4/KBfa9npC+elV0JWuUzuCxpq1jlxfBqwoigWXZQ+42GZ9iUmZkGMe5aRdbhYaWEGuBSq/04Fi7/pYgVNRsjRT/wLkfwFPI0hdWseSkCT/X8F1Gbc7DT7050n1mbH1aLQQN7vy30UGy9+p9z43Q2Le5kc0SvwEZsSqnN4lTKLXsFyJwbfV6WkdDpVm97Ww1A==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAAaZUGJmfhbwakPe/Bkjuso4sNSNeyMVIqEIc9NKAGDWU0xExPXMFIQDElGEjqIWSY7IuwHTFFGRMvROUmeD5Qm4sxVFKAkfyvFewbCVizo8yNMNbZwd8LheKfFyoCjE4imk9e7miYcJyx9UteelUneS344SZmnL8b4vZd850EuFETQMpqpVaalA7wDADWv6S47ftXnVBFuA2hgdYNVhwf3nA6Wmx9+P4HNyY97FoEWCiUMfSLJpgHmFs+7sFwbxJQ0n1YbfoL11dS4btKgCcaPPC6c/3yBNkjWPN2mMl2lzi/ARQdj3KOyWVbFyCGnlSSnBEshlrm6IVkr1dr+fgRnrfrnyE5V+GMKtoKiCmFyVYq8x5iExIFINTqeBtPMAuc6IpyTdEqeM/EkZ54v1pQ1sbjsiV+V0QMSAcXZrt3KLOcEn1MDx+aAx6z18k2hcJ+vis/KjxTICuc4ftLUSXTwHFwfLkdUCxFUI64D84MuYXY2iDmrgJdI01dEoQaBuR4SLsPHgGdAScvsWUh8Ml1iWH1BJc47bTaxuUBjXig58iZUWsEqYG+CQ5knvgxcJldDwX5+DWm2A5QfA8y+2KOi5SmYmrV+IUpJnSMm9W4QNnyWutRTyD20oEQ1hAmstZYd2tGmwiH/RKZl4Mriy8gH7W9r9kvQHOCwmrdqpq21NmPrBn5g/kSiI7AC0rhWkTXlwHsqbgScdzVkVE7Axn/vdOO+P8KKAtkIYa8c+DFSgfRobBIntPBSdV2bzoXUht9PetrgR5FoJfaNfVXaigpfNfDjD9Aj7xI5W3mDEtojHnG/hCRFAx5C2JWKga5pL0VTLsyq4TyKxi4kB307pZkHHXCmKjEQkoO+0SREmS/70AWr+nbPIxYN2Go4bi182KQMMQ0rl2zUzvONepgZk4b1qcu3wR8QrwUizl5M7e4ityAGVJguMiV0GwpFvczb/HWNio1ENBB5x/KnybhncMbxVK0NmqEE7BeGSW6WvGFpPdYB+fE2QdZT1LoBc4kPZQ==
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_RATE
+       identifier : 0x274d91a0141319d6
+       internal_properties : CAAAAAgAAADjr6RdZzNFuCdodnVkml5/fa7xzmQnG8gLscgxIoNiGBrbqEEcMZmvDdxNov9biuskHJDJ1zfEM/OHXCgeRY/ICXG5w99lpyxCnclSKoWbwX52T23ZtCZAPL42gZiKcsriLTzY/iAMrCzYJ7AfdDU+o9pQQnOin/K9KQjZn9cjs9jFUpLdgKm+411yTXyy/TVyxrMdCTS2v2sb5ZRnc8K+vJZuGQ==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAADJLWmR1J9f8WmANtJNmBebQWSLffHfjD6wgAjpyOB5apJvSID54ycny7kD7qyoxn0cFIpmDary4MzM/Vnt7gZWemg5AptPuXtO+KmaC9Y/6ZkuMp9QfYjbh1Oq7DWF4fBupXcp5y55kr3FWmfJaDYe/rx2kWO8xiNWQMk9Rl6mMhni3NnlU+HM5gQ23OojGBsbRrMgTj5p02sd6em9aiWUcYslPKI+PHJtAc9YQjoXjLeO+zrGXUCk4H6me8qQLYEc5V5BgSuhAUfDBZDqhC666pIZE+K3ypewzshpCVVp9u6OaFxnjV4awBngAKSSZXvhXBJ/02ulWGPufZUjL408YL5o/+f6DQPfAsMgC70s72iW1diewwVkr3uLFE/tUo1Rto/eKAqTXaVuPAoLJjPLfzLla+av0ZVjXz+LxyeW0g7juU1qU8nIQkEkBif3Qmsv2wyx/FIJ4dDzw52oVZIhFtV4NVXc3504DCEq9hwbU1TdGJmymkQ0H+mhkkGSUEZj3TI1cEf9+fJX5Amlc5GwW07SNSiR7rpwAMeiFfvXUE0rqbPehlyUPg5828GJuANcMCUo+XOdebeoXH3/EcUq2B5NFBlM0NRiIFbb6p+qimPLr0yNhs4EeYUWS1gXe1CaQwp+UK2g9pneiVsT3O5lFH5yErG4HR5p6cYrP9JZOIaYs9Jyepsq1FkbhaNR3QdqS0biZLgn7S5jo/0nLZdLmd6hbVok1WsVcO6Xq6BKvcuv67QLOKGAPuzqfcS7XI0qXT2MXS3b18U2xlSBtUpX+geK2ehZEsROGNayqTEh1Pzm63pJDTtY7aLnriOKr8Pokad+uwhpEtupXHCuHAGrYu1T4B18CxPZQDtZtiAr/FSx8IMWdoL1bDbysX5KWcuciVo2nWBbKdEvcc/s8jwFULoxZgLy7zen+GSkaeKt9W5UjIMxkPqgCd7QFWfQ+EC5LWBfYzZ3YtgbxOU34q38jR7aEx7k5Yth
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_CREATION
+       identifier : 0x274d91a0141419d6
+       internal_properties : CAAAAAgAAACa8NY8i403sRONswDnE7QJnePoeaYkr2M7aXfbv8PxVxlwWxh9CgXyHbhVxwCBiXIKYPjuZl8SNJw4pNrLsCT3/dTSHtr8oUCi4A+rrIQs7qpdve5b5MAyWgRgr774x57hAziitdqxN8JaMqfmkKhaoLER4nyTY0K0cpkTbNNrQ6YbbF3ZSfy+Jcu+yWQCjZhxz5rtNqITqPQfuzcpO2yo2FXZ
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAAC6QXw1g3sZc+OQ0qYSDecxwOrnnXtqF7sbJXI80AQw/pxTYnSQ3ul0uPhZmDSWK7FFiBTDTM1vCuULOVeevr7E/NVnn4m3448p5OW1SwJvBHASHv3iKp2Skj+FUGnH7YXXRFIMZjJsbA5NOd9RAcEiqOoj7o7aS7H6X7Nyvu7tFNbSVDyJ6n72ajoCnQGDh+mQQ4Q8KVx29ZKxflop8mb2ibaNVFWiMHoRr8lu2W3nNOaghonuQrSqkUUjZaFHPCCOJnrgylV9Cme31Qtl/TkBCRLXZtg80Fq14rLOyGt/1XK/L1niIKvPZ3hgQYAaRl8DRuBa66Jv1JUHPag6HOHVphrUGU3wgOJCZKB3RHmKrg6RzUu4EyIBLaTlJpS8Ga60Q4/0AEMwfTs9C4n8x7p33cUNkp413MQmhD+mrzTH5doOLlVaaudUTaXtsNquCI006t3mjR6Jeo+QPMNpT8KpwDQsv1mQEzOexwiep46E9Cm3bC21I+A2HYLqRgQsNQLL9vos1QTt0+aADTH8uwx+xW3Quls0eHJu5756hDc+QuckCQYff27Idrn3UaaFByskt4ut4MAp1xW9cRtOXRJkJlupjSBVRJom1YuT+WVZUocaVU3Qpx6iCYRVGUVxkMK63kxH9zAKOj2Pqg3ewJMhBuG0AT6/xRRB+BWTFj6AUjC7j7nTpeckwLh6NQL5bP/eut5Tq2EduSBExNEshwjj2S/R2FdpCQGZQ3F/dKrhnxHosy/U42MUruOBydFrM/3MXB3BmLyHzQ0zg76yxZ+5agJu2G0g2LAKaddqOpH04DR/6ynuKiEMQwHGgITOjttUnEM3nnsXpl3EV1RZiEIbPKRz+UhBxWszx5p9owOY6JBNkiQhjfDpyAbC7iEsEslHsmOiWWdzKNglopUah45qkF2fjjBTSIje9LBQwqWJcfPMSGYoxzSgFzL3qv4BcYUxC+G2t7Zp92WBNQmLe4/5pOffvj1W
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_ACCESS
+       identifier : 0x274d91a0141519d6
+       internal_properties : CAAAAAgAAACg6GWcEJ3SP65+78fumAHEq8VdyEn9cxlJAe8Fiap6EKFZTEt1rmtT9pjaHVn4BPQKECdG/NLdwLlhWrBGozzjkcRVdP6oeuiTDR5aYiyazTiG2e4QfLfH4Rayc4/iTPwecuoIaFiMHO2A8CNXpONMvbgZMpt96/5KC9TeiHKhNkyEdOos/uc2X9hxsFT4t5pTW/GnexYTXRgeH/RDv1n7e9Ut2g==
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAACSZ0iRVwWm+09wAcG/SmpSaPsvSGQ0U3xnjv1gobcj3dj3R0hG1hDKESjUHcl1BzI8Yk4DIzx2nvyjZI8WF6wMp2PvvlKX66FfXKxmbhX92CJsSItDravMrqUoofMIqRFiXHyfTdFucqi89ItP+JyAZziNTRWhOz62ThvfJ9u9zpJ2P8X08yrBYeJeXpScKbdJ9duUgJqVIWk5gqgPxUNiY+6fd4I6N6fF6DidoLUoKEFskNelR+ze9hNk73XmtuESVyqy9DU+K+ckDRd+I2OcLEzhHEkjye2llcpqGqn8rP+ggijVYcwYlmZoKcSbAdMejyEuYbaRQP6eKHP/im+B3DxIfVNT/vyIWRSZYmEn/R9NEbE4uoSCEWMerQdbyL2hjTw9z6La7O0ByoukBlfhL3Fmk05zy+Qi3mKJHGE4wdQVbZ1kkPnhmMqbaJ9Z6r17UotPFOSn1f/Mpq42yYnAHRxZdge79t+2puXvr+z76rpKGVPONgQr6fpQQ3vFYdd9WwjoPLvdhD7c18CNKOhrI3gE9MyHjMXYfcaVueQ+j5WHVWiKiM57iL8PjsdS55hCgCVxAbnLNN35yzw7TL4ZmqJJUx+uosfC5XGYGL43p4/vw6mhnmKplZwPaip6HE0SAWgFnKNOz30rSNoNZcUm+rIGae3Ww1c7ZsGY25XmOybu4TFMStfFBhIqEomAquTC064ZwMyXdDYGzKDT9jIAt1ir/HQ88SgTWWlK2Sn5cIUxLU8NoK2z6tOf0MBmrVroS5tlJfMJoH3n8aNHSGtQpJmkPAT9cv8ixWlh8+iazU7cISn9KZvLkZvWx42v3vrW8ceJ7UJrPZnciWPCWZTkuFMpvWdcn4T312QsvDC8T2RcOCAmqp7Gjs27uNWY0ak2RU4qOVLiiaviCchMctco1WwV9nSdUB+TlvhgVqvSuMohOJWWkfkX1rfq1Wa6EB4mvukYmZTWM50mymqSB047ESxNAzM=
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAACVbIAZKIyLUtOx/TRl3LdawH8KiRIbZVPHIi3CQG0ZQWORAsfR1LV9KK1m6uVL3Trxd5kjIU0MB2uWkg==
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+     -
+       name : COL_ATTRIBUTE
+       identifier : 0x274d91a0141619d6
+       internal_properties : CAAAAAgAAAC6kPbcV6bOn144cZAmiu37eNqxyh7YMMaw8ihkiwpONd15sVFMdUaZajmNAlLde3n26dhLi85JEtUMHqLp5SFD6ZN6lUtLNxPL2zSKhaXBu/X1cwYj1rYYSBQK+7E/ZMFda3dApTG+zqkr6AdjdgcXNdd3odHNwINELCGlJntvw7tWggjc0h4BFfHyP1LXQd69NcJQVyl8wCuQFJVPFwzI+HX5
+       type : 2
+       content :
+        internal_properties : CAAAAAgAAABaK8ExWIO5aDyCS3609Nx778D4+IO+ZFte2+8Zlu8RzUVwCEgHSl9Pvm9cRG7DpabP27lD7go75evgeohXf6yK8BgE1mIuxnkDwAyH6kiZZTXHR75wOcIq2BoWrIECXYl20ZsFWmJ/0oq2VJigZLEx4nkkgKKXjDFpcbKIZAQ5mmqZGkvPMUXWng/9RDUg6/+fltBafz+exzx7Drwoh3YEqFrl9uoT0ENpNHQgGWI6r9LejJKrwVZXlwehHsQUP9BsE3yxAEvLmIVSk2U84/jQEMwYDbZL5Df7y8HB59SaTok1b8E9k/woiFjHmsjeYdnu91ijCcys27xCnz6ZZ7j4kZWe7q7gp2e42JmF/ZKbthj92O26TLJfVg3Au8eFktHdBvHg1tKadzajeo+znUYSOkCA+PwW9mhF29SQJILyCWKvYqxLUgdqUiEnG3TXiq/UehXpwfasSp+PZHR4I1OyhykTuj+eAVojG945iQLRmSwfPFt52ZbUzcV4Xy2wUUctFiQ6NA7ODaB7Qv9zthT4YnVteM99vMNdJyr3dvXPD5L0VrL51sq5E73/CsyzXHBr4bLLQHHJitbTa8wa2csRc7X42VJG7FfD5cfKze88IaSQSAWSFMZnxkoHCgPB302VRKejKUcQXQCX7mouNCT2WzuDz+q016XQ2msg+ORJS2flLBs/crH14SrwtMZr4TQTmKchT7AhVr1Sfpi2IYHMXv+ukhOG9ea2q702fpr2KF7mRokEguGPIdkrXPdjxlQhVgrd+pM79BzZBUl6UQhe5ywDrNefFnXNf2EdMNfVvR3dtv+asREbUjvsnS56Ha7rnsCjbPRne2AKKXeh7hn+9wRelS54JdZePVwYqSd2pFhAqo18y00NG3G5NNzPIF5i4/jR52rlLoZfsAgx/EZgDeCrZymnyw7yxSZ7ZtpCDAiyrKtb8rScGf0FWOLeYiAve2gLKEzlFUOCTRafFzYGDmS7EDwQ1qPvCsUAYK6JoJkRB6zKzpuhG5+UsJdf2NmtJ0gCW8914uOoWGi16KXMPhOSq4M/+Mv3y0iDvHR7Sdw=
+        type : 2
+       code_elements :
+        internal_properties : CAAAAAgAAADzNxfQ7cfHuo8evhhhvrzGe8xyR7sacVYPVe+CIVv+8xnDbk3ipVcxmsZ1Fl+eoUCZY5hJ2eJ7fK+hKpWzqexDSucrDANEqmZ0A4pGh+UslRf/BZVHXnmLu0WBtnRfWLvYUgCjg6QrlU8=
+        type_code : 3
+        p_codes :
+         -
+           type : 276
+           enabled : false
+         -
+           type : 277
+           enabled : false
+         -
+           type : 278
+           enabled : false
+         -
+           type : 41
+    type : 9
+    controls : []
+    code_elements :
+     type_code : 9
+     p_codes :
+      -
+        code : |1+
+         TABLE_ARCHIVE.COL_NAME..Color = Black
+         TABLE_ARCHIVE.COL_NAME..FontSize = 10
+         
+         TABLE_ARCHIVE.COL_PATH..Color =DarkGray
+         TABLE_ARCHIVE.COL_PATH..FontSize = 8
+         
+         TABLE_ARCHIVE.COL_ATTRIBUTE..Color = DarkGray
+         TABLE_ARCHIVE.COL_ATTRIBUTE..FontSize = 8
+         
+         TABLE_ARCHIVE.COL_SIZE_C..Color = DarkGray
+         TABLE_ARCHIVE.COL_SIZE_C..FontSize = 8
+         
+         TABLE_ARCHIVE.COL_RATE..Color = DarkGray
+         TABLE_ARCHIVE.COL_RATE..FontSize = 8
+         
+         TABLE_ARCHIVE.COL_SIZE_O..Color = DarkGray
+         TABLE_ARCHIVE.COL_SIZE_O..FontSize = 8
+         
+         TABLE_ARCHIVE.COL_MODIFICATION..Color = DarkGray
+         TABLE_ARCHIVE.COL_MODIFICATION..FontSize = 8
+         
+         
+        type : 14
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         DisplaySelectionDetails()
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 263
+        enabled : false
+      -
+        type : 262
+        enabled : false
+      -
+        code : |1+
+         // Perform a drag and drop toward the explorer
+         SET_DragAndDrop_Explorer.StartObserver()
+         SET_DragAndDrop_Explorer.StartDND()
+         
+        type : 101
+      -
+        code : |1+
+         // End the drag and drop
+         SET_DragAndDrop_Explorer.EndDND()
+        type : 106
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        code : |1+
+         // Move in the architecture of archive folders? 
+         IF TABLE_ARCHIVE[TABLE_ARCHIVE].COL_ICON.IMG_File = IMG_Directory THEN
+         	// If first line => ".." go back
+         	IF TABLE_ARCHIVE = 1 AND gnDisplayLevel>0  THEN
+         		gnDisplayLevel -- 
+         		// Save the current directory (which means remove the last directory from the current directory string
+         		IF Contains(gsCurrentDirectoryPath,fSep)= True THEN
+         			gsCurrentDirectoryPath = Left(gsCurrentDirectoryPath,(Length(gsCurrentDirectoryPath) - Length(ExtractString(gsCurrentDirectoryPath,1,fSep,FromEnd))-1))
+         		ELSE
+         			// If no fSep is found then we are on the first directory before the root, therefore the the path must be set to empty
+         			gsCurrentDirectoryPath = ""
+         		END
+         	ELSE
+         		gnDisplayLevel++
+         		// Save the current directory
+         		gsCurrentDirectoryPath+= [fSep]+TABLE_ARCHIVE[TABLE_ARCHIVE].COL_NAME
+         	END
+         	
+         	STC_CurrentArchiveDirectory = gsCurrentDirectoryPath
+         	
+         	// Refresh the display
+         	RefreshDisplay
+         ELSE	
+         	OpenFile()
+         END
+        type : 66051
+      -
+        code : |1-
+         
+        type : 66052
+  -
+    name : IMG_Directory
+    identifier : 0x274d91a0142b19d6
+    internal_properties : CAAAAAgAAAAdtKfaNHHGlTRRSoe8YX8gALlKWjcksh/KZrCEqWfjA2mv5Zke2deJ8vabOTE10mtFqk26MJ1QaYB60n63it+oeg+/gJSzukidlRN0c694/NB3+1DfOdi9869drSallfi+LwyhAGW5icGXfDJbr7MpHcwwtTtCglqBhudPtmL3DRqDnev/Gv6ESfDx/ticDATmT7RgOdOIj0YAYaRFUSbnqaAHGJk/nZ9LWqtdeCjWnQnSMRMOGWDsHBzQ1OYB2wxYEBcP5/j9XRML0fl6P6JLJyYmR84aAJPuHRNdfeIc0TJxIu5JWtBsxUn0FzK+esWoPAxMyhKDPFToEfRk8sVpdGtH0IFyjwWwHYIa3YDm7mslNvWYpDA1hjFfqFqhW/V4NgqTqI7X5IHvxuCwdVikP0ot5Zw8KuQHMJx4tWdy8Q5ZUdy6jF9qvU0633y5LiOU4BlmpqI3pqDCL/3nmXmcubp/qfSf5dYjkLV1YgVYQ1Q9hM18P9dNH14brdO1Zu0mRo79jBgxcnbjVFJ4xluG3WzVkW6qirchpm54sNQHdQ1Vn0lpSmWXEnrCfcnn5zH5nIx7YadZbUDrLLxarhMopa4lGhE4SbqY2VWH5cPsf1HKIGpSzcLf92TbBjOj6S7ktyo1dLr18G1CgZshDYJ5IsxHWAgKr4hd4C7ObOfbGF9Y0Ak4cg6dMIt45hrnMvE=
+    properties :
+     x : -169
+     y : 181
+     width : 24
+     height : 24
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_CurrentArchiveDirectory
+    identifier : 0x274d91a0142c19d6
+    internal_properties : CAAAAAgAAABLbCsamx6/82vVUH3PDxmMEdM/+8BwV5JMc/76/z/p+KOejDh3fhM2E/Qt3W1mPPsIrKBjye6JLfuNMMOLmk5UPZmBCK+KVsqVoES7m7rcEOfHxj0fQ9f3H5v6VuV8hTG1lJqpqwmhXt1bnhbFDRvEWPYFuFLRvKPoi1uBe2H96eqUpOsGOyaKnKEmjybPhL8KVh0AB/k7789Cp/jLxmlQLsZZoO/SilFpD2zfdKHAiUl5owdYePtyZudzpGXI9TCIaIydmT5Xf1kY/14dHrkAJcLoiglgNiFbnNdXKqX8pc4tvcTrPUIknZ3kHJbTb1uhj8DwSD98at0py5YUJfxozGbo5WEIoAnBKTG5Ds1wrdJp2jNhKPIVwhV/EQgyLPf3F4WHLPYKEV8Uv/7FgIRnO+TUcDJXGT6zDLLZkN8OnkMfSCFt1P7Svw9L3sR964iWiZ8bfTohPK/acahwPLo=
+    properties :
+     x : 13
+     y : 112
+     width : 881
+     height : 18
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : CBOX_DirectoryMode
+    identifier : 0x274d91a0142d19d6
+    internal_properties : CAAAAAgAAADZ3poBNs0bBmuzkOD0RAD0tdOVpkskIuS+c0ftO2ZUxB67Q8Cw92IJ9YfTpW4UdBDwltxXG79bw+5dflArxaDmlinFjcdxc54iKGPxsAMynCh51OreHBOSTYtIArT+T04waxFuDZddg/Y+4nmTNSeAi4CBwP4VkJ525J0smDw9s6TYmeoZMs9l1DcootO/y7cqLNX9ohUDe7qJkixRC3tT9PHl4aCknpGQrzz1gtvYpBJWJatuYgB/eKCzDHklKIZ6mpMwLKepFTGAQwkPWjJSzFPbLXhNaisCrhIsK8lCNMzoT8lMFFHQofe7WhTq0nstzaluWMA38iVTr2haYJHTZxVN6mX2Hy002yH22jcb850sAt+J/H2wMSFeb3vDBtg1pDHn+snz/rTs9nybxa4gEugDppPu6jEl/UfUJmwyuvO4hFpMP/TmqiFZMF0DZcGWwS/j6m8lMLhJQ71TRVBQdtmTHezOgP+KyCyp2aiTda8yJfEQV4ci1DLvJsMaEON9Oyf+mfGRZvlEiwwP157Wagh2/AjKXAYkVsGxVrdx9Qh/lPJ2Fw+mYWW7dw1BgtEmu0n+PbK6RQpoBPmZ56xo4HDUy5lZp2nZZCe/iU2meOMjJU/wuimzLA1Jm1dV1CgBRWk1iZ4rml9uMZckKC3JIp20CBbxJq1mr1wnR4jO88FMtALmFD8yLxo6uGMFpAu2qlSSnvkQQ6CplnkPWN9OgxfrYFx8kWtm2hxwbhuo/I9aq8+ErIcjCUhZBoozlBLeuHme9bqna/HMDf8442Q2YgpOE89VoeaAmkRgdPUmCJlc8sDroDYnqNqzQEChpEa6AZkwE0b47S9pkP4vpsg/Dx88o3Cx+eT8OtXOXPA2jH8BCGPpEwDsJE88QxKNwsmZiahqnBli3qVXYIHiXBq0g1IWjjfx4haPzs57e3DOuzTK1SDWPn8wn+lHQvgCUl2uZoYNaM0Z3n8XbdYaA3g1CfAyINZeqX3Dt0YJf+BDUWcCYSsMD98DKVMbe9KPSPMIG2BYXn88jUROOJkYuPZI/CFQt7TAU2fq8l83D41E3VvlitryQpbMGzM=
+    properties :
+     x : 900
+     y : 106
+     width : 187
+     height : 31
+    options :
+     -
+       internal_properties : CAAAAAgAAADU2fRcqCjUK2BCgD3v2gb7qan7vcAA14Jpb9AykD9GiuKAJDzuPiv2lZBHXcgHMu2N8nSV9AoAJFC4uhGTjhwQedqR/tFHmi/MWF5K5fAPBYmmPATx2HNHa4J0dC6HdsGH9inHyyvgMr/LA3pTXlAGg6FJRxM8SPxG4dTfFeuDeFUCHI3DusKU+ocw6m9Y
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1+
+         IF CBOX_DirectoryMode = True THEN
+         	gbDirectoryModeDisplay = True	
+         ELSE
+         	gbDirectoryModeDisplay = False
+         END
+         
+         // Refresh the display
+         RefreshDisplay
+         
+        type : 17
+ menu :
+  name : Menu
+  identifier : 0x204f32c41d24a718
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ popup_menus :
+  -
+    name : FileMenu
+    identifier : 0x274d91a0143119e5
+    internal_properties : CAAAAAgAAACfdMJQBK3Uch1h+AlucDVkdmd73lS5yTHcVNDeT5OL7Q9JhUK3DVd04zOwg/FrESGixzYGRd+axOoRR56aMVFFWMmFF6UjIS94kMDqfD7Zz0y3O07buBNQAvGMK+asIZsEVlZrbCyF84lcvX8voEvtCWstD+rOIVn1wOtnjLlYWMHSiPp8SxveoCQbEj6oiohz/kcagRWJuSrqrAc+tXo+TXwzU4zcwWKnhGaAvyS7g7PLS/AY3tMYPCKN1AQzyCGPPEwpDCGWnC0toCiTloXjVb8Yjg1huf+5Mscw1qUV2FFMgIS4dGuUytSYiwKyb+fkhF1dTwAC7szPwgh9WVx/yMqPJVhoxc0vrk2DFdpmOp4YTpwuBwyP2YK4AGk1UHe9WRJ/ZG8=
+    options :
+     -
+       name : OpenFileMenu
+       identifier : 0x274d91a0143219e5
+       internal_properties : CAAAAAgAAACR+m9z9PnB6f1578Wu+WwvAtlimlVAXtfYFI4ZRyJqSdaT4a0aMFFQ4JJROjf/+BblvK5NGeVgIlhG/N1jp2qSEryc3wm7LCTyWU8eBNXXD4073n8xFbtIAezrp7HeXS9X6cha+mTfpuTUOeeCTq/mlKdHV4iMcjUdLdOeYe+6vDiVPeB1VkVkKeaUOv4GKyVLkLXjQW5a+3I+eUpOYrWVrAKHcT8Bwax0vzYMv+Ry4+I8Qdz2/ipnBZP3D3aYXV+9KbqP2rcH6YfWonu2s/gjeX0RC7Dn3tGeQCbEIaRkvBWRIIUJHK4KdVln52qB/nhIQLcSGXChanOVlC39EubaD9/5QFd6/4u4maHQ8jDzT1IvvBQ6oLcnPJsHmqgLiGUv9oNM6ahRyyTs3VL2tZ8B7ifN3UFAdrOZ
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            OpenFile()
+           type : 32
+     -
+       name : ExtractFileMenu
+       identifier : 0x274d91a0143319e5
+       internal_properties : CAAAAAgAAACemQvWNSARC83lqSzRswpvKpv7fCyprOngTbkEiKM2jAQFTVjpOgke/VCv+ltZNRbV0gQjDMLb9g+LbM8Xxe69QnY7xBQdrTkc/cKtKDTIzWTDB5duzNwCbE6nLMp+7aNc+Bxt57Ax3UZewvfdaRyvCvVyNM1zbCGnoUvK1XDVXs5UCEBc9jWqL9p3Z5cUl/58DXI5K7V+n6Zy6M9x5mOEKBnJ7lt3o8SSFFulN6xUlQr2E8bFYMEut1V0/AyW5+TDUYUwK99fuiVa5r24/R7/mib577zyuaOajCAKWbTKljO5EpZ+kflpSChk9xTeeW48BzOWWMFsDWIrTfeH6DfxMDZycwXCXRmBa6PKzAsH1w5ADgb5dUtpOE42T/3WodUZiSVfWwaMbFcphlEW5nDXc4mV
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            ExecuteProcess(BTN_EXTRACT,trtClick)
+           type : 32
+     -
+       name : DeleteFileMenu
+       identifier : 0x274d91a0143419e5
+       internal_properties : CAAAAAgAAAA+EHiPom8vw3FHLTEqeTlMGVOWuZgKMepIVkOFoCg3mMAsNhmNNZDJHaHFn1ce/1AN45kRk+/3uYardcudhSrZsM6uF9QV+x8DYWTrEW1Y4mIUxrmT73oZ2zZV/awHiX2zJBv9bnjzlTYODKl7OIVrILc2UuyOQUuSR9fEFbsAIRlnJU3M0iocvnarg7KGvO5lZFXeFVNGvQLjieHEnoyvtWnJ+RyFPdv5w0bcMOrzr9FLyuRfW4mmthGg1ziHu+YzjYELM4a/LnOCa+/jbSUKhhzvGFTHwM4K2ANzklN+WV7hIU8KDS97gd3ODuluSyMg/oba8K8SoQTM9/htczYhMuBcYFmsCcKh3v5I9R358FsPFJy0EkvV3CuPkXw9zefNCvQHc7yfI6NbUEaguPblJS0=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            ExecuteProcess(BTN_DELETE,trtClick)
+           type : 32
+     -
+       name : Option6
+       identifier : 0x274d91a0143519e5
+       internal_properties : CAAAAAgAAACicREX3xsF2OQa0Y7RcBhZP9lXZja14IGN2A5iz+lhEi8jh2zjvDErR87awR29gG2SNv1ByRIsNg0zD64ItSaTjGy6z5v+ky7hhgm5GRGzU1iI4NSRPztVopLrsNSHcooiyOtvBrHT9AfTpujYSZQ9oqR/Msu4zNbA9BNJ+D5xgOhIwWcbVqRO6rPw85D020lk/2OrAiteMIEAx5oLOZthpxtZvZYEIeASK8f01YkeGeUBKUVVN1exDHPKzo21orYjbhkjiI5R2XRRPSH4sFNqPfa/GKF8dh3JGsFLHKvYSoxs88Se2BmpvgJwDQ9qJOnUJZ/SKJjIDpEzx/x7p7QCfAnYlC2uthQUTsCzwYlGUsnjKucFU3yFl3kYd9ZEB4scvLLN/FLaqkMry/h9D7U=
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : SelectAllMenu
+       identifier : 0x274d91a0143619e5
+       internal_properties : CAAAAAgAAACiKf9z17VG9Ululx6I2SJ/bNp+CZW+6hK/nqr4IlfWF1XPvZ1zBEzR10Il6C4unFYfcHHfVM9aSkpEv7CQmHWWD6ZiOAadJwI0qLanLs1P9LooZiAmyGMZfEdQRRK/ebGJlCoAgyX5pfJmi75zxzACJpKMsjv0hYrDaOrDl2rCKSOzhboXMtvcbPShmuJU1Wah04X9eK/tTdiZLPESvQhv7zTl3DDfFaIYRsFKrIcOoBs3pk0DldwgmTMYPPtzp5xXu2Qkcu53f2eupbkB19IzrTvyaVUr/o3ZQwkGWLqkTVShOTPI6hQMjGimZAMQ77UjezJMTj2KSZ2r9G/jG+RtkUs935vWe6VU1ZYfCS3HC4zDJAxctbbyd4XKfR6P3D9YmGtPQ0b9zb9aN8GfArUqAoVpzhXX/GNB2giaczBgeJ+r
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            TableSelectPlus(TABLE_ARCHIVE)
+            
+            DisplaySelectionDetails()
+           type : 32
+     -
+       name : ReverseMenu
+       identifier : 0x274d91a0143719e5
+       internal_properties : CAAAAAgAAACyk1/AICzBfc8Rr7fcKBAeoIPEugAwbeKkA62oIbYiJOq8RXkOCnEfSoy3mMl6Y6Z85z/i0rQBJXgPLBqHB7tu4Ix42PCs2q6OU/ihX0LS9R2J78XcpaxkMusko4WnU8zgnaH3cUw3pPYj/3zOWQdCMoSSwLsZnPneBFiY+GpdrwivPuKbdH1IGAgpMP/7pGZ4ZIOjtk1nbqPR+hVOqrcl25t7eUATs52DqylJ4tREmKq+cDLbebaX5BTs528s1QwG0C4rwsLF7ETJiSxzsq7RMEga8CmDLJrqcvWbQPeAr0dILYASdOiTZbukc9dvod3KxpyfTHuiwKDgwDqX7ArhEgzlCNuqMbh/qFRwH8TJKMrLa49WK8/LBP4WdKmUeIdClMvEi0rjI4HRFM14IEhia1QebLurJm7thP+Qe+iTobQ=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            // reverse the table selection
+            i is int
+            // reverse the selection
+            FOR i=1 _TO_ TableCount(TABLE_ARCHIVE)
+            	TABLE_ARCHIVE[i]..Selected = NOT TABLE_ARCHIVE[i]..Selected
+            END
+            
+            DisplaySelectionDetails()
+           type : 32
+     -
+       name : Option1
+       identifier : 0x274d91a0143819e5
+       internal_properties : CAAAAAgAAACm+vm484YzH+66DTkYoNjvLrlhEvzcMrw1SDVeHyoC6t56J/XpwWOqKMauWDhXE+j9bB77JIwEejQFUJCJFTCeS0Tq0EosGi8X/rI5RK3onaulCjXehWDVg0OU9upZiAyLzoIwA2biewIQPDhTtPqq95G7iHnXWndj+ZDwzDtA6HE/uixOxDIQpkDPxCVYK3xa5sFmGGWVDomViDYy+bZySgXROhEn59Llwzk3+TzQrRVFD+IZKNd7kthTi+HKiKrTz1zb6ys7V5pXlzycMf9c2M8PXxCKyaR0wZzLk+/TwfgjSLqvCQcD+G4AUK8FP3gGcywukVK5W87l8fywpeGmN+ZRng9HeTbAfuDknpDtBCibHCDpSKb/LC0OU5kHm7ux08SexsjV1iBmads7
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : MenuFileProperties
+       identifier : 0x274d91a0143919e5
+       internal_properties : CAAAAAgAAACJI1TsblMe4k0bI/vvulHYvH9naiDZnCN1X9c/jquV97tsB2k+90nxew1PTdjhVmkW6t7HD558YCTvY7h53wkrX8LnbxATJxcswxf1q6fCdssgIo/JoZTV1WUjEBrP/xDVUWzzbWsHu/PTj6MY4EUesVp2ngiAI8MKCFI9sjORTJeKuGkw8cG/O6EHaf9TiBnLabwIc7qob11pYiYVQ5XbVRCeGQxVu2HWVwzQYRt0LXLU1l0wJ1DwjyvzQTCZdS9ePUod5Lg7YiQV1XssSnJ9xLXJI6ZQKUIApRuMCrM3Rqcqzic3FTDXwrqQ7ZzwXXxT+KYzs8811OTFTyQHPjIC30HmGVCdSXEnPNPHqsG2NjCFQXuEBtbDSjI1h+fvoYbGqtR/Y+bV5J72LQ+VXysFA4s2e23TEA==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            IF TableSelectCount(TABLE_ARCHIVE)>0 THEN
+            	Open(WIN_FILE_INFO,TABLE_ARCHIVE)
+            END
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+  -
+    name : TableMenu
+    identifier : 0x274d91a0143a19e5
+    internal_properties : CAAAAAgAAADvZDLAlB1kYi1xKBn+wIVUBlcrDuRpGeEsZADuX2ObnR959bIHfSeks0NgE0H7oVEyd6b21c/qdLqht+4qgeH1KLm1R/XDAY9Y0CCqXJ4Zj0z3G467WHMwYrGsawYMIRsEljYrzMxlUyncHf/PAIstiWvNjwqugTkVwEvnLJlY2AGSqPqcK3v+gCR7Et5Iykjzfudq8YXZCXr63DeOZequPUwDY3xMETJ3FBawD9QrM2MbG4BIjmMoDLK9xBTjONH/TNz5fFEmrD09UFjjRvUTxQ/onj3RiU/JArfgZhXFSAH8MFToBPskWiRo+7Liv7fU9M3tv5CSflxfUrgtiazPuDp/NUh41d0/vl2zRYo2Cs7I/mxe19zfaRLIMFklYActyYKPVH8=
+    options :
+     -
+       name : Option7
+       identifier : 0x274d91a0143b19e5
+       internal_properties : CAAAAAgAAAB+hc/uNkxYKKnp1MfwBjYmY8J2dCYcwUmNaONAzYAQRhV1WT8JQKLPVa1XpRgLZBHtmGwG9UZaHqNimjvL2BZE2tRVaqbGDgKMrztjNZBEivhgNGwqnAebZo0jn4FYwTuW7lBNi4KvG/eEFFWkO+/PgmrkovF+8FOPlGcAmty9pZffTmEaBFimpDL/PTltdlNGrSbvDJk03XZxdHNqYMY27X7H3R8mKQFOg6B1f692CZh8qmut8XBp6KjpZejDbUAGa4w9r1370yUT55JWoE9hXyaGXoY4ZFg0aXHVGfi5ivKyF/teYboZ/OQFZcRh3M7uPP/6wIvnaoZXmMxLaVCjFyhso81f+LwWWMacU+eG9Q/qWEz0cG0uCzxUuXsb1Ts68ZhO+ZIqUa1ZNCOYLe8ENzzT5A==
+       code_elements :
+        type_code : 26
+        p_codes : []
+     -
+       name : ModifiedOption
+       identifier : 0x274d91a0143c19e5
+       internal_properties : CAAAAAgAAACwOgxl0ySRD74MODL7DaX5OhDQCT9UeR6AiAAgoaimeE8x+hzRkFaLlHgq2C2E1A62Ol7A1431pw5t6dry4leFVpJ/PXOSUGLPuLsdv8TSUTFQL/CC+qMv1o6Qfv0cmaHvGBky3J+WCSgTttrF6ZUxg2PX98DjegI7YsRNbrGuF43Ut897Ylso9WDpkNEQ+9uwsQilnIgEeWxEChmMSX+PqM5oHQSQYnuNjdC/spRFJNLJAa3oWO0vTnT/5Pqoa9Wgkb4vPvHAJn6BrQN0ecMzXNKIDnf3H54jvJbccrFLZch3s1qsvVMkUNiZd8n7MFUKA6ETehf1AVgLB4Vnu7Tee4NR4Dh0/yt2ywroM8C5PDCTV0e4urFcQwtejt54fuGjnzEe2vdP4tM3Hz2Tex25mw2QE5bqKQ==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            MySelf..Checked = NOT MySelf..Checked
+            COL_MODIFICATION..Visible = MySelf..Checked
+            RegistrySetValue(gsRegistryBase, "Modified", MySelf..Checked)
+           type : 32
+     -
+       name : PathOption
+       identifier : 0x274d91a0143d19e5
+       internal_properties : CAAAAAgAAADkZj0VGiXVdUlVVYLQTOfwCg+RlXZE99SsdAcBnmbDLFiSUfWVLShV0W2hyjfVYYoAoN8qagqvhZW+nCcxRv+HKH8evKbh08RTadtBkG1XYNleqqJNAMks8Rp3vDXQGrFwyACAoSLHD9kQyFBTvziA65DmBOKudkNZlgsFE6nqIYWy4+jgeWRvGaf4abb55SYW5EGypWpIxmBuBg6VmXWy8vhT4jLJdBZ7PWtTXNTj/1rHSVV+zKkKZH1Eq8Sb6OphpPiUn0oN8AsRFIByT1rGAitOYBnDfSXTB03sHMGBtgmjaypvIysaVD6KAmlIwEwoWnhtbs2cOqwt6pV1QHgzLwA4uPzBQ+gXWHS6s09PUQ5E4z0rkxrGd4zGGht+zL/tkTNUHwCs9kyujX15v+8T83M=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            MySelf..Checked = NOT MySelf..Checked
+            COL_PATH..Visible = MySelf..Checked
+            RegistrySetValue(gsRegistryBase, "Path", MySelf..Checked)
+           type : 32
+     -
+       name : SizeOption
+       identifier : 0x274d91a0143e19e5
+       internal_properties : CAAAAAgAAABt7baGqbREgtik4LnfS/wZIyY69qkfEvmzR9pAXSWIZWFBZvq48GOm5HDkiXYUpktJZxhTFVVqtlhxW2L8MbjE7bLHdXlUtiHOJMJ0ezDAtXKZp38IY6ShNG1axxjD/17Vs1l5JIWqmDzTq3BI1J9bWlUph3uXEBn99MMJ6Rcu1YUkQ3AyMwKdzX0AlYz3WaL2Rj1el6wuHBwvpa8k6hjXlRkOJ+UeT28CstYw50l2RDk8EC6FDQgvX34DPIHun/sE4xsBMLmeYx7EB1W/4slHtVahrd5GyqB+UtjZEexcA6QWlo/ktmgpp6ENh2abd4XjnTsqo5BZee/gHVoyg7/0bsd3+b0AhKsqK0fv6DpaXj1rmvZsUtsJip/pP0BZ61gEqNo9IAe1gds9HO7qLn6cevo=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            MySelf..Checked = NOT MySelf..Checked
+            COL_SIZE_O..Visible = MySelf..Checked
+            RegistrySetValue(gsRegistryBase, "Size", MySelf..Checked)
+           type : 32
+     -
+       name : CompressedOption
+       identifier : 0x274d91a0143f19e5
+       internal_properties : CAAAAAgAAADvMP8JoBWpQOWcW2ZJOhQ5yFSGCh48yWRDUVt2A7rSU8jkxPQijwd7vQaHHp912qHYp6pZ8SNkzmA4TYCP6Bp/w4NpSjyxCuxfdOzwXBOUt3sRdttTzOOpHhYTJA+88yaNwH0gWSANEawlaPtydEDnoXyWt4YiMDxoJF7+Njy6zkYNRIf1NHGTGNIhR5VQWlv4MUaqsBkdpalsNOet7P84ijUPWERiX8HAi72eMf+FsRDeW8xvXdjq6R5RNO3hBzP9bK4H/jf07Qn9faxiAAiraXje5B8EfcxPCjokPeeVIDRdZRdLWjP6V3xwJTu/2fHjl4qjiSuYLHNo2SktHwxhspv227ZygslvgZKfrvckCfKtfW48UnmUVQNBUdznPivdEs3GDT+qbU/nd3Y25iLnfysex4AhqSV15m4=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            MySelf..Checked = NOT MySelf..Checked
+            COL_SIZE_C..Visible = MySelf..Checked
+            RegistrySetValue(gsRegistryBase, "Compressed", MySelf..Checked)
+            
+           type : 32
+     -
+       name : RateOption
+       identifier : 0x274d91a0144019e5
+       internal_properties : CAAAAAgAAABXL3BY62aWNA4WFsORDaY3xUBUaMs5LCP5gSgy71+Ka3uzcNTCyoXISsIKs0g+kCkjQVqV15cseB4zIdQGa+Jij1xh16tGWBMcVpiuXXJ6A6QT6XGC9XY7gvcYQXq9QTSfLYtzFnfcAoKl4Qnr1wJuWWQUql6K4DndFANp2VdOpeV0s9DiA2KNXQ0Q5axnKeKmpv2uV8yenBxnbeeMYiAvfXHW3032N8cKih7oLwG+/EHUeCat5ZAHR5ZLtC8gYwcc6VvBfqtcUSj+YXP9xO9Jd/Dr06S4mI7IDKJXN7YKjW640MWy4P5fiePvJWR9FScFv9WAWdqvzzGiXxjwxf22UCHZB6MamkG8vekNziRwcC9lnPRipCnXRNmTVV47ifqmyvQTXsFrN41vzjw48DzePMQ=
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            MySelf..Checked = NOT MySelf..Checked
+            COL_RATE..Visible = MySelf..Checked
+            RegistrySetValue(gsRegistryBase, "Rate", MySelf..Checked)
+           type : 32
+     -
+       name : CreateOption
+       identifier : 0x274d91a0144119e5
+       internal_properties : CAAAAAgAAAA4P6n0E8a3cSM/71af6RANNLGJEvLHSk8+b4f+ZsnEUuZjG6YPGG+8I7rFHPk/k7R38JrhwgDp7A21asEV+7QLlLyBoiq62FZDJDvoFYHFbuu0vogPRatrJ9UIo0NPiqSHeb961C2MOg2hu0iYsxhXMlmqoH37gNUPSWM+ufzdKnqELJBYOv1ii7rvA7P456qQHe75T3l+1+qsvhX/xC1SDnvPjDlVvd70ntHD1dK+A3gYEST7NuMwkR9C2mLMycoJS8umsaEd+Bdq9KmsG2jL9k7Hv2w8B/EkMGJqOaY4BtP9hMLCV8PTgvBaW/CU49SCzQlAor9uD2ApS/G5pvEvzlQQ1adg/7tngUlsrilhrWQebLhL27XTViwUqResSwMnnzNBZTzGJh1vXLu4RJL1ES8z
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            MySelf..Checked = NOT MySelf..Checked
+            COL_CREATION..Visible = MySelf..Checked
+            RegistrySetValue(gsRegistryBase, "Created", MySelf..Checked)
+            
+           type : 32
+     -
+       name : AccessedOption
+       identifier : 0x274d91a0144219e5
+       internal_properties : CAAAAAgAAACq4ychYowFM5dMENdJyiFimM+evhFOpijfT6pqvyio5TPWA2wC3m/66i7u36n9EAT1OVBvnxzTCq5s4zPuWr0McWww+nSrsnmMjXJsk0X9OOXqR0f693TciReNjKJVQfDEQrPm64/RcIS5B8d8/5ZBIIdltJbR2ruLRSlQZJjuhYSxstTSg0NCIwDHWXFmz1EukpBtSEmGXXCDCO3fQhChS0J3PS5xkRU+hxZXT4mKuEUVEL+kv2wHwVifTi1bMNHF6blbcFG87/urqwunu+9SbHHK9cD1Ey1j1eORktXjJGzAv0WtY4OvBtjNsaU9ti60VqFsLbvd7DDmDtQ9ASr9eyAw7RoHdiPU0aESxzdR2ijM9F/q7mdYM4YlNfzkc84dtBrzdfypjO5QvAyacBrC/xh99FVO
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            MySelf..Checked = NOT MySelf..Checked
+            COL_ACCESS..Visible = MySelf..Checked
+            RegistrySetValue(gsRegistryBase, "Accessed", MySelf..Checked)
+           type : 32
+     -
+       name : AttributeOption
+       identifier : 0x274d91a0144319e5
+       internal_properties : CAAAAAgAAAAoiuDcFaXF9aO1x4D278SzoXNIWENoyvuRdBuxcwrtj9lyspkTKd6AbvvH7b1zJ4DpWksT0V8Dwrc8I9DW/o0fikEGk3w02uo5pQ3Z7QLgULvmh4yasDkC7UhVJ5sD7E8kacZz8YlAbAMJjgh6K6oxFggO2xP3o8EgVjUZXMFyjIAhm5rPWKO6k0SE0wNNAogzYJq5P5OJdC8DPuVQte42vWAy0rbWX4JG7T4rKidrHDKSMP9ufrojDdN35DkFxjDGI1zvinntwTrl/SJlfF3KJokxNdzxa9vMqTNXT+lQh5fgsLH9bgRUApTeGq9ogJ3fxviNmQqrv+K/Fc9oGt1Pf0Xuz+T3+9Nej6Zls9aBEDkCthcmwEaVW27FaCadQdwNMIW+e8azvYtZhJFFdxmXbp9d3UHCHMrg
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            MySelf..Checked = NOT MySelf..Checked
+            COL_ATTRIBUTE..Visible = MySelf..Checked
+            RegistrySetValue(gsRegistryBase, "Attributes", MySelf..Checked)
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAACMf4Si1HJKa7nLE5TXWH24Y7oPTGE80ElMEVQXAPv4cduRSTwc3lKcB/uM2EZj6ydpLiLiDMLKcghuOjPJ/Dt4mTjmDjmA1a16ujIOwBAKkYixxN6KTulOQjCJPB9I53Q=
+  controls :
+   -
+     name : MessageCell1
+     identifier : 0x274d91a0142f19d6
+     internal_properties : CAAAAAgAAAB+Xyjalgyc9/dd0/Gpb7SuykZ2+bVrgzl5so8HLc93MeSD7LTq/+mcghN9fzfapYxh20c1KkpEsUS7/6aCcwBYmZNsLOeGJaMdrJgBwV8UIPT+gM8+NE0BnHQ=
+     type : 62
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+   -
+     name : MessageCell2
+     identifier : 0x274d91a0143019d6
+     internal_properties : CAAAAAgAAAA+QSeYjP8FwwxdYB0p9ZEtGJgtQDZPBBazW5DFVYJgfSyaCUBNIlXslGxfsm/rtl2RYfFGjBlg1MWR5yXwslc7ZX+nUC+JaRtDcbfIteCAZMAEuVpCe9GKpvd/
+     type : 62
+     code_elements :
+      type_code : 62
+      p_codes :
+       -
+         type : 15
+         enabled : false
+       -
+         type : 16
+         enabled : false
+       -
+         type : 39
+         enabled : false
+       -
+         type : 17
+         enabled : false
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADyd8w1wtWlcQgl1JGSwuDQSGwwhYRT23EfGqrlnwBVQQJUwKXbtQ8T1/SBreTazkX3Xj9LkAHCQ6z+gFKOcTlp0TNc5+G5Isxtc09gsFHaiXF5O+st4wpkhTICCjix/7V1Z9fijB22ELrUyBRtCniKejx7VSSEpcf2xs6NcXhCGMDc6SrM1QTAh517aJz9llzLWAeF1z8Qo9+if0q0HZasrjK2TDeSkWRMfr3mqT1Cw+vuy1Fr2pD9qy7eAfJLEpkiGie/l29F86paPqTwhrlVpLjWU6SbBj7vNxTY+VLkHgIbNjYtMFlAwYIURPwjldfWz12SVJB2EKu/UU/ifOKpPdWQul76xCHj6ZcNetRcTtBnLk9n0qbRnnlpi3t97vkbbyHLaMOToDl3XsqWGqF0/5DQgW+RB3TSRXXzjCddQT4luePYBUOQkLV6pNrWV7+WIbKSN4td1B39+6/ppWjAXAcRSqnZlpZz2lCZZ6sMpHYieNVZkdEyeZ3antQ57hHdEtilN81vTLzZNCbLPOsXRDPiY9WrAfMhQ2EDbX0jt5dNKTvp5he4aSmb42unFFc0iG7MIBpcsaGLD0EZX53QJWTuu5lf2pTpcppU+CooWZYUsjTIhtIXOapthIVAQ4nhovrmY9fZsEEJWlMHOrharwTD8wbMUQUAEWNRSfA/LPQ1vG/UxmCMAnH9ntjl5qQc5rcyIyaAoxWQS+sm3S5bqfb1hmjq3x76W0jcE60YxPdwTCI3TdhWkB5ifD5UbSY22u3VqJWb0hCLCftU1gMGCjb+62V8/FITeU1Ov/kkItT9vsPaQbwKCaqe6yGyJIn/JPnjcDqlBIiTEoZZjcmP0MoYuyaM2cTfHl8nfFktaPljY0P5J+gai8oqFlA6Ae8q/0lglfayyuJt3jnIIus0BOVeRGPcGKCIkymBaStZYAB78OLBakxBt6+b5vgrI1DzRD/8e5vdvU836qbSkcjy2CDdkR1EEGsxar4qrVo8NGBZYBESFt1bcB2TgvDAgYkOZH70VnCyOkYUUhicfoMYAhuMB3uxNZAaFiSz
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADj1TXNC4Q2xlGaV9isp7YfkYu+nAZXV4tZkOumeGVJGWvG+BjVclVxEkm/xuzSu9xBfChkBnrRBYWMD8B906+T+lJz5obb00XvgekXO83xweAK88rvfsXUH5c8t5zMfG/Oiu6EI/JVuxsu34Q=
+     code : |1+
+      PROCEDURE WIN_MAIN(gnCommandLineNumber is int=0)
+      
+      IF NOT InTestMode()
+      	WHEN EXCEPTION
+      		Error(StringBuild(<§$00a2§>,ProjectInfo(piProjectName)),<§$00a3§>,"",<§$00a4§>,ExceptionInfo())
+      		HourGlass(False)
+      		ExceptionEnable()
+      		RETURN
+      	END
+      END
+      
+      GLOBAL
+      	gfbExecutable				is boolean	// Boolean indicating whether an executable was opened
+      gnDisplayLevel is int = 0
+      gsCurrentDirectoryPath is string 
+      gaaIcon is ASSOCIATIVE ARRAY of string
+      
+      LOCAL
+      	
+      	
+      // UPD the interface
+      MyWindow..Title = ProjectInfo(piProjectName)
+      STC_MESSAGE1 = StringBuild(<§$0077§>, 0, LengthToString(0))
+      STC_MESSAGE2 = StringBuild(<§$0078§>, 0, LengthToString(0))
+      
+      // Status of buttons
+      UpdStatusButtons()
+      
+      // Popup menu of table
+      CheckCtxMenu()
+      
+      // Drag and Drop from the explorer
+      ExplorerAccept(True,WIN_MAIN..Name)
+      Event("DragAndDrop", "*.", WM_DROPFILES)
+      
+      
+      // Directory mode by default
+      CBOX_DirectoryMode = True
+      ExecuteProcess(CBOX_DirectoryMode,trtChange)
+      
+   -
+     code : |1-
+      // According to the opening mode of the main window
+      IF gnCommandLineNumber>0 THEN
+      	// Open the archive and display its content
+      	IF OpenArchive(CommandLine(gnCommandLineNumber))= False AND geProcess=ActionOpen THEN
+      		// If the application is started from a file but if this file cannot be opened, close the application
+      		EndProgram()
+      	END
+      END
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      // Close the archive
+      CloseArchive()
+      // Delete the extracted files if necessary
+      fRemoveDir(fTempPath()+[fSep]+"Extraction",frRecursive)
+      // Stop the observers
+      StopObserver()
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+  procedures :
+   -
+     name : UpdStatusButtons
+     internal_properties : CAAAAAgAAABltvaWJuX0cfKY60gAajt7yTW6UEiEPIFaaXTHNSJ0XPxcIdvjp2YHJuUffWm8JTRjKFcyJP3Z5WaJUjk/CrcrXppXOxvdN/i/HJFIsCqV2OtPWoBVVpyUo7Nx88kMTdcXVqsNPGqsLD0kdzWtnc4jECoLTWAq6vWnIMbSFfm8HQD4cxfffIYPb0KJ4MhjVmExH5HASF4/LdIVeJTOoU9/zUMgr4EvJoWvNnJV2awwknXrhk3gQiWG3ih8NbYR
+     procedure_id : 1679158352551483862
+     type_code : 14
+     code : |1-
+      // Summary: UPD the user interface
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE UpdStatusButtons()
+      // Status of buttons
+      
+      // if no archive is opened
+      IF zipExist(gMyArchive)=False THEN
+      	
+      	GR_Buttons..Visible = False
+      	GR_OpenedArchive..Visible = False
+      	GR_BottomMessage..Visible = False
+      	
+      	FileMenu.OpenFileMenu..State = Grayed
+      	FileMenu.ExtractFileMenu..State = Grayed
+      	FileMenu.DeleteFileMenu..State = Grayed
+      	FileMenu.MenuFileProperties..State = Grayed
+      	
+      	RETURN
+      	
+      ELSE
+      	
+      	// If files are found, all the buttons are enabled and visible by default.
+      	GR_Buttons..Visible = True
+      	GR_OpenedArchive..Visible = True
+      	GR_BottomMessage..Visible = True
+      	
+      	BTN_ADD..State = Active
+      	BTN_DELETE..State = Active
+      	BTN_DIVIDE..State = Active
+      	BTN_MERGE..State = Active
+      	
+      	FileMenu.OpenFileMenu..State = Active
+      	FileMenu.ExtractFileMenu..State = Active
+      	FileMenu.DeleteFileMenu..State = Active
+      	FileMenu.MenuFileProperties..State = Active
+      END
+      
+      
+      // According to special cases, some buttons are grayed/disabled
+      
+      // If the archive contains no files
+      IF  zipNbFile(gMyArchive)=0 THEN
+      	
+      	GR_Buttons..Visible = False
+      	BTN_ADD..Visible = True
+      	
+      	FileMenu.OpenFileMenu..State = Grayed
+      	FileMenu.ExtractFileMenu..State = Grayed
+      	FileMenu.DeleteFileMenu..State = Grayed
+      	FileMenu.MenuFileProperties..State = Grayed
+      END
+      
+      // If the archive is multi-file
+      IF zipIsMulti(gMyArchive) THEN
+      	// Multi-part archive: unable to split it, add and delete
+      	BTN_DIVIDE..State = Grayed
+      	BTN_ADD..State = Grayed
+      	BTN_DELETE..State = Grayed
+      	//	BTN_EXECUTABLE..State = grayed	
+      	//	SelfExtractMenu..State = grayed
+      ELSE
+      	BTN_MERGE..State = Grayed	
+      END
+     type : 458752
+   -
+     name : DisplayArchiveFile
+     internal_properties : CAAAAAgAAADJG3TbyH4EMbeWk51Uqedi/tR5J9xlElUzeb0hkVf8QDgrYBXE8B70UxfAWBKk1JnltbRMQdAiZG7k5e2EjVgaLoGrZQQKvJKUMivHhgmggkllUNSfE/FquQ3lfSBrpxbzA2HxcuHSbNs5DJip9GVYOk2J+ebp0FEpWwv9K5C7h7m+XHCw9Llqunh3EnGnRJ/h0BTB/XCrqJo7BV1fIxGI/Dg=
+     procedure_id : 1679158352551549398
+     type_code : 14
+     code : |1+
+      // Summary: Displays a file found in the archive on the screen in the table 
+      // Parameters:
+      // 	nSubscript: Subscript in the archive file of the file to display
+      // Return value:
+      // 	integer: Insertion subscript
+      //
+      FUNCTION DisplayArchiveFile(nSubscript) : int
+      
+      ////////////////////////////////////////////////////////////////////////////////////////
+      // OPTIMIZATION IN DIRECTORY MODE, PERFORM THE CHECKS FIRST
+      // USED TO ACCELERATE THE SPEED IF THE ARCHIVE IS STRUCTURED IN FOLDER
+      ////////////////////////////////////////////////////////////////////////////////////////
+      
+      
+      // Check whether the file must be processed
+      sFilePath				is string
+      sFilePath			= gMyArchive..File[nSubscript]..Name
+      sFileName					is string
+      sFileName			= ExtractString(gMyArchive..File[nSubscript]..Name,1,fSep,FromEnd)
+      
+      // Are we in directory mode?
+      IF gbDirectoryModeDisplay = True THEN
+      	
+      	IF StringCount(sFilePath,fSep) > gnDisplayLevel THEN
+      		// Does the directory already exist?
+      		sFileName = ExtractString(sFilePath,(gnDisplayLevel+1),fSep,FromBeginning)
+      		nSubscriptFind is int = TableSeek(COL_NAME,sFileName)
+      		IF nSubscriptFind>0 THEN
+      			RESULT nSubscriptFind
+      		END
+      	END
+      	
+      	// The file or directory contains the current path? If not, don't display it
+      	IF Contains(sFilePath,gsCurrentDirectoryPath) = False AND gsCurrentDirectoryPath<>"" THEN
+      		RESULT -1
+      	END
+      	
+      	IF StringCount(sFilePath,fSep) < gnDisplayLevel THEN
+      		// Don't display the file because it is in the previous folders
+      		RESULT -1
+      	END	
+      END
+      
+      
+      
+      ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      // END OF CHECKS/START OF STANDARD ALGORITHM
+      ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+      
+      
+      // Display the details of a file found in the current archive
+      
+      sFileInfo	 			is string
+      nInitialSize			is int
+      nCompressedSize			is int
+      dCreationDateTime			is datetime
+      dModificationDateTime		is datetime
+      dAccessDateTime				is datetime
+      sFileAttribute			is string
+      nRate						is int
+      sIcon						is string
+      nAdditionSubscript 				is int
+      
+      sFileInfo		= zipInfoFile(gMyArchive, nSubscript)
+      sFileName			= ExtractString(gMyArchive..File[nSubscript]..Name,1,fSep,FromEnd)
+      
+      IF sFileName="" RESULT -1
+      
+      sFilePath			= gMyArchive..File[nSubscript]..Name
+      nInitialSize		= gMyArchive..File[nSubscript]..Size
+      nCompressedSize		= gMyArchive..File[nSubscript]..CompressedSize
+      dCreationDateTime		= gMyArchive..File[nSubscript]..CreationDate
+      dModificationDateTime	= gMyArchive..File[nSubscript]..ModificationDate
+      dAccessDateTime			= gMyArchive..File[nSubscript]..LastAccessDate
+      sFileAttribute		= gMyArchive..File[nSubscript]..FileAttribute
+      
+      // Check the information
+      IF DateValid(dCreationDateTime) = False 		THEN dCreationDateTime = DateSys()+TimeSys()
+      IF DateValid(dModificationDateTime) = False 	THEN dModificationDateTime = DateSys()+TimeSys()
+      IF DateValid(dAccessDateTime) = False 			THEN dAccessDateTime = DateSys()+TimeSys()
+      
+      // special case: uncompressible files
+      IF nCompressedSize>nInitialSize THEN
+      	nCompressedSize=nInitialSize
+      END
+      
+      // calculate the compression rate
+      nRate = nCalculateRate(nInitialSize, nCompressedSize)
+      
+      // retrieves the icon associated with a file
+      sExtension is string = fExtractPath(sFileName,fExtension)
+      IF gaaIcon[sExtension]..Empty = True THEN
+      	gaaIcon[sExtension] = GetAssociatedIcon(sFileName)
+      END
+      
+      sIcon = gaaIcon[sExtension]
+      
+      IF gbDirectoryModeDisplay = True THEN
+      	
+      	// Get the name of the file
+      	sFileName = ExtractString(sFilePath,(gnDisplayLevel+1),fSep,FromBeginning)
+      	
+      	IF StringCount(sFilePath,fSep) > gnDisplayLevel THEN
+      		
+      		// Does the directory already exist?
+      		IF TableSeek(COL_NAME,sFileName)>0 THEN
+      			RESULT TableSeek(COL_NAME,sFileName)
+      		END
+      		
+      		// Displays the directory of current level			
+      		nAdditionSubscript = TableAddLine(TABLE_ARCHIVE, nSubscript, "", ...
+      		sFileName,...
+      		DateToString(dModificationDateTime..Date)+" "+Left(TimeToString(dModificationDateTime..Time),5),...
+      		"",... 
+      		"", "", "",... 
+      		DateToString(dAccessDateTime..Date)+" "+Left(TimeToString(dAccessDateTime..Time),5),...
+      		DateToString(dAccessDateTime..Date)+" "+Left(TimeToString(dAccessDateTime..Time),5),...
+      		sFileAttribute) 
+      		
+      		// Apply the image to the control
+      		TABLE_ARCHIVE[nAdditionSubscript].COL_ICON.IMG_File = IMG_Directory
+      		
+      		RESULT nAdditionSubscript
+      	END
+      END
+      
+      nAdditionSubscript = TableAddLine(TABLE_ARCHIVE, nSubscript, "", ...
+      sFileName,...
+      DateToString(dModificationDateTime..Date)+" "+Left(TimeToString(dModificationDateTime..Time),5),...
+      sFilePath,... 
+      nInitialSize, nCompressedSize, nRate+"%",... 
+      DateToString(dAccessDateTime..Date)+" "+Left(TimeToString(dAccessDateTime..Time),5),...
+      DateToString(dAccessDateTime..Date)+" "+Left(TimeToString(dAccessDateTime..Time),5),...
+      sFileAttribute)
+      
+      // Apply the image to the control
+      TABLE_ARCHIVE[nAdditionSubscript].COL_ICON.IMG_File = sIcon
+      
+      
+      RESULT nAdditionSubscript
+     type : 458752
+   -
+     name : GetAssociatedIcon
+     internal_properties : CAAAAAgAAAAfdkfC9cjuxFUCZ/5xb8rSTqir2js1XCHEZylzrt72Rl7O10nFASCNuE9/fzEOM39TcDtujnGFHeI9jCeBIqMnQi43mxV5q2T7iP/WOjLZdBPnlkwXEthcm/sPqWvsvUzop5RI1eMlpzohijKmNhXUqUMcoH3Hr4AsxX3L0gavEhVNCLqwpe+uYHO4aR0YEu3NEUPUBP6TwdIV+CxSuWsbb5pboS2xYLeuOMS8N2PK2Xvyb2Bd9AiFmqGRhUxr
+     procedure_id : 1679158352551614934
+     type_code : 14
+     code : |1-
+      // Summary: Returns the icon associated with the file passed in parameter
+      // Parameters:
+      // 	psFile: file whose icon must be found
+      // Return value:
+      // 	ANSI string: path to the icon
+      //
+      PROCEDURE GetAssociatedIcon(psFile)
+      // retrieves the icon associated with a file
+      
+      nIconSubscript		is int
+      nIconHandle		is int = 1
+      nDC				is int
+      nFileHandle	is int
+      sFile			is string
+      sIcon 			is string
+      
+      // create a temporary file with the appropriate extension
+      sFile = fTempPath()+psFile
+      
+      nFileHandle = fCreate(sFile)
+      IF nFileHandle<>-1  THEN
+      	fClose(nFileHandle)
+      ELSE
+      	Error(ErrorInfo)	
+      END
+      
+      // interrogate the associated icon
+      nIconHandle = CallDLL32("Shell32.dll", "ExtractAssociatedIconA", SysInstance(), &sFile, &nIconSubscript)
+      IF nIconHandle<>Null THEN
+      	// Device Context of the control
+      	nDC = dStartDrawing(IMG_ICON)
+      	IF nDC<>0 THEN
+      		// Draw the icon in an image control
+      		CallDLL32("User32.dll", "DrawIcon", nDC, 0, 0, nIconHandle)
+      	END
+      END
+      
+      // save the icon
+      sIcon = dSaveImagePNG(IMG_ICON, inMemory,White)
+      
+      // Freeing resources
+      CallDLL32("User32.dll", "DestroyIcon", nIconHandle)
+      
+      // delete the temporary file
+      fDelete(sFile)
+      
+      RESULT sIcon
+     type : 458752
+   -
+     name : CheckCtxMenu
+     procedure_id : 1679158352551680470
+     type_code : 14
+     code : |1-
+      // Summary: Checks the popup menu
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CheckCtxMenu()
+      
+      IF RegistryQueryValue(gsRegistryBase,"Modified")=False THEN
+      	TableMenu.ModifiedOption..Checked=False
+      END
+      IF RegistryQueryValue(gsRegistryBase,"Path")=False THEN
+      	TableMenu.PathOption..Checked=False
+      END
+      IF RegistryQueryValue(gsRegistryBase,"Size")=False THEN
+      	TableMenu.SizeOption..Checked=False
+      END
+      IF RegistryQueryValue(gsRegistryBase,"Compressed")=False THEN
+      	TableMenu.CompressedOption..Checked=False
+      END
+      IF RegistryQueryValue(gsRegistryBase,"Rate")=False THEN
+      	TableMenu.RateOption..Checked=False
+      END
+      IF RegistryQueryValue(gsRegistryBase,"Created")=True THEN
+      	TableMenu.CreateOption..Checked=False
+      END
+      IF RegistryQueryValue(gsRegistryBase,"Accessed")=True THEN
+      	TableMenu.AccessedOption..Checked=False
+      END
+      IF RegistryQueryValue(gsRegistryBase,"Attributes")=False THEN
+      	TableMenu.AttributeOption..Checked=False
+      END
+      
+      COL_MODIFICATION..Visible = TableMenu.ModifiedOption..Checked
+      COL_PATH..Visible = TableMenu.PathOption..Checked
+      COL_SIZE_O..Visible = TableMenu.SizeOption..Checked
+      COL_SIZE_C..Visible = TableMenu.CompressedOption..Checked
+      COL_RATE..Visible = TableMenu.RateOption..Checked
+      COL_CREATION..Visible = TableMenu.CreateOption..Checked
+      COL_ACCESS..Visible = TableMenu.AccessedOption..Checked
+      COL_ATTRIBUTE..Visible = TableMenu.AttributeOption..Checked
+     type : 458752
+   -
+     name : DeleteFiles
+     internal_properties : CAAAAAgAAABp24tMQW1bEhW1G9XlGLGY7RVbhG+OUnFi9vqBoAmGPiUOXyYk0+rT0O78jzm0OiJt5kXPowll57RUkLSNDJWPAX+qP6Jt3KBv5KpKaEhHCMDiaBXp4V5oRKpgbWNFAK4RDg65iyfQPCK8w1I8EPRC1i7EtWXdcOeGIqjVptjkUjj2Bv/SfxL/RNIzyXuOLnxPWbo8oQEDResrtgM33sc8bidPnq0lidriUQOKtmhgQ+E22g==
+     procedure_id : 1679158352551746006
+     type_code : 14
+     code : |1+
+      // Summary: Delete the selected files from the archive
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE DeleteFiles()
+      bDeletionConfirmed is boolean = False
+      arrFile is array of strings
+      sListFile is string
+      
+      
+      
+      IF gsArchive="" THEN
+      	Error(<§$00a5§>)
+      	RETURN
+      END
+      
+      IF TableSelectCount(TABLE_ARCHIVE)=0 THEN
+      	IF YesNo(<§$00a7§>)=Yes THEN
+      		TableSelectPlus(TABLE_ARCHIVE)
+      		bDeletionConfirmed = True
+      	ELSE
+      		RETURN
+      	END
+      END
+      
+      IF bDeletionConfirmed = False THEN
+      	IF YesNo(<§$0071§>)= No THEN RETURN
+      END
+      
+      
+      i is int
+      nline is int
+      
+      
+      HourGlass(True)
+      PROGBAR_CurrentProcess..Visible = True
+      PROGBAR_CurrentProcess = 0
+      
+      // Multi-archive
+      IF zipIsMulti(gMyArchive)=True THEN
+      	
+      	IF YesNo(<§$0084§>,<§$0085§>)=No THEN RETURN
+      	
+      	// save the selected rows
+      	ListDeleteAll(LIST_HIDDEN)
+      	FOR i=1 _TO_ TableCount(TABLE_ARCHIVE)
+      		IF TABLE_ARCHIVE[i]..Selected THEN
+      			ListAdd(LIST_HIDDEN,i)
+      		END
+      	END	
+      	
+      	// merge the multi-archives into a single archive
+      	GroupArchive()
+      	
+      	// restores the selection
+      	FOR i=1 _TO_ ListCount(LIST_HIDDEN)
+      		TableSelectPlus(TABLE_ARCHIVE,LIST_HIDDEN[i])
+      	END
+      END
+      
+      // special case: if everything is selected (faster)
+      IF TableSelectCount(TABLE_ARCHIVE)=TableCount(TABLE_ARCHIVE) THEN
+      	// clear the archive
+      	zipDeleteAll(gMyArchive)
+      	TableDeleteAll(TABLE_ARCHIVE)
+      	// Status of buttons
+      	UpdStatusButtons()
+      	
+      	HourGlass(False)
+      	PROGBAR_CurrentProcess..Visible = False
+      	RETURN
+      END
+      
+      // Add all the files to process
+      FOR ALL SELECTED ROW nline of TABLE_ARCHIVE
+      	ArrayAdd(arrFile,gMyArchive.File[TABLE_ARCHIVE[nline].COL_ARCHIVE_SUBSCRIPT].Name)
+      END
+      
+      // Toggle the table to list
+      sListFile = ArrayToString(arrFile,CR)
+      
+      IF zipDeleteFileList(gMyArchive,sListFile,PROGBAR_CurrentProcess)=0 THEN
+      	RefreshDisplay()
+      ELSE
+      	Error("Error while deleting files.  Error: "+CR+ ErrorInfo(errFullDetails))
+      END
+      
+      HourGlass(False)
+      PROGBAR_CurrentProcess..Visible = False
+     type : 458752
+   -
+     name : DragAndDrop
+     internal_properties : CAAAAAgAAAD3oSxN5oBPTUUaJX8AbT28ABepM9iZDj07dcUBXRvIFLhvWBVAdLJMYxvweG7IMGUNwRTEteT+NMbQpaVQCWy+Dn3rHdj2YCrsDuPP0nXMfmHXpo7tzYdMX2+bR47NRaC5tTcbQIvoHolzKrovbuuayO/PE9T77nsnRWmfucIJkY9Y6lLO1vdkKBKVPC955h16x6UggusQK39+Dg07my2ugkY=
+     procedure_id : 1679158352551811542
+     type_code : 14
+     code : |1+
+      // Summary: Function automatically called during the explorer drag and drop
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: // 	None
+      //
+      PROCEDURE DragAndDrop()
+      
+      i is int
+      nNbElements is int
+      sElement is string
+      
+      // Retrieve the number of selected elements (files + directories)
+      nNbElements = ExplorerRetrieve(_EVE.wParam)
+      
+      // special case 
+      IF nNbElements=1 THEN
+      	sElement = ExplorerRetrieve(_EVE.wParam, 1)
+      	
+      	// Are we in the drag and drop from the table? 
+      	IF sElement = SET_DragAndDrop_Explorer.sFileObserved THEN
+      		SET_DragAndDrop_Explorer.EndDND()
+      		RESULT False
+      	END
+      	
+      	IF fExtractPath(sElement,fExtension)~=".wdz" _OR_ fExtractPath(sElement,fExtension)~=".zip" _OR_ ...
+      		fExtractPath(sElement,fExtension)~=".rar" _OR_ fExtractPath(sElement,fExtension)~=".cab" THEN
+      		IF zipExist(gMyArchive)=True THEN
+      			IF YesNo(StringBuild(<§$0086§>, fExtractPath(sElement,fFileName+fExtension)),...
+      				<§$0087§>, <§$0088§>)=Yes THEN
+      				CloseArchive()
+      				OpenArchive(sElement)
+      				RESULT True
+      			END
+      		ELSE
+      			OpenArchive(sElement)
+      			RESULT True
+      		END
+      	END
+      END
+      
+      
+      // Process started
+      HourGlass(True)
+      PROGBAR_CurrentProcess..Visible =True
+      PROGBAR_CurrentProcess = 0
+      
+      ListDeleteAll(LIST_HIDDEN)
+      
+      // Browse the elements (files + directories)
+      FOR i=1 TO nNbElements
+      	
+      	sElement = ExplorerRetrieve(_EVE.wParam, i)
+      	
+      	// if it's a file
+      	IF fFileExist(sElement)=True THEN
+      		ListAdd(LIST_HIDDEN,sElement)
+      	ELSE
+      		// lists the directory files	
+      		fListFile(sElement+fSep+"*.*", "ListFiles")
+      	END
+      END
+      
+      // adds the files found in the hidden list to the archive
+      AddFileList()
+      
+      // End of process
+      HourGlass(False)
+      PROGBAR_CurrentProcess..Visible =False
+      
+      UpdStatusButtons()
+      
+      RESULT True
+     type : 458752
+   -
+     name : ListFiles
+     procedure_id : 1679158352551877078
+     type_code : 14
+     code : |1-
+      // Summary: Adds a list of files to the hidden list
+      // Parameters:
+      // 	psDirectory: directory of the file to add
+      // 	psFile: name of the file to add
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ListFiles(psDirectory, psFile)
+      
+      ListAdd(LIST_HIDDEN,psDirectory+psFile)
+     type : 458752
+   -
+     name : Search
+     procedure_id : 1679158352551942614
+     type_code : 14
+     code : |1+
+      PROCEDURE Search()
+      // Find a file in an archive
+      
+      IF zipExist(gMyArchive)=False THEN
+      	Error(<§$00a5§>)
+      	RETURN
+      END
+      
+      sSoughtFile	is string
+      nFileSubscript		is int
+      nTableSubscript		is int
+      
+      // Select the file to find
+      sSoughtFile = Open(WIN_SEARCH)
+      
+      IF sSoughtFile<>"" THEN
+      	
+      	TableSelectMinus(TABLE_ARCHIVE)
+      	
+      	// Find a file in the current archive
+      	nFileSubscript = zipFindFile(gMyArchive, sSoughtFile, False)
+      	IF nFileSubscript = -1 THEN
+      		Info(StringBuild(<§$003e§>, sSoughtFile))
+      	ELSE
+      		nTableSubscript = TableSeek(TABLE_ARCHIVE.COL_ARCHIVE_SUBSCRIPT,nFileSubscript)
+      		IF nTableSubscript<>-1
+      			TableSelectPlus(TABLE_ARCHIVE, nFileSubscript)
+      			TablePosition(TABLE_ARCHIVE, nFileSubscript)
+      		END
+      	END
+      END
+      
+      
+     type : 458752
+   -
+     name : CreateSelfExtracting
+     internal_properties : CAAAAAgAAAAF1iI6RgZyArAyjmOhN0JOsjdFjIKPQvH+8jM3Nqa85TOF+muJsyoxTorl3zv+5I+BsOvZ8hi3SMwf+V62R+odKenS+EHSG1lgH9XOjtl0iBjqAHrd5JkoeU74753Gr1+Gzj0Zh8Ik+0+JSxUZWbQOgkNsgYUk+NRRGyLaRSnvYlYhlLOC7PJmtYWTAnLmqnkVDIPfWELmvXzYsYRgRRIBtG9Ub+BPtrh55xsnrpPETRP2SaNt51+016JZgVWvZwrDP30J/pne
+     procedure_id : 1679158352552008150
+     type_code : 14
+     code : |1-
+      // Summary: Creates a slef-extracting exe file 
+      // Parameters:
+      //	psEmulatingDir (default value=""): Extraction directory
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CreateSelfExtracting(psControllingDir="")
+      // Create the self-extracting archive
+      // psEmulatingDir is filled in emulating mode only
+      
+      // Check whether the archive exists
+      IF zipExist(gMyArchive)=False THEN
+      	Error(<§$00a5§>)
+      	RETURN
+      END
+      
+      // If the archive is multi-file
+      IF zipIsMulti(gMyArchive) THEN
+      	Error(<§$00a6§>)
+      	RETURN
+      END
+      
+      // If the option is not allowed
+      IF gMyArchive..ArchiveFormat IN (zipFormat7Z, zipFormatCAB, zipFormatRAR,zipFormatTAR,zipFormatTARGZ) THEN
+      	Error(<§$00aa§>)
+      	RETURN
+      END
+      
+      // default "Uncompress in" directory
+      sExtractionDir is string = psControllingDir
+      sRes is string
+      bGUI is boolean
+      
+      // If no directory
+      IF sExtractionDir="" THEN
+      	sRes = Open(WIN_DEFAULT_EXTRACTION_DIRECTORY)
+      	IF sRes="" RETURN	
+      	sExtractionDir = ExtractString(sRes,1,TAB)
+      	bGUI = NOT Val(ExtractString(sRes,2,TAB))
+      	
+      ELSE
+      	bGUI = False
+      END
+      
+      // Name of the exe
+      sExeName is string
+      sExeName = fExtractPath(gsArchive,fDrive+fDirectory+fFileName)+".exe"
+      IF fFileExist(sExeName) THEN
+      	IF YesNo(StringBuild(<§$0089§>,sExeName),<§$008a§>)=No THEN
+      		RETURN
+      	END
+      END
+      
+      // Process started
+      HourGlass(True)
+      PROGBAR_CurrentProcess..Visible =True
+      PROGBAR_CurrentProcess = 0
+      
+      nResult is int
+      IF bGUI THEN
+      	nResult = zipCreateExe(gMyArchive, sExeName, zipWithGUI, "WDZip.ico", sExtractionDir,PROGBAR_CurrentProcess)
+      ELSE
+      	nResult = zipCreateExe(gMyArchive, sExeName, zipDefaultDir+zipTree, "WDZip.ico", sExtractionDir,PROGBAR_CurrentProcess)
+      END
+      IF nResult=0 THEN
+      	Info(<§$0072§>,sExeName)
+      ELSE
+      	Error(<§$0073§>, zipMsgError(nResult))	
+      END
+      
+      // End of process
+      HourGlass(False)
+      PROGBAR_CurrentProcess..Visible =False
+     type : 458752
+   -
+     name : GroupArchive
+     internal_properties : CAAAAAgAAADnTtwKH4wuDL1CRXxbXkMqolZHhuUdVB2kTwQJ3XWAwDzA0dt7M3b34tHDPXGtsabj0OcqSlHpSVrFNCMVWovHqoa7l5nhT/hLMF8a/upZDCsPcqhTMjz4Y7sHrZcE1SrKyXY6bxWf6Xzz3JComNeam70WSv9BQVJWjzcZdGjJqI8PmnzSZ4nQwuUq19fi1eKzWSuCalDB7xzfMvqwL/25clqjxmhk+xAVr0nneDSVAwA3BDfSQaUoy4LcLTST
+     procedure_id : 1679158352552073686
+     type_code : 14
+     code : |1-
+      // Summary: Groups the multi-archives into a single archive
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE GroupArchive()
+      nResult is int
+      i is int
+      sTemp is string
+      sExtension is string
+      sGroupedArchive is string
+      sSplitArchive is string
+      sSOVName is string
+      
+      // Check whether the archive is not empty
+      IF gsArchive="" THEN
+      	Error(<§$00a5§>)
+      	RETURN
+      END
+      
+      // Check whether the archive is a multi-volume archive
+      IF zipIsMulti(gMyArchive)=False THEN
+      	Error(<§$008b§>)
+      	RETURN
+      END
+      
+      
+      // Process started
+      HourGlass(True)
+      PROGBAR_CurrentProcess..Visible =True
+      PROGBAR_CurrentProcess = 0
+      
+      // Temporary name of the merged archive
+      sTemp = fExtractPath(gsArchive,fDrive+fDirectory+fFileName)
+      sExtension = fExtractPath(gsArchive,fExtension)
+      
+      sGroupedArchive = sTemp+"_r"+sExtension
+      
+      // Merging
+      nResult = zipMerge(gMyArchive,sGroupedArchive,PROGBAR_CurrentProcess)
+      IF nResult<>0 THEN
+      	Error(<§$0075§>, zipMsgError(nResult))	
+      	HourGlass(False)
+      	PROGBAR_CurrentProcess..Visible = False
+      	RETURN
+      END
+      
+      sSOVName = gsArchive
+      
+      // close the current archive
+      CloseArchive()
+      
+      // Delete the multi-archives
+      fDelete(sSOVName)
+      
+      // The split files do not have the same extensions (.z01 or.001) in zip mode and in wdz mode
+      IF sExtension~=".wdz" THEN
+      	i=1
+      	sSplitArchive = sTemp + "." + NumToString(i,"03d")
+      	WHILE fFileExist(sSplitArchive)
+      		fDelete(sSplitArchive)
+      		i++
+      		sSplitArchive = sTemp + "." + NumToString(i,"03d")
+      	END
+      ELSE
+      	i=1
+      	sSplitArchive = sTemp + ".z" + NumToString(i,"02d")
+      	
+      	WHILE fFileExist(sSplitArchive)
+      		fDelete(sSplitArchive)
+      		i++
+      		sSplitArchive = sTemp + ".z" + NumToString(i,"02d")
+      	END
+      END
+      
+      // Rename the archive with its final name
+      fRename(sTemp+"_r"+sExtension, sTemp+sExtension)
+      
+      // Open the merged archive
+      OpenArchive(sTemp+sExtension)
+      
+      Info(<§$008d§>, gsArchive)
+      
+      // Status of buttons
+      UpdStatusButtons()
+      
+      // End of process
+      HourGlass(False)
+      PROGBAR_CurrentProcess..Visible =False
+     type : 458752
+   -
+     name : SplitArchive
+     internal_properties : CAAAAAgAAADngygc/XRujScifyZ6rLArs6N8KN8Qcz+Jl+FyKOeikrnbb8KH6/RrhggMJLwpijL3DQfuwoaggiIbblCNcpIWIcStHUBJnDzRabpc70lf/A0stMfy9n/M+2D22H56gvhUBmLHBbGS+1OEwbQCCPAxyfII91MPmopvHtLB5kidAw/YSDGYF9a8a+TPK/ki3in4674oKXuNmNS9mqn5DmubtPjoyAs/c3FAwT/ZV0gn8L3kmZdkhWDGBLhOca2D4HmQwcFMe6hO/iroZA==
+     procedure_id : 1679158352552139222
+     type_code : 14
+     code : |1+
+      // Summary: Splits an archive into several small volumes
+      // Parameters:
+      //	psForEmulating (default value=""): Directory for the split
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SplitArchive(psForControlling="")
+      nSize is int
+      bDelArchive is boolean
+      sReturn is string
+      nResult is int
+      sSplitArchive is string
+      sTemp is string
+      sExtension is string
+      i is int
+      sSOVName is string
+      
+      
+      // Check whether the archive exists
+      IF zipExist(gMyArchive)=False THEN
+      	Error(<§$00a5§>)
+      	RETURN
+      END
+      
+      // If the archive already is a multi-volume archive
+      IF zipIsMulti(gMyArchive)=True THEN
+      	Error(<§$008e§>)
+      	RETURN
+      END
+      
+      // If the option is not allowed
+      IF gMyArchive..ArchiveFormat IN (zipFormat7Z, zipFormatCAB, zipFormatRAR, zipFormatTAR, zipFormatTARGZ) THEN
+      	Error(<§$00a9§>)
+      	RETURN
+      END
+      
+      
+      // Directory or split the archive
+      IF psForControlling=""
+      	sReturn = Open(WIN_DIVIDE_ARCHIVE)
+      ELSE
+      	sReturn = psForControlling
+      END
+      
+      
+      IF sReturn<>"" THEN
+      	// Requested size
+      	nSize = ExtractString(sReturn,1,TAB)
+      	// ask to delete the initial archive
+      	bDelArchive = ExtractString(sReturn,2,TAB)
+      	
+      	// Check whether the size of sub-volumes is big enough
+      	IF nSize<300*1024 THEN
+      		Error(<§$009d§>)
+      		RETURN
+      	END
+      	
+      	// If no need to split
+      	IF zipNbPartNeeded(gMyArchive,nSize)<=1 THEN
+      		Info(<§$008f§>)
+      		RETURN
+      	END
+      	
+      	// Process started
+      	HourGlass(True)
+      	PROGBAR_CurrentProcess..Visible =True
+      	PROGBAR_CurrentProcess = 0
+      	
+      	// Temporary name of the split archive
+      	sTemp = fExtractPath(gsArchive,fDrive+fDirectory+fFileName)
+      	sExtension = fExtractPath(gsArchive,fExtension)
+      	sSplitArchive = sTemp+"_d"+sExtension
+      	
+      	// Split the archive
+      	nResult = zipSplit(gMyArchive, sSplitArchive, nSize, False,PROGBAR_CurrentProcess)
+      	IF nResult>0 THEN
+      		Error(<§$0090§>, zipMsgError(nResult))
+      		HourGlass(False)
+      		PROGBAR_CurrentProcess..Visible =False
+      		RETURN
+      	END
+      	
+      	sSOVName = gsArchive
+      	
+      	// close the current archive
+      	CloseArchive()
+      	
+      	// Rename the initial archive
+      	IF bDelArchive=False THEN
+      		fRename(sSOVName, sTemp+"_complete"+sExtension)
+      	ELSE
+      		fDelete(sSOVName)
+      	END
+      	
+      	// rename the split archives
+      	fRename(sTemp+"_d"+sExtension, sTemp+sExtension)
+      	
+      	// the split files do not have the same extensions (.z01 or .001) in zip mode and in wdz mode
+      	IF sExtension~=".wdz" THEN
+      		i=1; sSplitArchive = sTemp + "_d." + NumToString(i,"03d")
+      		WHILE fFileExist(sSplitArchive)
+      			fRename(sSplitArchive, sTemp +"."+ NumToString(i,"03d"))
+      			i++; sSplitArchive = sTemp + "_d." + NumToString(i,"03d")
+      		END
+      	ELSE
+      		i=1; sSplitArchive = sTemp + "_d.z" + NumToString(i,"02d")
+      		WHILE fFileExist(sSplitArchive)
+      			fRename(sSplitArchive, sTemp +".z"+ NumToString(i,"02d"))
+      			i++; sSplitArchive = sTemp + "_d.z" + NumToString(i,"02d")
+      		END
+      	END
+      	
+      	// open the split archive
+      	OpenArchive(sTemp+sExtension)
+      	
+      	Info(StringBuild(<§$0076§>,zipNbPart(gMyArchive)))
+      	
+      	// Status of buttons
+      	UpdStatusButtons()
+      	
+      	// End of process
+      	HourGlass(False)
+      	PROGBAR_CurrentProcess..Visible =False
+      END
+      
+     type : 458752
+   -
+     name : DisplaySelectionDetails
+     procedure_id : 1679158352552204758
+     type_code : 14
+     code : |1+
+      // Summary: Displays the selection details at the bottom of the window
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE DisplaySelectionDetails()
+      
+      // Calculate the size of the selected files
+      nSize is int
+      
+      FOR ALL SELECTED ROW of TABLE_ARCHIVE
+      	nSize+= TABLE_ARCHIVE.COL_SIZE_O	
+      END
+      
+      STC_MESSAGE2 = StringBuild(<§$0078§>, TableSelectCount(TABLE_ARCHIVE), LengthToString(nSize))
+     type : 458752
+   -
+     name : OpenFile
+     internal_properties : CAAAAAgAAAC5P28zoNxFkEudHvZoZMmpXJf/6oPKp3zxj0dBhPIwADyHhWdGD/jf61SFatyYfCVgZrDBaSYqwbZctID5T3ATMsvlyAv1Vak1HSI54dsm7XAuTWcE9m6lWmxY+id0Jk+OsNb8YfKBvRbAj1UenzhV8TDIOr3Sh5IUULJe+nHXyEvXE403d/Z5p1mRCWSMWOwsKA==
+     procedure_id : 1679158352552270294
+     type_code : 14
+     code : |1+
+      // Summary: Opens the selected file by extracting it into the temporary directory
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE OpenFile()
+      
+      IF TableSelectCount(TABLE_ARCHIVE)=0 THEN
+      	Error(<§$007f§>)
+      	RETURN
+      END
+      
+      // Process started
+      HourGlass(True)
+      PROGBAR_CurrentProcess..Visible =True
+      PROGBAR_CurrentProcess = 0
+      
+      sSavDir is string
+      nResult is int
+      
+      // save the context
+      sSavDir = fCurrentDir()
+      fMakeDir(fTempPath()+[fSep]+"Extraction")
+      fCurrentDir(fTempPath()+[fSep]+"Extraction")
+      
+      //extracting
+      nResult = zipExtractFile(gMyArchive,COL_ARCHIVE_SUBSCRIPT,zipNone,PROGBAR_CurrentProcess)
+      
+      // Password
+      IF nResult = 21 THEN
+      	// Asks for the password
+      	sPassword is string = Open(WIN_Password)		
+      	IF sPassword <> "" THEN
+      		zipPassword(gMyArchive,sPassword)	
+      		nResult = zipExtractFile(gMyArchive,COL_ARCHIVE_SUBSCRIPT,zipNone,PROGBAR_CurrentProcess)
+      	END	
+      END
+      
+      IF nResult=0 THEN
+      	sGUID is string = GetGUID(guidRough) + "_" 
+      	fRename(fTempPath()+[fSep]+"Extraction"+fSep+COL_NAME,fTempPath()+[fSep]+"Extraction"+fSep+sGUID+COL_NAME)
+      	ShellExecute(fTempPath()+[fSep]+"Extraction"+fSep+sGUID+COL_NAME)
+      ELSE
+      	Error(<§$0094§>, zipMsgError(nResult))
+      END
+      
+      // restore the context
+      fCurrentDir(sSavDir)
+      
+      // End of process
+      HourGlass(False)
+      PROGBAR_CurrentProcess..Visible =False
+     type : 458752
+   -
+     name : CloseArchive
+     internal_properties : CAAAAAgAAACk8GJdte+fw5l4Z6G65PUSIQ03xjAZB8eLwIEXHJhzgmh24oFY1Bc1kvCcggUaXcEaigqp39z9sLmruDsIaCxvd/Avys79IZ83mnmgFmtfvC1pHBEAxiS/I35h7QM+ODwgnUQMeJCP8+mxLzWw+d34vr8Trjskeu4VV+o6J3tAPNrcNjPGwVzKCTVuxJSk2YsxNQ==
+     procedure_id : 1679158352552335830
+     type_code : 14
+     code : |1-
+      // Summary: Closes the archive currently opened
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CloseArchive()
+      // Procedure used to close the current archive if necessary
+      
+      // Close the opened archive (if any)
+      IF zipExist(gMyArchive)=True THEN 
+      	// No progress bar on zipClose therefore display a temporization window
+      	OpenChild(WIN_WAIT_PROCESS,True)
+      	
+      	// Run the zip closed in parallel of the wait
+      	ParaTask is a ParallelTask
+      	ParaTask = ParallelTaskExecute(ZipCloseParallel)
+      	WHILE ParallelTaskWait(ParaTask,20)=False
+      		WinRedraw(WIN_WAIT_PROCESS)
+      	END
+      	
+      	// Close the wait window
+      	Close(WIN_WAIT_PROCESS)
+      	
+      	
+      END
+      
+      
+      TableDeleteAll(TABLE_ARCHIVE)
+      
+      // Reset the variables
+      gfbExecutable = False
+      gsArchive = ""
+      
+      // Remove the message from the status bar
+      STC_MESSAGE1 = StringBuild(<§@163ca2ca012797500003§>, 0, LengthToString(0))
+      STC_MESSAGE2 = StringBuild(<§@163ca2ca012797500004§>, 0, LengthToString(0))
+      
+      // Refresh the different buttons
+      UpdStatusButtons()		
+      
+      // Update the title fo the window
+      MyWindow..Title = ProjectInfo(piProjectName)
+     type : 458752
+   -
+     name : FileExtraction
+     procedure_id : 1679158352552401366
+     type_code : 14
+     code : |1+
+      // Summary: Extracts files from an archive
+      // Parameters:
+      //	sForEmulating (ANSI string - default value=""): Path for extracting files
+      // Return value:
+      // 	None
+      //
+      PROCEDURE FileExtraction(sForControlling is string="")
+      
+      sDestination is string
+      nRow is int
+      sReturn is string
+      sAttribute is string
+      nAttribute is int
+      bExtractKeepDir is boolean
+      bAttributeNoAll, bAttributeYesAll are booleans
+      arrFile is array of string
+      
+      
+      // Check whether the archive exists
+      IF zipExist(gMyArchive)=False THEN
+      	Error(<§@163ca2ca012797500000§>)
+      	RETURN
+      END
+      
+      // If no file is selected
+      IF TableSelectCount(TABLE_ARCHIVE)=0 THEN
+      	IF YesNo(<§@163ca2ca012797500008§>, <§@163ca2ca012797500009§>) THEN
+      		TableSelectPlus(TABLE_ARCHIVE)
+      	ELSE
+      		RETURN
+      	END
+      END
+      
+      
+      // Select the extraction directory if necessary
+      IF sForControlling="" THEN
+      	// Select a directory and a extract mode
+      	sReturn = Open(WIN_EXTRACTION_DIRECTORY)
+      ELSE
+      	sReturn = sForControlling
+      END
+      
+      IF sReturn="" RETURN
+      
+      // Directory
+      sDestination = CompleteDir(ExtractString(sReturn,1,TAB))
+      // Mode
+      bExtractKeepDir = ExtractString(sReturn,2,TAB)
+      
+      // If no destination directory
+      IF sDestination="" THEN
+      	Error(<§@163ca2ca01279750000a§>)
+      	RETURN 
+      END
+      
+      // extract without keeping the tree structure
+      IF bExtractKeepDir=False
+      	// Save the current directory
+      	fCurrentDir(sDestination)
+      END
+      
+      
+      
+      // For each selected line, check whether the file must be added to the extraction
+      FOR ALL SELECTED ROW nRow of TABLE_ARCHIVE
+      	nArchiveSubscript is int = TABLE_ARCHIVE[nRow].COL_ARCHIVE_SUBSCRIPT
+      	
+      	// Don't extract the directory but its content
+      	IF TABLE_ARCHIVE[nRow].COL_ICON = IMG_Directory THEN
+      		FOR EACH ArchiveFile of gMyArchive.File
+      			IF Contains(ArchiveFile.Nom,TABLE_ARCHIVE[nRow].COL_NAME) THEN
+      				// The file is already found in the directory, extract it
+      				ArrayAdd(arrFile,ArchiveFile.Nom)
+      			END
+      		END
+      	END
+      	
+      	
+      	IF bAttributeYesAll=True THEN
+      		ArrayAdd(arrFile,gMyArchive.File[nArchiveSubscript].Name)
+      	ELSE
+      		IF bAttributeNoAll=False THEN
+      			
+      			if nArchiveSubscript = 0 then 
+      				continue
+      			END
+      			
+      			sAttribute = gMyArchive.File[nArchiveSubscript].FileAttribute
+      			nAttribute = Position(sAttribute, "R")+Position(sAttribute, "H")+Position(sAttribute, "U")
+      			
+      			IF nAttribute>0 THEN
+      				SWITCH val(Open(WIN_YESNO, StringBuild(<§@163ca2ca01279750000b§>,gMyArchive.File[nArchiveSubscript].Name)))
+      					CASE 1 // yes
+      						ArrayAdd(arrFile,gMyArchive.File[nArchiveSubscript].Name)
+      					CASE 2 // yes to all
+      						bAttributeYesAll = True
+      						ArrayAdd(arrFile,gMyArchive.File[nArchiveSubscript].Name)
+      					CASE 3 // no
+      						
+      					CASE 4 // no to all
+      						bAttributeNoAll = True
+      						
+      					CASE 5 // cancel
+      						RETURN
+      				END
+      			ELSE
+      				ArrayAdd(arrFile,gMyArchive.File[nArchiveSubscript].Name)
+      			END
+      		END
+      	END
+      END
+      
+      // Keep the directories?
+      nOption is int
+      IF bExtractKeepDir = True THEN
+      	nOption = zipDirectory
+      ELSE
+      	nOption = zipNone
+      END
+      
+      // Start of extraction
+      HourGlass(True)
+      PROGBAR_CurrentProcess..Visible = True
+      PROGBAR_CurrentProcess = 0
+      
+      // Extract the files
+      ArchiveExtractFiles(arrFile,sDestination,nOption,PROGBAR_CurrentProcess)
+      
+      // End of extraction
+      HourGlass(False)
+      PROGBAR_CurrentProcess..Visible  = False
+     type : 458752
+   -
+     name : OpenArchive
+     internal_properties : CAAAAAgAAAC2AfJEItqYWZQka2m2CHMqRTIesmalAYbuMFDJuQ5ixzAt+0o5iMS53obSUHbUIRo+DgYbniSxAz6aceZseoy99YbwpJAsm64kTK6d5TK5oldEJPJW+8BfLUIdLQjVTWgUw1TIfV4iXVHMx3i5cVwFisjeq2XuiS4hnn3JLsYGd+M95be0F4ZjGbYYIIUBhFpoABvSTUY=
+     procedure_id : 1679158352552466902
+     type_code : 14
+     code : |1-
+      // Summary: Used to open an existing archive
+      // Parameters:
+      //	sArchive (ANSI string): Path of existing archive
+      // Return value:
+      // 	boolean: True if the opening was successful, False otherwise
+      //
+      PROCEDURE OpenArchive(sArchive is string) : boolean
+      
+      // Inform the user that a process is in progress
+      HourGlass(True)
+      PROGBAR_CurrentProcess..Visible =True
+      PROGBAR_CurrentProcess = 0
+      
+      // Close the opened archive (if any)
+      CloseArchive()
+      
+      // Check whether the archive is read only
+      IF Position(fAttribute(sArchive), "R")>0 THEN
+      	MyWindow..Title += " "+<§@163ca2ca012797500007§>
+      END
+      
+      // The opening failed? 
+      IF ArchiveOpenArchive(sArchive) = False THEN
+      	HourGlass(False)
+      	PROGBAR_CurrentProcess..Visible =False
+      	RESULT False
+      END
+      
+      
+      // Initialize the progress bar indicating that a process is in progress
+      PROGBAR_CurrentProcess..MaxValue = zipNbFile(gMyArchive)
+      PROGBAR_CurrentProcess= 0
+      
+      // Display the archive
+      RefreshDisplay
+      
+      // Path of current archive
+      gsArchive = sArchive
+      
+      // Update the title of the window
+      MyWindow..Title = ProjectInfo(piProjectName)+" - "+fExtractPath(sArchive, fFileName+fExtension)
+      
+      // Deselect the table
+      TableSelectMinus(TABLE_ARCHIVE)
+      
+      // Update the messages for the user
+      STC_MESSAGE1 = StringBuild(<§@163ca2ca012797500003§>, gMyArchive.File..Occurrence , LengthToString(zipSize(gMyArchive)))
+      STC_MESSAGE2 = StringBuild(<§@163ca2ca012797500004§>, 0, LengthToString(0))
+      STC_ArchivePath = Left(gsArchive,Position(gsArchive,fSep,Length(gsArchive),FromEnd)-1)
+      STC_ArchiveName = ExtractString(gsArchive,1,fSep,FromEnd)
+      
+      
+      // Don't accept drag and drop for the .rar files
+      IF gMyArchive..ArchiveFormat=zipFormatRAR THEN
+      	// No drop from the Windows explorer
+      	ExplorerAccept(False,WIN_MAIN..Name)
+      	STC_MESSAGE3 = ""
+      ELSE
+      	// Other archive format
+      	// Drop allowed from the Windows explorer
+      	ExplorerAccept(True,WIN_MAIN..Name)
+      	STC_MESSAGE3 = <§@163ca2ca012797500005§>
+      END
+      
+      // Status of buttons
+      UpdStatusButtons()
+      
+      // Indicate that the process is ended
+      HourGlass(False)
+      PROGBAR_CurrentProcess..Visible =False
+      
+      RESULT True
+     type : 458752
+   -
+     name : AddFileList
+     procedure_id : 1679158352552532438
+     type_code : 14
+     code : |1-
+      // Summary: Adds a list of files to the archive
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE AddFileList()
+      
+      i is int
+      bHiddenFiles, bSaveDir, bAbsolutePath are booleans
+      sReturn is string
+      nAddMode is int
+      sAttribute is string
+      nNbFilesBeforeAdd is int 
+      
+      
+      // The archive exists? 
+      IF zipExist(gMyArchive)=False THEN
+      	IF YesNo(<§@163ca2ca012797500000§>)=Yes THEN
+      		ExecuteProcess(BTN_NEW, trtClick)
+      		IF zipExist(gMyArchive)=False THEN RETURN
+      	ELSE
+      		RETURN
+      	END
+      END
+      
+      
+      // Ask for the add mode
+      sReturn = Open(WIN_MODE_ADDITION)
+      IF sReturn<>"" THEN
+      	bSaveDir = ExtractString(sReturn,1,TAB)
+      	bHiddenFiles = ExtractString(sReturn,2,TAB)
+      	bAbsolutePath = ExtractString(sReturn,3,TAB)
+      ELSE
+      	RETURN
+      END
+      IF bSaveDir THEN
+      	nAddMode = zipDirectory
+      ELSE
+      	nAddMode = zipNone
+      END
+      IF bAbsolutePath THEN
+      	nAddMode = zipDrive
+      END
+      
+      
+      // Retrieve the number of existing files on our archive
+      nNbFilesBeforeAdd = gMyArchive..NbFile
+      nNbFilesBeforeAdd++
+      
+      arrFile is array of string
+      // For each file to add
+      FOR i=1 _TO_ ListCount(LIST_HIDDEN)
+      	
+      	IF bHiddenFiles=True THEN
+      		//sFileList += [CR] + 
+      		ArrayAdd(arrFile,LIST_HIDDEN[i])
+      	ELSE
+      		
+      		sAttribute = fAttribute(LIST_HIDDEN[i])
+      		// the hidden files and the system files are not added
+      		IF Position(sAttribute,"H")+Position(sAttribute,"U")=0 THEN
+      			ArrayAdd(arrFile,LIST_HIDDEN[i])
+      		END
+      	END	
+      END
+      
+      // Start the add process
+      HourGlass(True)
+      PROGBAR_CurrentProcess..Visible = True
+      PROGBAR_CurrentProcess = 0
+      
+      
+      IF ArchiveAddFileList(arrFile,nAddMode,PROGBAR_CurrentProcess) = False THEN
+      	RETURN
+      END
+      
+      TABLE_ARCHIVE..DisplayEnabled = False
+      FOR i = nNbFilesBeforeAdd _TO_ gMyArchive..NbFile
+      	DisplayArchiveFile(i)	
+      END
+      
+      // Refresh the display
+      RefreshDisplay
+      
+      
+      TABLE_ARCHIVE..DisplayEnabled = True
+      
+      // End of addition
+      HourGlass(False)
+      PROGBAR_CurrentProcess..Visible =False
+     type : 458752
+   -
+     name : CreateArchive
+     internal_properties : CAAAAAgAAADgC4xaw2QIAVZGWyWKOgu+QzBE/LKvGQ7ULmDFpcDSXxLHYUypNmQFHKT2iBbCFerIcBTlluLhI0Tw4X6cyOyRg7TKAiS+szIKop5G8FlKcZIPdRFJ0qdEwK2ooufgEnu3Hj2PkBX5suQXMtmgRAWsOQ8bniR5fCPcEfBauU0TAmq05l5rWrmkSG3/HbDQySlHCi3AU3g=
+     procedure_id : 1679158352552597974
+     type_code : 14
+     code : |1-
+      // Summary: Function used to create an archive
+      // Parameters:
+      //	sArchiveFile (ANSI string): path of the archive to create
+      // Return value:
+      // 	boolean: True if the creation was successful, False otherwise
+      //
+      PROCEDURE CreateArchive(sFileArchive is string) : boolean
+      
+      
+      // Close the opened archive (if any)
+      CloseArchive()
+      
+      // Check whether the archive was created
+      IF ArchiveCreateArchive(sFileArchive) = False THEN
+      	RESULT False
+      END
+      
+      // Check the format
+      IF gMyArchive..ArchiveFormat=zipFormatTARGZ THEN
+      	Info(<§@163ca2ca012797500002§>)
+      END
+      
+      // Path of current archive
+      gsArchive = sFileArchive
+      
+      // Display the information to the user
+      STC_MESSAGE1 = StringBuild(<§@163ca2ca012797500003§>, 0, LengthToString(0))
+      STC_MESSAGE2 = StringBuild(<§@163ca2ca012797500004§>, 0, LengthToString(0))
+      STC_MESSAGE3 = <§@163ca2ca012797500005§>
+      
+      // Fill the information about the archive (at the top)
+      STC_ArchivePath = Left(gsArchive,Position(gsArchive,fSep,Length(gsArchive),FromEnd)-1)
+      STC_ArchiveName = ExtractString(gsArchive,1,fSep,FromEnd)
+      
+      // Change the title of the window
+      MyWindow..Title = ProjectInfo(piProjectName)+" - "+fExtractPath(sFileArchive, fFileName+fExtension)
+      
+      // Status of buttons
+      UpdStatusButtons()
+      
+      // Accept drag and drop from the explorer
+      ExplorerAccept(True,WIN_MAIN..Name)
+      
+      
+      RESULT True
+     type : 458752
+   -
+     name : ZipCloseParallel
+     procedure_id : 1679158352552663510
+     type_code : 14
+     code : |1+
+      // Summary: ZipClose in parallel
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ZipCloseParallel()
+      zipClose(gMyArchive)
+      
+     type : 458752
+   -
+     name : ExtractionDND_Explorer
+     internal_properties : CAAAAAgAAAD2QTJB6GwISebmGy1qqhuua8AMHMpvAZ789liV/Rh698JP4VSZ3uRNjDTm0HYSZVqwwLwlrsLZM2yYid6EkITZA3waCgS2wzqq0s4SnJX+rS6D6eWt9oMQ7MFsrmNs9leTYvEDJLlFfrAr5qXsIGlIdcNP4uhdOE8YxWT2FRm3rmaoWtL//iWQZEFDqYzs/ZXDdVsSDYY=
+     procedure_id : 1679158352552729046
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Parameters:
+      //	sExtractionPath (ANSI string): <specify the role of sExtractionPath>
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ExtractionDND_Explorer(sExtractionPath is string)
+      
+      arrFile is array of strings
+      
+      // For each selected line, check whether the file must be added to the extraction
+      FOR ALL SELECTED ROW nRow of TABLE_ARCHIVE
+      	ArrayAdd(arrFile,gMyArchive.File[TABLE_ARCHIVE[nRow].COL_ARCHIVE_SUBSCRIPT].Name)
+      END
+      
+      // Extract the files
+      ArchiveExtractFiles(arrFile,sExtractionPath,zipDirectory,PROGBAR_CurrentProcess)
+      
+      // Refresh the desktop
+      API("shell32.dll", "SHChangeNotify",0x00001000, 0x0001,sExtractionPath,Null)
+      
+     type : 458752
+   -
+     name : RefreshDisplay
+     procedure_id : 1679158352552794582
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the display according to the display mode
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE RefreshDisplay()
+      
+      // Empty archive? 
+      IF gMyArchive..NbFile = 0 THEN
+      	RETURN
+      END
+      
+      PROGBAR_CurrentProcess..Visible =True
+      TableDeleteAll(TABLE_ARCHIVE)
+      PROGBAR_CurrentProcess = 0
+      
+      // Browse the archive files
+      FOR i = 1 _TO_ gMyArchive..NbFile
+      	DisplayArchiveFile(i)	
+      	
+      	// If we are not in directory mode, display a progress bar, the number of files to display may be important
+      	IF gbDirectoryModeDisplay = False THEN
+      		PROGBAR_CurrentProcess++	
+      	END
+      END
+      
+      
+      // In directory mode, a ".." directory may be added to go back
+      IF gbDirectoryModeDisplay= True  AND gnDisplayLevel > 0 THEN
+      	TableInsertLine(TABLE_ARCHIVE,1,0, IMG_Directory, ...
+      	"..",...
+      	"",...
+      	"",... 
+      	0, 0, 0+"%",... 
+      	"",...
+      	"",...
+      	"R") 
+      	TABLE_ARCHIVE[1].COL_ICON.IMG_File = IMG_Directory
+      END
+      
+      
+      PROGBAR_CurrentProcess..Visible = False
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x3f9d5e1a4746a978
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Problem while creating the archive '
+     index : 39
+   -
+     text :
+      en-GB : The '%1' file was not found in the current archive.
+     index : 62
+   -
+     text :
+      en-GB : "%1\r\nThis file already exists.\r\nDo you want to replace it?"
+     index : 107
+   -
+     text :
+      en-GB : "%1\r\nRead-only file, hidden file or system file.\r\nDo you want to replace it?"
+     index : 108
+   -
+     text :
+      en-GB : Do you want to delete the selected file(s) from the archive?
+     index : 113
+   -
+     text :
+      en-GB : Self-extracting archive successfully created.
+     index : 114
+   -
+     text :
+      en-GB : Unable to create self-extracting archive.
+     index : 115
+   -
+     text :
+      en-GB : Unable to merge the sub-archives into a single archive.
+     index : 117
+   -
+     text :
+      en-GB : The archive has been divided into %1 sub-archives.
+     index : 118
+   -
+     text :
+      en-GB : Total %1 files - %2
+     index : 119
+   -
+     text :
+      en-GB : Selected %1 files - %2
+     index : 120
+   -
+     text :
+      en-GB : "\"New\" to create an archive - \"Open\" to open an existing archive"
+     index : 121
+   -
+     text :
+      en-GB : "To add files to the archive, Drag and Drop the files from the explorer"
+     index : 122
+   -
+     text :
+      en-GB : "The extraction directory of <%1> file was defined in absolute when creating the archive:\r\n<%2>\r\n\r\nClick YES to extract the file in the specified directory.\r\nClick NO to extract the file in the directory defined in the archive."
+     index : 124
+   -
+     text :
+      en-GB : The archive cannot be opened
+     index : 125
+   -
+     text :
+      en-GB : (read-only)
+     index : 126
+   -
+     text :
+      en-GB : No file is selected.
+     index : 127
+   -
+     text :
+      en-GB : Do you want to extract the full archive?
+     index : 128
+   -
+     text :
+      en-GB : No extraction directory is specified.
+     index : 129
+   -
+     text :
+      en-GB : "%1 files have been extracted."
+     index : 130
+   -
+     text :
+      en-GB : "%1 files among %2 have been extracted."
+     index : 131
+   -
+     text :
+      en-GB : "To add or delete a file, the archive must be a single-part archive."
+     index : 132
+   -
+     text :
+      en-GB : Do you want to merge the current archive?
+     index : 133
+   -
+     text :
+      en-GB : <%1> file is an archive.
+     index : 134
+   -
+     text :
+      en-GB : "Click [YES] to open it"
+     index : 135
+   -
+     text :
+      en-GB : "Click [NO] to add it to the current archive"
+     index : 136
+   -
+     text :
+      en-GB : The <%1> file already exists.
+     index : 137
+   -
+     text :
+      en-GB : Do you want to overwrite it?
+     index : 138
+   -
+     text :
+      en-GB : Unable to group an archive that does not contain several volumes.
+     index : 139
+   -
+     text :
+      en-GB : "The archive has been grouped in a single volume:"
+     index : 141
+   -
+     text :
+      en-GB : Unable to split a multivolume archive.
+     index : 142
+   -
+     text :
+      en-GB : "The size of this archive too small: unable to split the archive to the specified size."
+     index : 143
+   -
+     text :
+      en-GB : The archive cannot be divided into sub-archives.
+     index : 144
+   -
+     text :
+      en-GB : No process in progress
+     index : 146
+   -
+     text :
+      en-GB : A process is currently run
+     index : 147
+   -
+     text :
+      en-GB : The extraction of the file failed.
+     index : 148
+   -
+     text :
+      en-GB : No archive is opened.
+     index : 150
+   -
+     text :
+      en-GB : Select an archive...
+     index : 151
+   -
+     text :
+      en-GB : "Archives (*.wdz; *.zip, *.tar.gz, *.tar,*.7z)"
+     index : 152
+   -
+     text :
+      en-GB : Executables (*.exe)
+     index : 153
+   -
+     text :
+      en-GB : All files (*.*)
+     index : 154
+   -
+     text :
+      en-GB : Select one or more files...
+     index : 155
+   -
+     text :
+      en-GB : "%1 is busy."
+     index : 156
+   -
+     text :
+      en-GB : The size of the sub-volumes must be greater than 300 KB.
+     index : 157
+   -
+     text :
+      en-GB : Total %1 files
+     index : 158
+   -
+     text :
+      en-GB : Selected %1 files
+     index : 159
+   -
+     text :
+      en-GB : 1 file was extracted.
+     index : 160
+   -
+     text :
+      en-GB : "%1 has encountered a serious problem."
+     index : 162
+   -
+     text :
+      en-GB : We advise you to exit the application.
+     index : 163
+   -
+     text :
+      en-GB : "Error details:"
+     index : 164
+   -
+     text :
+      en-GB : "No archive is opened.\r\nDo you want to create one?"
+     index : 165
+   -
+     text :
+      en-GB : Unable to create a self-extracting archive from a multi-part archive.
+     index : 166
+   -
+     text :
+      en-GB : No file is selected. Do you want to delete all the files from the archive?
+     index : 167
+   -
+     text :
+      en-GB : "Archives (*.wdz; *.zip;*.rar, *.tar; *.tar.gz, *.7z)"
+     index : 168
+   -
+     text :
+      en-GB : "Unable to split a cab, rar, tar, tar.gz or 7z archive."
+     index : 169
+   -
+     text :
+      en-GB : "Unable to create a self-extracting archive on a cab, rar, tar, tar.gz or 7z archive."
+     index : 170
+   -
+     text :
+      en-GB : "Reminder, the .tar.gz compression is performed when closing the archive."
+     index : 171
+   -
+     text :
+      en-GB : "Error while associating the %1 extensions Error: %2"
+     index : 172
+   -
+     text :
+      en-GB : "Error while associating archives with WD Zip %1 Error: %2"
+     index : 173
+   -
+     text :
+      en-GB : The association with WD Zip was successfully performed
+     index : 174
+   -
+     text :
+      en-GB : Dissociation successfully performed
+     index : 175
+   -
+     text :
+      en-GB : Dissociation from WD Zip successfully performed
+     index : 176
+   -
+     text :
+      en-GB : "Error while dissociating the extensions from WD Zip %1 Error: %2"
+     index : 177
+   -
+     text :
+      en-GB : The archives are already associated with WD Zip
+     index : 178
+   -
+     text :
+      en-GB : The archive files are already associated with WD Zip
+     index : 179
+   -
+     text :
+      en-GB : "The archive files are not associated with WD Zip, they already are dissociated."
+     index : 180
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+associated_test :
+ name : TEST_MAIN.wxt
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

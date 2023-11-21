@@ -1,0 +1,177 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ARCHIVE_INFO
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ARCHIVE_INFO
+ identifier : 0x274d919e12f613db
+ internal_properties : CAAAAAgAAABkjnub+GO1JRBSMeQ1UiqUL2F7qVqWhWJCARLKYNeN7o3fL8x6UG86ALZ6Bn3INXl+PMtGiBhnIoV1djLD4epiEnXUA7Opd3SC3+RgXuTfoUBjO4cQF9RTkWaxU2NAi2/R9Pnzvq0IIm5W1tJPlMTLmFUenFk4ZwwK+iOGHRtDUU3Pe6Zmc3q/oVcJlAXYZ2gYMJmfRkYGjK4Jl/gNTAZoh74cyZnGRP7QYewb5RZIwclcwfwo4IUrIiEW0uHY2CtCaLEu9Sg32aHnCnczFWEvpCHYGP7hq+8KNyZSk/cGu3eOX8RGQL4N+ZHONs1/4zqj2A0WmpvwFvx5Y9wW42VtQBE1qNCjoXRf/Zwf+uLCn1uqe5ALrgaX7cuWWb07/8tavbK8OvC6eG6eXlgJswAWOh0KAcOYrRQmsnnN+/NJ2pobRLoYBZsSkxMMQRHJPliIqvyDI6qObw7IyBe9eP/BntKd9hQpO4siFJWZCX3YTDs0mGZ7P2Pz0COkTIdpWaZoxwfE5H+xfjU8GBYCVCavMRzJmj5vJUl09KOsRTOPiQnYFuAO1255UoAACxXAaT7/QpOh+78ofzjZRghgXXi3OZqD+/XjgxI8mOyiarRn6WmKw1J2JZs1wyeCMGbuug3h4wc+pBknCburCtobsWcUboaeluN1zk5xdbYcWN8sDXHT6tmzqqHqbu7muSv2JtuEB8QzRVGLqKY3LtdQIGLreYS/s5DvldvOu1aAyCByj4OcjMZFijlkS4sq5E75IpIiFDb3VdNhwIl9HrAuPY1AwES5jIulZk4yQsf7fpw2RS92lbGmdLTi1Sui3org84ysikvpn3lQFfPrcwN3
+ properties :
+  width : 488
+  height : 227
+  widthClient : 486
+  heightClient : 195
+ controls :
+  -
+    name : StcExplanation
+    identifier : 0x274d919e12f713db
+    internal_properties : CAAAAAgAAABMk24zGzeB8TWWLiLUtD/V8uWDwdtHa34H5q660EUZjYYA1CSiwm48EC19PgixpnVaUMFqR92nNDkh1Bv/jUWULT/VwrZX0RXYqYRXC4in7N42K4nsaYhdOFh21wBnttCz7Cpzl/VN4TB0e+jBJoVzABUHGQ+lWlv59UtI6bI9dvOUreAk2waF02tjxEI4ZW9mOGYWo5l57O0P98bSwEYKjYeI4y8ZT1oinJMz3Im9a4tUURGcPpTzD6/peKCPUUmuARa02TbgcFZ68qe8J/QdvLFVMw0qcm+JEgSTzn4TV8LG9cAEWFlWg6+gyReifU3osFOCmKSUlTmY18vMFzoHGZHCokZNs8s6IXeBuyB5fYMULUtJc7jkurOmvGLtDYRAcojbdeku97+3t5vOWsmFWi8pZAkOE6qKJuAwAo/9ISqmM1fLYnRRwxTNP2wleH+nBiZ+ixZlbgOYi1n51WXvE/KpFcZ9JVuzFIY4BZGMw8l87JxPfAFh98AjiMfw
+    properties :
+     x : 62
+     y : 6
+     width : 194
+     height : 17
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_DETAILS
+    identifier : 0x274d919e12f813db
+    internal_properties : CAAAAAgAAACoJ5dE2a/IW/35GACn2l4SJDEwgo9HnF4ervvbngz7Wf6m6qMmomq4ltPcjgA/OU0ZyZ2bKYB/OyvGv/WIelL1Enhy2oTuxeJIxloYTA3C6JQdCKv7I7CGHVTouDwcqvbhJAmjHgxXRprxb2rAC9opTzKKFQklQjGxYzJH0AydDXN2wFGfIdl1S2lXmmpndd3RTMCT+qGTwjmUqE+KxZfp8RYnnd6mR+AEbnkEhGbiItHNLHRvLOvgHLULF52iCKLFsQrym/Vgr354L5LadUSEXxC4b5XbWAfjHdMPo2R/iUUdrG1tm2E1NYOdFdpPN916Ueru53FUyzwzgYEi80W7X84rbAplTPAQKhGe8qkhusVihHPYyy2Wwv6gdQiJwI0y3SZJonYFApoXttQrdJiuvEcxwzdwPFfAAyKwLDUBzjiIdqqHsKRH4zEc3xxNHl2Fyrg1i8VTpvHjuwAPVIUuUha2v74hMsYXaO+h+sUBdSyd9k/CntS7VeJSxQPXMNH8M6eapu03gDkIP4OBo6gL91peET7b6zSFMlXZ8bCg1QYHmbgAewjUGyrWC5TNY42V2NPDXhAMN1AkQTmBXBqrvlNMxI7ZgdQXs7Bw+8cwt2FZBi7cAR77FzXGvys=
+    properties :
+     x : 62
+     y : 26
+     width : 418
+     height : 127
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BtnClose1
+    identifier : 0x274d919e12f913db
+    internal_properties : CAAAAAgAAAD2gr+tEfy6QxYxHeFVKobmPhw0ch+/KbF6OZfktYWN2tLUxBysrFrON57Lvr+ZrT8Yrssmr3ZhFB8VRqvowcHQXRGlMlU8M8vKNciaRovxwQNnyAoMrBM+dsDzUxNbKepzrDwVeMb0VVsuh2IA+61X04mGyZJUZWbRDX8Uzhepr2qcE7KAEj3MwOnj8CyJa4UAcfpHjwRWTBZPE65HaJi1p1tjUCIsYpp7ykAN8/wpG/Mbco7jU+V16CIaQZoJlzVxYvU1xeCpefdVPZHbQXdb7U1Ugb2Y9x3CvOvofQ4Zby+zBMqlb++GpPIMRUYowsOzgxXlaOyukpyu1IfIKPnuTdbTayG5eVgV6xbXoiA34+n9c9iYiMk8wSZ3DfVwsda/UFV0nLhD3cZX7s0593fyH/fTaTYnNzVoTGYSWgNtx9whHCPx1k799OuivNaIMP14/fJrKhTLbM3iLeJ+8SoAhpGEVtme6HUU43rUHvX2LlwxBWC2lgAVzXVR4PeF2gU3K5AAQCseD+ZhnI38JRK17em0rGglDtEW40ByflnsBTiob21bPX+McG+tkTti9mAFnDOfWU1MzzLevNXjgHDIWZP4up1XbQE+PF94midBuAiYDGXA2UE4jXJvii302eDk0r+WcGr3DYE1C/Zt0+BMwgPzxfeGBL8wZcGfA057oxQS6ZUoSoqLhkWGXNBfblQ7+Z4EIy39kS7Qmx9Ot0DVnJBo3tKXRW+YvxwdGIzg7REgzx0leehZvafXUJjFSIyhVK/G9h6yWWSTbk2/NsNqqH0AXrBsApfg3Zd/QLEY6+arPnLY5mtYkgVl9jQGLwpWtnLlUzq2SvKcKKDFEk6lzfRPgyKWAW9wCu5ymAYk8YDpo7RMeLRBOgngsshqaxvNsM/DQoi9bUjkFld0s9hxRfyORbE=
+    properties :
+     x : 203
+     y : 165
+     width : 80
+     height : 24
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+        type : 14
+      -
+        code : |1-
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Image1
+    identifier : 0x274d919e12fa13db
+    internal_properties : CAAAAAgAAACd4mr3YYhHXA+FKFPiTzRvlTpKO1UveIt+9/nIrk+TiQK9LBuLEkkdfKdfkN7JzdS3dl6o2SatTzicMxetq111iwxatbwacVtDb0aFajclNlgZsDaCVDrm4g8S3pv8jC/XJaAX731MQziuFB/AcKWbKTCa0hJEiGH62epY3soJDWs68AV/sS2BrwJksl5Qw+sKqlwnUQL9n3FfUp6PG2wxSTpN7WxaDHDrnPbyPkN2xgSOpFdHUVBS61aaAZAoOAjG1qsJe8T4Ilq2glZPzCQ5syzJxS6xk/K4Ujagw4oXiGC+EalMuIkmUhXKtcTjVEMykaKf8RraKgsCYc+LdPuZvbOB6Vp8Ada7VqpAIW5jNzFEhgaK6zt92Kdb7TMOtAwT8ty9yaMPSajNt5yX2t6HlTwxNH6qSMRkoGDb4SURy+1dXH4vUARNPfQ9zeX1DWs0fCuzP4jOUAPXHKt88OhO6fPNbeQ3tA3JGmx9EVigWHmU5VqbKIyV/ltdHd71uqejznlpnDkDrp43TMh0fuuFc2SBvo9H/M+dCgNGAn1FH1f6ul+tvC+hgINc3lhFn2rFxF6KA5bLgWP/0SVHWOG5HqP6hvaAT9H/IZVXKHvfL4Z1lfoC9RgQ7Zy7f46dAwcYZzoG7xCc7nYoNeGTFxqWoQyjByJGv9z8AR3o21Z6d+OhY2tnwGaljOS4+UwzJ48KgyrhujIkOrkxU8YmM+OjZM8FMpEMuQSoLW72Vm5LawDJgeiQB+KwVdGg3oSCVRxt82/ptu2SUyQ5lgnKgB19fa/XEJr0R/gIPy3oGSbfmM1q1d9XGPP/yaCLg4TL17wrwjtDteAkMu9Hq6CF4/VOZlmdhXOQ/EjiQITWANPgEAajLXHk4S2TlvCabmUrbZ9pO+QFLQcgZ7NaQsllul3bEL98DIY7P7v8pYpx9qE=
+    properties :
+     x : 8
+     y : 6
+     width : 50
+     height : 50
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x3f9d538b327c6c09
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACQ07hWqE7m9zVHnwBDzEmk30ZrKL1c/e/qd17dqteQlj49VeBoCh4oBwesrFofR3/3PDQQYli8aH5UDGE/Pv35XfoiBuF0IQWmLhZiHLTu9WydOGr+0nXa3pxlGDMkg5A=
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAACsj+4f+Vdv1MAu+/uwjhHBhHF2Pajdl8AEckavaEgohuj3MgkP3NmKH59A1OspmxPcFwcqJNPh2ZT127FU4InGOKCu
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      LOCAL
+      	
+      	nUncompressedSize is int
+      	nCompressedSize is int
+      	nRate is int
+      	
+      nUncompressedSize = zipSize(gMyArchive,False)
+      nCompressedSize = zipSize(gMyArchive,True)
+      
+      // calculate the compression rate
+      nRate = nCalculateRate(nUncompressedSize, nCompressedSize)
+      
+      // Build the string to display
+      STC_DETAILS = StringBuild(STC_DETAILS, ...
+      fExtractPath(gsArchive,fFileName+fExtension),...
+      fExtractPath(gsArchive,fDrive+fDirectory), ...
+      LengthToString(nCompressedSize),...
+      LengthToString(nUncompressedSize),...
+      nRate+"%",...
+      TableCount(WIN_MAIN.TABLE_ARCHIVE),...
+      DateToString(fDate(gsArchive))+" "+Left(TimeToString(fTime(gsArchive)),5))
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     code : |1-
+      
+     type : 12
+   -
+     code : |1-
+      
+     type : 17
+   -
+     code : |1-
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : FenInfoArchive
+resources :
+ string_res :
+  identifier : 0x3f9d538b2fd36c09
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

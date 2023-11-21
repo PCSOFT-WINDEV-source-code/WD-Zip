@@ -1,0 +1,511 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_WAIT_PROCESS
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_WAIT_PROCESS
+ identifier : 0x274d91a214d7208d
+ internal_properties : CAAAAAgAAADi1Xo5rVDWvv+EHcUwxYHPNLwv2PgAsDOdjXunTobRxgZ8n3cCcAzx3bSGUFHwN5msDBPlfojF/EMPBlJOkGnHikdj9l3WSSNKNkeLaQECxSn5P1R4GvVgd3Sah9CoQvbAxXEUU5ugZED89PRU5gcbm2DjuLvJgSi1N104D4hayGadvClvso6In5wl6ueaf3ins9FHJFnGRZ8ijyikwyrS35t5VVjiBttCLM+tcr9soLQnvmkI2mnOjekXy9s2g7GZlxqRfl6CWQX42DTkKO8BiatueI5evAIbqyFHSPXtZiWwrGTA8TA8E4FW8G03VvySPwKKxGqRlkW2buaQFp93rxY+O1BcE3CZAYK191cftmW8vuc307DtDqPrnD8HfV2C1fGjTUwnEcrZANmi6cLbcuoYTNKhJ6vooSybeRGCM1Gojx8PddVqLdzrbXHWMxwe0UpBPcfXHgsHsG7I54JkVknYjSzN8Ab1kwnrxa1S/NBY7OngoQXprhtJ8DAcTQ4k8DAjb0Kam8ebmpH0PCXK6Q4AY91jlNeF0ocDW5gT2vbUA8lPNOl5Sv2BXDVGRKiGin2r4p1D7mVi1apQ9y2m14u6Vw2bnZrQ0mC9k2Z55AbCf1PCKrIVbP1uW22drQYkmA71x5h6uxuAvTWw1VR3TUU0xBTkFB2k02jxYcTNNrjl7aVwNExtorermXtsFA/uzH9zJNP5YuMA7ZTx+2xrB5ERNwdbuJuHL6z7C9SRa5u5dgRmOWmSKQpLB6EoC1i2Cjs3vyOJANFGecx838rwjWD8/XG7Epj7JIakPpBjO3OGWVGl
+ properties :
+  width : 399
+  height : 220
+  widthClient : 397
+  heightClient : 188
+ controls :
+  -
+    name : IMG_Spinner
+    identifier : 0x274d91a214d8208d
+    internal_properties : CAAAAAgAAAC2eZTsiupMo14lFd5TViHYCGq0Dmr0qt1itZ8W/gr43ou+pK39VI1cbsQN9sYKSFteUpprztPxV5Ngw+EsJVZGToMwfxQXYCA+QyFRE/+PAZOfqw8jIOkJAx8uBvLnoO2dIMj4qxm3Mb/Uxx1ApZMEZAhXL08tReT4Szl7lD84LNBN1TcLFxXzlRYhMZyEULUDUSfThVYQlzAR4TvF44/raaGjEBVo9XEaoJiLCV0j2sIGcGWkWHGqaMPzNpntwLt0yt6HWKnFOQraJz/SX8ZH0PbeWXAfHosVdM3vBPncMWCFhKweEbHeTxvOz0WSrzvO9kEQgnX1PUzn/p/ol4iJw6uGXTmYt7R7uKMz19DXjZpXPtvbOdMhWYlPOd19UnFnWvoGdhKH/iXkS4hppFIGK4uY1UAqRM9w4h0S8k7wJDsiB8G23mdArdWdXqOzhtoXyKxTNm6kYDi+pkExV9SeDvAV0vw2JtePmd5qfDOMp2KP7iGO4k8v2CTAT38mzxuLjtCd+8XrTLgN7Mtxl8CCv+ShpKnd9zymwt3Y04qavMjOTsldeI+BgZJloCNWb/zZy0KPyTdnUL0QNYlJblVwp9/HZPNDVQ/E8WcyKvvtL6Ki63QY5h3UrQWSgHMTn8BJxnTSx+6vzKFKEZHsgmTISP4lI8g3a6HYsKDaAOUx+VLrMWMBRV+aj4uSgWaC+g8skCp7djii3W5WveDqfgujsg==
+    properties :
+     x : 123
+     y : 6
+     width : 150
+     height : 150
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_ProcessInProgress
+    identifier : 0x274d91a214d9208d
+    internal_properties : CAAAAAgAAAAHEV17volEkHNKEMVg0r3C6675BJPpXEeJe8dZ2vkG0DbO5dloKpbuFnamOhgj1M1dDae8dYXb8CFZYX/DdZuC2VfZz5nbDYnaVY9AyBDUcewceU2WAmo3bjL9QIinuzv/DKj8rbWibfCn1VorI6ZdhWYbxMoSClAbE3P8zzPmBt3nr1yllx/0BDTBELbuT3EVjYJBOy4tL72Uv1/tku2gY/YWCUrcD+vLQ1p7PuDOfb6M460TuxzBRWiFaw+OkDSY27mBG1jOx89Dch7mg63ILmsjTs37+v4r9W8kLhtqCBtkJDfm5WAGJhyCmdL+YlVuGnmvWWCRJBWYHez9Uw84LW+kJAJeOFx3sLUh8whw6/0xqlfF4I8bh8RlBk0UjBlJ8nulP0q4qQwIGbxhq71PFQLJos44+GmKyt8U4PxiGE5c1Y85V5VB+xpL66mI84iBMLwfEBBzSREgOPegWXIjRAEzNOW5RGJoAzQBAtjEOtW6lsLzIOHHGnrbwA==
+    properties :
+     x : 6
+     y : 164
+     width : 385
+     height : 18
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : PROGBAR_Process
+    identifier : 0x274d91a214da208d
+    internal_properties : CAAAAAgAAAAykS1PLWKU+rbCfNkU97uGserfddHNzJ2/kBQ+H80sv73YZes9IRYTn2G1lybg18YQqoCHX+4TJkRKuTinZKg4IX6Ktjq5M4nKhkANtXR0IhVnN5phmQ8D6/vLqIbgC5zG+mkcY27FFHU4Az9u7YKkmwTmX2hwu5WICpee1hoL9Mxb+NfVz99ncn3JM+jL9+m5Fm88vkLfDsLESnX7nE7xL0RNAv1t5xq4USgG2L6nXZ/HWLo3zW3emo5Y1UnNG+ctaHxUCfmU9x4nszx6Mlz9NcJGcbnb4UhpnADV7NcfvpClg/fkcen76/b4lB7mW/+5ILECEAemr25/qYpkbsoKECtNKQEXTIF9M6PbTsIBlqnLOs4ZYDrfygb6JjZzjXFhncpaF0RsFjgR71ekNNeunkijZA8AP/lAjWQmOy474JAOitZ8AzQvtRXvqQz0XyMH+UeMLQukRosPUkI31hFIYr7JxQXJ7ZdA6jAckRqP4RInevkXIoxoQOMAvfpn1ju6vrdoe/RIQgpc444t21lkM99SA5gjqj46W/8DQ2ybmCnUX3LRWU85fQn6GgoR0rwlfdxVoEepVv4uCL3SAsKsrRdyhAfw0IVTmtpYPkMoNKv1S+pkB2BmuaMK/6omGHMpb7S8J+BRmZp8u3Ils55pf3YV6BrqCl/TBgdlp4oUMjbJEyszQi50Swq2DfkEVgLabEnaxlj115KJ9PeEv0YlvKN/QAjDIRtD8hGAJBpG8Yz7HqSD/gH12e1DdBIXDn2YWoW54enlf7/BgjK+g+UEwGw7CW4DsT1ijUES+4fcpAPP1fwHcBIywgzXAunp8DpnFVo8YagkZluEC1RAgC4RyxsZBHE7jNyQEpHSSGkxIH6oA94pUfAoZPd/wV4qqIDlSigBdJZzvuCLW/+Uso0WTzYHUgL1qBSvlYJgqWWJj0qNg+0uHR/Q+g==
+    properties :
+     x : 49
+     y : 79
+     width : 298
+     height : 31
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAACCv199ARoPUfG3WAPSG9eefhOOjWMQrs8CrX6cGGGJPoSHWBq4PXhStOWc1YnAZMZ5+EFR1WTDn8CTOTiyLnXPpAR5X8rsRkPZrm1yZeYDDt4kRzDPLbUf4Sh/mD3kd1D8V2drCFLmjeQhgpw7GKGwHRga+ZdjSqXGIC3LD1RracZ230hOmUJTj+ABDW4IHrw4PflmVGgp8E9KnAf/gselRrzEY90l3Cr9N00QijFYYrbrl4qF4kdim1YX6jYT4ezQhbJsU84ENZsxzq+o0JVHYQ8rxck600VhGV04/ao=
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAABK9YwMmAlHFhNnXNW9gvSCnFM5CnBSsMa8eqhI3xZQAa3oFSwpodteQRtzVp9dHgkvJI7lw18SqoHsStrFjXRX2bwT1nYzgebh7jHS8wn8eqHUXrfSjqRNW1lwFc5B73JKVRtuJMxwKDtDntVEtJiHWPmW0huGnQH9TBD3nBIgxn1WjxKU2CI7WIEeUastn6+QHrL6vzcFwwgM1daCMArPP9kqFLvjo6ptLZuGCnAtH3CGnJY8NqUG4A==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MyWindow(gbSpinner is boolean) 
+      gsListFile is string
+      gnNBSelectedFiles is int
+   -
+     code : |1+
+      
+      IF gbSpinner = True THEN
+      	IMG_Spinner..Visible = True
+      	STC_ProcessInProgress = "Closing the archive..."
+      ELSE
+      	PROGBAR_Process..Visible = True	
+      	
+      	// Which process? 	
+      	SWITCH geProcess
+      	
+      		CASE Extract_here
+      			AutoExtractHere()
+      			STC_ProcessInProgress = "Extraction in progress..."			
+      			
+      		CASE Extract_dir
+      			AutoExtractDir()
+      			STC_ProcessInProgress = "Extraction in progress..."
+      			
+      		CASE AddFile_choose_archive		
+      			// Filter the applications
+      			FilterApplication()
+      			
+      			AutoAddArchiveFile()
+      			STC_ProcessInProgress = "Compression in progress...."
+      			
+      		CASE Compress_wdz
+      			// Filter the applications
+      			FilterApplication()
+      			
+      			AutoCompress(zipFormatWDZ)
+      			STC_ProcessInProgress = "Compression in progress...."
+      			
+      		CASE Compress_zip
+      			// Filter the applications
+      			FilterApplication()
+      			
+      			AutoCompress(zipFormatZIP)
+      			STC_ProcessInProgress = "Compression in progress...."
+      	END
+      	
+      	// Opened archive?
+      	IF zipExist(gMyArchive)=True THEN
+      		zipClose(gMyArchive)		
+      	END
+      	
+      	Close(WIN_WAIT_PROCESS)
+      	
+      END
+      
+      
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : AutoExtractHere
+     procedure_id : 1679158361143713933
+     type_code : 14
+     code : |1+
+      // Summary: Automatic procedure used to extract the archive
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE AutoExtractHere()
+      
+      arrFile is array of strings
+      sDestination is string
+      
+      
+      IF ArchiveOpenArchive(CommandLine(2))=True THEN
+      	// Add to the list of files to extract
+      	FOR EACH zipfile of gMyArchive.File
+      		ArrayAdd(arrFile,zipfile.Nom)			
+      	END
+      	// Extract the path for extraction from the command line
+      	sDestination =  ""
+      	
+      	// Perform the extraction
+      	ArchiveExtractFiles(arrFile,sDestination,zipDirectory,PROGBAR_Process)
+      END
+     type : 458752
+   -
+     name : AutoExtractDir
+     procedure_id : 1679158361143779469
+     type_code : 14
+     code : |1+
+      // Summary: Automatic procedure used to extract the archive in a directory
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE AutoExtractDir()
+      
+      
+      arrFile is array of strings
+      sDestination is string
+      
+      
+      IF ArchiveOpenArchive(CommandLine(2))=True THEN
+      	// Add to the list of files to extract
+      	FOR EACH zipfile of gMyArchive.File
+      		ArrayAdd(arrFile,zipfile.Nom)			
+      	END
+      	
+      	// Extract the path for extraction from the command line
+      	sDestination = fExtractPath(CommandLine(2),fDrive+fDirectory+fFileName)
+      	
+      	// Create the directory if necessary
+      	fMakeDir(sDestination)
+      	
+      	sDestination = sDestination + [fSep]
+      	
+      	// Perform the extraction
+      	ArchiveExtractFiles(arrFile,sDestination,zipDirectory,PROGBAR_Process)
+      	
+      END
+      
+     type : 458752
+   -
+     name : AutoAddArchiveFile
+     internal_properties : CAAAAAgAAAAIYxRySKRPQZYG2+XKuou+AzDEPDIvmU5UrqDFJYASHxKHIUxpdqQF3OR2SFbCFWoI8JQlluLhY0TwoX6ciCxRA3QKAmR+czLK4h6mkLkqETKvlbHpskfkoA1IgodA8pvXPt2vMPWZ0sR3UjlApOXMWS87PsRZHEM8cZC62S3zIopUhv6LOlnEqM0f/dCwaQgmskU46+A=
+     procedure_id : 1679158361143845005
+     type_code : 14
+     code : |1-
+      // Summary: Opens an archive and adds the requested files into it
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE AutoAddArchiveFile()
+      
+      sArchiveName	is string
+      arrFile is array of strings
+      sStoredPath is string
+      sDirectory is string
+      
+      sArchiveName = fSelect("C:", "", <§$0001§>,<§$0002§>+TAB+"*.wdz;*.zip;*.rar;*.tar.gz;*.tar;*.7z"+CR+<§$0003§>+TAB+"*.exe"+CR+<§$0004§>+TAB+"*.*", "wdz", fselOpen+fselExist)
+      sDirectory = fExtractPath(sArchiveName,fDrive+fDirectory)
+      
+      // Check the input
+      IF sArchiveName<>"" THEN
+      	// Open the archive and display its content
+      	ArchiveOpenArchive(sArchiveName)	
+      	
+      	// For each file
+      	FOR EACH string sMyfile of gsListFile SEPARATED BY CR
+      		IF fDirExist(sMyfile) =True THEN
+      			// A folder must be added into the archive	
+      			AFile, ResFileList are strings
+      			
+      			// List the files
+      			ResFileList =fListFile(sMyfile+[fSep]+"*.*",frRecursive)
+      			
+      			// For each file found
+      			FOR EACH string AFile of ResFileList SEPARATED BY CR
+      				// Use the stored path
+      				IF Contains(AFile,sDirectory) = True THEN
+      					sStoredPath = Right(AFile,(Length(AFile)-Length(sDirectory)))
+      				ELSE
+      					sStoredPath = fExtractPath(AFile,fDirectory)
+      				END
+      				
+      				
+      				AFile = AFile + TAB + sStoredPath
+      				ArrayAdd(arrFile, AFile)
+      			END
+      		ELSE
+      			ArrayAdd(arrFile,sMyfile)
+      		END
+      	END
+      	
+      	ArchiveAddFileList(arrFile,zipNone,PROGBAR_Process)
+      	
+      END
+     type : 458752
+   -
+     name : AutoCompress
+     internal_properties : CAAAAAgAAADS+89aqO3z5rpS72mEAJt8O67jVcmHz5l4jq1ppRYsjjxc4OhMNsptbP18gTbh50GHwESyVEqd1JbH5JbybO5KjbQBudJEwnIrQKLl9YrDqcQ2nUj/N/ptKP8NKkFTJXyc550QPnIySe5jq7uEKyCNMOpNGQjco1ymZVns57gs1b6M11gGptUcp359Uvf4jbIOi7Q4YAGk6Guomk7tibzK6m5fKA==
+     procedure_id : 1679158361143910541
+     type_code : 14
+     code : |1+
+      // Summary: Compresses the folder into a compression file passed in parameter
+      // Parameters:
+      //	nCompressionType (integer): Type of compression to perform
+      // Return value:
+      // 	None
+      //
+      PROCEDURE AutoCompress(nCompressionType is int)
+      arrFile is array of strings
+      sArchive is string = CommandLine(2)
+      sDirectory is string = Left(CommandLine(2),(Length(CommandLine(2)) -Length(ExtractString(CommandLine(2),lastRank,fSep,FromEnd))))
+      sStoredPath is string
+      
+      // Choose the compression
+      SWITCH nCompressionType
+      	CASE zipFormatWDZ
+      		sArchive = GetArchiveName(sArchive,".wdz")
+      	CASE zipFormatZIP
+      		sArchive= GetArchiveName(sArchive,".zip")
+      		
+      	OTHER CASE
+      		RETURN	
+      END
+      
+      // Is the archive created?
+      IF ArchiveCreateArchive(sArchive)=True THEN
+      	
+      	// For each file
+      	FOR EACH string sMyfile of gsListFile SEPARATED BY CR
+      		IF fDirExist(sMyfile) =True THEN
+      			// A folder must be added into the archive	
+      			AFile, ResFileList are strings
+      			
+      			// List the files
+      			ResFileList =fListFile(sMyfile+[fSep]+"*.*",frRecursive)
+      			
+      			// For each file found
+      			FOR EACH string AFile of ResFileList SEPARATED BY CR
+      				// Use the stored path
+      				sStoredPath = Right(AFile,(Length(AFile)-Length(sDirectory)))
+      				
+      				AFile = AFile + TAB + sStoredPath
+      				ArrayAdd(arrFile, AFile)
+      			END
+      		ELSE
+      			ArrayAdd(arrFile,sMyfile)
+      		END
+      	END
+      	
+      	ArchiveAddFileList(arrFile,zipNone,PROGBAR_Process)
+      END
+     type : 458752
+   -
+     name : GetListSelectedFiles
+     internal_properties : CAAAAAgAAAAuScqsPsJGQThYp+HGtPuOCfZu6sYB/eb6LPRR4Uo6u0zJywoJVAD5cirm2G6I6V6aYnZjxjhV8/LefTbMjkThefrIHKiIzz6QyMLL81i33E2igiQkGQYVkzB7W3Z7G0Ly0eICS6yQu89KJWYv73IfKB6kZWPUf6Sv5BMPVMRE+VmLs2FSTVTBr9wexnsfej7c+AP6Fb4=
+     procedure_id : 1679158361143976077
+     type_code : 14
+     code : |1+
+      // Summary: Extracts the selected files from the active Windows explorer
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE GetListSelectedFiles()
+      
+      
+      // Retrieve the opened directories in the shell
+      MyExplorers is object Automation "shell.application"
+      
+      // Retrieve the handle of the active window (therefore the current explorer)
+      nHandleActivWindow is int = API("User32.dll","GetForegroundWindow")
+      
+      // Browse the explorers, if several ones are opened, we don't know which one is the one of our application
+      FOR i =0 _TO_ ((MyExplorers>>Windows>>count)-1)
+      	
+      	// Retrieve the handle of the explorer that is processed
+      	nHandleExplorer is int = MyExplorers>>Windows>>Item(i)>>HWND
+      	
+      	// Perform the process for the "active" window only
+      	// If the explorer that we process is not the active window, continue to browser the explorers
+      	IF nHandleExplorer<>nHandleActivWindow  THEN
+      		CONTINUE
+      	END
+      	
+      	// For the active explorer
+      	FOR j=0 _TO_ ((MyExplorers>>Windows>>Item(i)>>Document>>SelectedItems>>count)-1)
+      		// Is an element selected? 
+      		IF MyExplorers>>Windows>>Item(i)>>Document>>SelectedItems>>count = 0 THEN
+      			BREAK
+      		END
+      		// Retrieve the selected elements
+      		gsListFile += [CR] + MyExplorers>>Windows>>Item(i)>>Document>>SelectedItems>>item(j)>>path
+      		gnNBSelectedFiles++
+      	END
+      	
+      	// The active explorer was processed
+      	// Therefore, we can exit
+      	BREAK
+      	
+      END
+      
+      
+      
+     type : 458752
+   -
+     name : FilterApplication
+     internal_properties : CAAAAAgAAAAwTzGfMT7ut+LEKKmLPQ9oLKSwF0KgLUxWRduQa4fR4oezoalxHmp4CzNA2sSQ682qNhjyl5fgzwbX+phuGpFspXFvshkHYdIlPVkZDy5twj/IXwXaB3y+TFF/TIkeftRzxzdZ2ptPK8D6lS012Mlf6cx5zOqXctp8eJd45kvH5casOeRZp5M4j77B0AMWcJ31/7B1LCK8mXkQF72zZfSKLXneBgOBkt0nQldjMtvMTw+OXrB3MjPhEGblace9xw==
+     procedure_id : 1679158361144041613
+     type_code : 14
+     code : |1-
+      // Summary: Filters the applications that are run from the popup menu, by default an application is started for each selected element
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE FilterApplication()
+      
+      // Filter the applications
+      // When the shell calls WD Zip from the explorer, it starts a selected exe/file
+      // the purpose is to have a single executable, therefore a single exe is run, the other ones call EndProgram
+      // The only exe run is used to retrieve the selected files in the explorer
+      SemaphoreCreate("wdzip",1,0,shareUser)
+      
+      IF SemaphoreStart("wdzip",1) = False THEN
+      	EndProgram()
+      END
+      
+      // Retrieve the selected files
+      GetListSelectedFiles()
+      
+      // Destroy the semaphore, other popup menus must be run
+      Multitask(50)
+      SemaphoreDestroy("wdzip")	
+     type : 458752
+   -
+     name : GetArchiveName
+     procedure_id : 1679158361144107149
+     type_code : 14
+     code : |1+
+      // Summary: Returns the name of the archive by checking that this file does not already exist
+      // Parameters:
+      //	sArchive (ANSI string): Name of the archive
+      //	sExtension (ANSI string): Extension of the archive
+      // Return value:
+      // 	ANSI string: Valid archive name
+      //
+      PROCEDURE GetArchiveName(sArchive is string, sExtension is string) : string
+      
+      sTemporaryArchiveName is string
+      // By default, start renaming files from 2
+      nFileCounter is int = 2
+      
+      // Retrieves the name of the archive to create according to the number of selected files
+      IF gnNBSelectedFiles>1 THEN
+      	
+      	// Extract the name from the previous directory so that it will be the name of the archive
+      	sArchive = fExtractPath(sArchive,fDirectory+fDrive) 
+      	sArchive  = Left(sArchive,Length(sArchive )-1)
+      	sArchive = sArchive + [fSep] + ExtractString(sArchive,lastRank,fSep)
+      	
+      ELSE
+      	// Retrieve the name of the file so that it will be the name of the archive
+      	sArchive = fExtractPath(sArchive,fFileName+fDirectory+fDrive)
+      END
+      
+      // Check whether the file that will be archived does not already exist
+      sTemporaryArchiveName = sArchive
+      WHILE fFileExist(sTemporaryArchiveName+sExtension)=True
+      	sTemporaryArchiveName = sArchive+"("+nFileCounter+")"
+      	nFileCounter++	
+      END
+      
+      // Return the proper value
+      sArchive = sTemporaryArchiveName + sExtension
+      
+      RESULT sArchive
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAAspXRQsX4kpYpRJzI8SMGEUfXYJhQeqig0H9mPZLI9hoPnkeFEnSQ8t7JVd8VUY9eLyST/2DyAYB+9rK7lbHVOclfSdkhgAQ9dNjlmStKMpPl9
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x163c8bf0010f50c3
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Extraction in progress...
+     index : 0
+   -
+     text :
+      en-GB : Select an archive...
+     index : 1
+   -
+     text :
+      en-GB : "Archives (*.wdz; *.zip;*.rar, *.tar; *.tar.gz, *.7z)"
+     index : 2
+   -
+     text :
+      en-GB : Executables (*.exe)
+     index : 3
+   -
+     text :
+      en-GB : All files (*.*)
+     index : 4
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

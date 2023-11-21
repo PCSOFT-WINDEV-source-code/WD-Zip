@@ -1,0 +1,348 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : COL_ExeRun
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x174d91a305d3255f
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAAAZMNjV3WN00VuQ4Qt02EYdHrgKwFshwO1pGtzqtqFPATCFnS0MG6m/AhFKY21EITSbR8F3BH16h9DBJRaP33fMQa2ZURjPaXcVBkI3IT+O5T/slf+RB2mYMaJ/WfdvdkjtIQa0vucDstIk7oUg9Ws3Lt3nuQN+D2cKA8kMLZuWlQ==
+     code : |1+
+      // Structure used by the ShellExecuteEx API
+      STSHELLEXECUTEINFO is Structure
+      	nCbSize is 4-byte int
+      	nFMask  is 4-byte int
+      	nHwnd is system int
+      	nLpVerb is system int
+      	nLpFile is system int
+      	nLpParameters is system int
+      	nLpDirectory  is system int
+      	nShow is 4-byte int
+      	nHInstApp is system int
+      	nLpIDList is system int
+      	nLpClass is system int
+      	nHkeyClass  is system int
+      	nDwHotKey is 4-byte int
+      	nHIcon_hMonitor is system int
+      	nHProcess is system int
+      END
+      
+      CONSTANT
+      	// Constants for configuring the STSHELLEXECUTEINFO structure
+      	SEE_MASK_DEFAULT = (0x00000000)			// Use the default values
+      	SEE_MASK_CLASSNAME = (0x00000001)			// Use the value of nLpClass member
+      	SEE_MASK_CLASSKEY = (0x00000003)			// Use the value of nHkeyClass member (has priority over SEE_MASK_CLASSNAME)
+      	SEE_MASK_IDLIST = (0x00000004)				// Use the value of nLpIDList member (must point to a structure of ITEMLIST type)
+      	SEE_MASK_HOTKEY = (0x00000020)			// Use the keyboard shortcut of nDwHotKey member
+      	SEE_MASK_NOCLOSEPROCESS = (0x00000040)	// The nHProcess member will receive the handle of the process run, this one will have to be closed by a call to CloseHandle
+      	SEE_MASK_NOASYNC = (0x00000100)			// Waits the the execution to be started to give control back
+      	SEE_MASK_DOENVSUBST = (0x00000200)		// Extend the environment variables of nLpDirectory or nLpFile
+      	SEE_MASK_FLAG_NO_UI = (0x00000400)			// Dont display a message if an error occurs
+      	SEE_MASK_NO_CONSOLE = (0x00008000)		// The created process will inherit from the console of its caller
+      	SEE_MASK_HMONITOR = (0x00200000)			// Used to specify the screen that will be used on a multi-screen system (in the nHIcon_hMonitor member)
+      	SEE_MASK_FLAG_LOG_USAGE = (0x04000000)	// Counts the number of application launches (from XP, the most frequently used applications are position at the top of the Start menu) 
+      	
+      	// Constants for the display mode of windows
+      	SW_HIDE = 0					// Hides the window
+      	SW_SHOWMAXIMIZED = 3			// Displays the maximized window
+      	SW_SHOWMINIMIZED = 2			// Displays the minimized window
+      	SW_SHOWNOACTIVATE = 4		// Don't activate the window
+      	SW_SHOWNORMAL  = 1			// Displays the window
+      	
+      END
+     type : 720896
+  procedures :
+   -
+     name : bUACIsAvailable
+     internal_properties : CAAAAAgAAACM9MGNrnO1j0LN0C4PfhNQvxqVkyFBBAdAML5OFRfcCXrCzlb3jnbCjtx/NIjn6avUTS/qZ+lrrvM2YA7SPlDqA4dUKWLR/0NIt6eD5RdJMWjTdBGNIK06xOG8KuUWiCU3/pV3fK9bBAbJRM8+8H8qNSMnMpzl4IdOQyJwD+etoOMdXT9MaYr3k/BC4idLKoam0/6vigb8MtMyiFaRNLZSYJY2qnpn
+     procedure_id : 1679158365442549087
+     type_code : 15
+     code : |1-
+      // Summary: Defines whether the UAC exists on the current operating system
+      // Return value:
+      // 	boolean: True if the UAC exists, False otherwise
+      //
+      PROCEDURE bUACIsAvailable()
+      
+      // The UAC exists in Windows only, on the NT platforms
+      IF SysWindowsVersion(sysVersionPlatform)<>"NT" THEN RESULT False
+      
+      // The UAC exists from Windows Vista
+      IF SysWindowsVersion(sysVersionNumber)<6 THEN RESULT False
+      
+      // The system supports the UAC
+      RESULT True
+     type : 458752
+   -
+     name : bUACIsEnabled
+     procedure_id : 1679158365442614623
+     type_code : 15
+     code : |1+
+      // Summary: Defines whether the UAC mechanism is enabled
+      // Return value:
+      // 	boolean: True if the UAC is enabled, False otherwise
+      //
+      PROCEDURE bUACIsEnabled()
+      
+      // The UAC setting is stored in a registry key
+      bUACEnable is boolean = Val(RegistryQueryValue("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System","EnableLUA"))
+      
+      RESULT bUACEnable
+     type : 458752
+   -
+     name : bElevatedPrivileges
+     internal_properties : CAAAAAgAAAAH4KnK+nr1ZSrB+1vsdgE01UI0D2UywXpNCBw/Uop+ECovmPI62BrhsqkeAQgKLJ7T+97Vh59g4OMR0kaVPgxI3fjMC4TNBP09PcCnVGaXcYZTNIqh8e7hoUDn7uR0dZsx5x9IWJYG5NGcmfCR4lYF0Y3OK++kkDzinKGt0JgIijsIUc8mlM7Pyol4PrthZzXCii8QbRWoAz0zHSn5GugvJHh1RuadCqOV8O3o7NICdcpOoU9H6hPl571caauquzcUlWq3pkTZWh5frkSSRZtv087B5+imVI/w/S43pr7L3lJJ1NiQHkSmhzQTbrIcLcLJi1sx3Vqb
+     procedure_id : 1679158365442680159
+     type_code : 15
+     code : |1-
+      // Summary: Defines whether the application was created with elevated privileges or not
+      // Return value:
+      // 	boolean: True if the application has elevated privileges, False otherwise
+      //	In case of error, ErrorOccurred returns True and ErrorInfo returns the error details
+      //
+      PROCEDURE bElevatedPrivileges()
+      
+      TOKEN_READ is 4-byte int = 0x0008+0x00020000
+      TokenElevation is 4-byte int = 20
+      TokenElevationType is 4-byte int = 18
+      TokenElevationTypeDefault is 4-byte int = 1
+      TokenElevationTypeFull is 4-byte int = 2
+      
+      
+      hProcess is system int
+      hToken is system int
+      tTokenElevation is 4-byte int
+      eElevationType is 4-byte int
+      dwTokenLength  is 4-byte int
+      
+      // Reads the security token of current process
+      hProcess = API("kernel32","GetCurrentProcess")
+      IF API("Advapi32","OpenProcessToken",hProcess,TOKEN_READ,&hToken)=False THEN
+      	ErrorThrow(1,"Unable to read the security information of process.")
+      	RESULT False
+      END
+      
+      // Asks for the elevation paramter found in the token
+      IF API("Advapi32","GetTokenInformation",hToken,TokenElevation,&tTokenElevation,Dimension(tTokenElevation),&dwTokenLength)=False THEN
+      	ErrorThrow(2,"Unable to read the parameter for elevating the process privileges.")
+      	RESULT False
+      END
+      
+      IF tTokenElevation<>0 THEN
+      	IF API("Advapi32","GetTokenInformation",hToken,TokenElevationType,&eElevationType,Dimension(eElevationType),&dwTokenLength)=False THEN
+      		ErrorThrow(3,"Unable to read the value of the parameter for elevating the process privileges.")
+      		RESULT False
+      	ELSE
+      		IF eElevationType _IN_ ( TokenElevationTypeDefault, TokenElevationTypeFull) THEN
+      			RESULT True
+      		ELSE
+      			RESULT False
+      		END
+      	END
+      END
+      
+      RESULT False
+     type : 458752
+   -
+     name : bIsAdministrator
+     internal_properties : CAAAAAgAAAAOqWrMduL2MeiYNyGGBHu+uUb+ClbRHcYanPQBkeoKG0wJi7oplDBJQmo22E746a7q0uaDdmg1k5JO3Qb8rtThGRooDKgo3y4AqJIDKxAfREVKuoy8sT5dO2iTcy6zA6qqWXoqA8RoIxfCfZ5HxxpH4EZcDfust8y3PKvnDBzMARHTiwmqBUwp1/R2ftO3QqbUmKNatd4=
+     procedure_id : 1679158365442745695
+     type_code : 15
+     code : |1+
+      // Summary: Defines whether the current user is a member of the Administrator group
+      // Return value:
+      // 	boolean: True if the user belongs to the local "Administrators" group, False otherwise
+      //
+      PROCEDURE bIsAdministrator()
+      
+      bAdmin is boolean = API("shell32","IsUserAnAdmin")
+      
+      RESULT bAdmin
+     type : 458752
+   -
+     name : RunAppWithElevation
+     internal_properties : CAAAAAgAAAAIYxRySCRPgZYG2+XKuos+AzDEPLKvGc7ULiBFpQCSH5IHocxpdqQF3OR2SFbCFeoI8JQlFmJh48RwIf4cCKxRg/SKgmR+czLK4h7mUPlq0fLv1fGp8ock4M0IwkeAMluXfh3v8DXZEgQ3EnkA5CWMGW97foSZXIN8MVD6mW0z4kqUxj5LepkE6I3fPZDw6YgmskU46+A=
+     procedure_id : 1679158365442811231
+     type_code : 15
+     code : |1+
+      // Summary: Starts an application by elevating the privileges
+      // Parameters:
+      //	sCommandLine (string): Command line to run
+      //	nMode (integer - default value=1): Mode for starting the program
+      //	nWaitForEnd (integer - default value=1): Wait for the end of process before giving control
+      //	sWorkingDirectory (string - default value=""): working directory (empty string = current directory)
+      // Return value:
+      // 	boolean: True if the application was started properly, False if an error occurred
+      //
+      PROCEDURE RunAppWithElevation( LOCAL sCommandLine is string , LOCAL nMode is int = exeActive, LOCAL nWaitEnd is int = exeWait, LOCAL sWorkingDirectory is string = "" )
+      
+      RESULT _RunAppUAC(sCommandLine,nWaitEnd,nMode,sWorkingDirectory,"runas")
+     type : 458752
+   -
+     name : RunAppUAC
+     procedure_id : 1679158365442876767
+     type_code : 15
+     code : |1-
+      // Summary: Starts an application by elevating the privileges
+      // Parameters:
+      //	sCommandLine (string): Command line to run
+      //	nMode (integer - default value=1): Mode for starting the program
+      //	nWaitForEnd (integer - default value=1): Wait for the end of process before giving control
+      //	sWorkingDirectory (string - default value=""): working directory (empty string = current directory)
+      // Return value:
+      // 	boolean: True if the application was started properly, False if an error occurred
+      //
+      PROCEDURE RunAppUAC( LOCAL sCommandLine is string , LOCAL nMode is int = exeActive, LOCAL nWaitEnd is int = exeWait, LOCAL sWorkingDirectory is string = "" )
+      
+      RESULT _RunAppUAC(sCommandLine,nWaitEnd,nMode,sWorkingDirectory,"open")
+     type : 458752
+   -
+     name : RunAppRestrictedPrivileges
+     internal_properties : CAAAAAgAAABdzLlhzU88ui9IbjGtY9PB7fOAwp9aIIC06hi+j3L1oaUTlKN6FZpJoZfSo5vB0UXhdw6J/IVHNLoyuluprpUTeqSpcTdBPsNCDhNQCDlcDvlwB0cToptATYYxshW0CW5DaqdIJbReUftJBlVrFnBtmLKHdeAHYEMs1AW71Wunw73v40phHcVABb8gSBeCEbzsLxZhyV+nO22c2BhIW+/SUBPcDoQVd8q7PL9ZVAH8UCFFoM69MVF/McFBHtdSPVw0neAgvkmMhs1Wdj0/7dtENEZsK4R1IzogBxPJRe7kSZ0B1S6CYdOx4u2oFHUtn49GPczWYHhGLs7vnisUU+la6KvJI2WvH+a5WMTnRrQIy0ZmVsi6f0PhzqW62jeQ7yXNCjJaNgX0C2orQmXNJ87Z9iprhM62GyF9aocYIb6yQtc=
+     procedure_id : 1679158365442942303
+     type_code : 15
+     code : |1+
+      // Summary: Starts an application by restoring restricted privileges
+      // To restore restricted privileges, the application must be started by the task scheduler.
+      // From Windows Vista, the scheduled tasks include an additional option to indicate
+      // whether the application must be started in elevated or restricted privileges
+      // This option is not available in the ScheduledTask structure of WLanguage.
+      // To solve this problem, the scheduled task is created by using the schtasks.exe utility (supplied with Windows)
+      // that is used to emulate the task scheduler.
+      // Parameters:
+      //	sAppName (string): Command line to run
+      // Return value:
+      // 	Undefined type: True if the application was started properly, False if an error occurred
+      //
+      PROCEDURE RunAppRestrictedPrivileges( sAppName is string )
+      
+      sXMLContent is string = StringBuild([
+      	<?xml version="1.0" ?>
+      	<Task xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+      	<RegistrationInfo>
+      	<Date>2005-10-11T13:21:17-08:00</Date>
+      	<Author></Author>
+      	<Version>1.0.0</Version>
+      	<Description></Description>
+      	</RegistrationInfo>
+      	<Triggers>
+      	<TimeTrigger>
+      	<StartBoundary>2005-10-11T13:21:17-08:00</StartBoundary>
+      	<EndBoundary>2006-01-01T00:00:00-08:00</EndBoundary>
+      	<Enabled>true</Enabled>
+      	<ExecutionTimeLimit>PT5M</ExecutionTimeLimit>
+      	</TimeTrigger>
+      	</Triggers>
+      	<Principals>
+      	<Principal>
+      	<LogonType>InteractiveToken</LogonType>
+      	</Principal>
+      	</Principals>
+      	<Settings>
+      	<Enabled>true</Enabled>
+      	<AllowStartOnDemand>true</AllowStartOnDemand>
+      	<AllowHardTerminate>true</AllowHardTerminate>
+      	</Settings>
+      	<Actions>
+      	<Exec>
+      	<Command>%1</Command>
+      	</Exec>
+      	</Actions>
+      	</Task>
+      ],sAppName)
+      
+      sTaskName is string = "ExeRun"+GetGUID()
+      
+      // Create the task
+      sTempFile is string = fTempFile("XML")
+      fSaveText(sTempFile,sXMLContent)
+      sCommandLine is string = "schtasks.exe /create /XML """+sTempFile+""" /tn "+sTaskName
+      IF ExeRun(sCommandLine,exeIconize,exeWait)=False THEN
+      	RESULT False
+      END
+      
+      // Deletes the description file
+      fDelete(sTempFile)
+      
+      // Forced execution
+      sCommandLine = "schtasks.exe /run /tn "+sTaskName
+      IF ExeRun(sCommandLine,exeIconize,exeWait)=False THEN
+      	RESULT False
+      END
+      
+      // Erase the task
+      sCommandLine = "schtasks.exe /delete /f /tn "+sTaskName
+      RESULT ExeRun(sCommandLine,exeIconize,exeWait)
+     type : 458752
+   -
+     name : _RunAppUAC
+     internal_properties : CAAAAAgAAAAv8StPn8IM7re3uqZ0y5uL/zvXihkmIjAcELkZzGcoWvg3eryRW3EKfWGwIkrsTW7QDBSE+bmKk7c5Pm3RmRvJCitk00d4MfHbr57Q+fJd33ghU/hnuPRSh+aB/ndcCYdE0EiWrNdexmdu82dOrBRG7ofEszj7k/kHUB3Uy12acjTcOUqAZitSnX+MBaM3PqdXL+rG9tCpuFAkQSEsTyd0iN12jQMXUqjRucz374VoiepOm3zI
+     procedure_id : 1679158365443007839
+     type_code : 15
+     code : |1-
+      // Summary: Internal function used by RunAppUAC and RunAppWithElevation
+      //
+      PROCEDURE PRIVATE _RunAppUAC(LOCAL sCommandLine is string, LOCAL nWaitEnd is int, LOCAL nMode is int, LOCAL sWorkingDirectory is string, LOCAL sVerb is string)
+      
+      // Initializes the structure of the ShellExecuteEx API
+      stExeRun is STSHELLEXECUTEINFO
+      stExeRun.nCbSize = Dimension(stExeRun)
+      
+      stExeRun.nLpFile = &sCommandLine
+      stExeRun.nLpVerb = &sVerb
+      stExeRun.nFMask = SEE_MASK_DEFAULT
+      
+      // Process the locking launch parameter
+      IF nWaitEnd=exeWait THEN
+      	stExeRun.nFMask = SEE_MASK_NOCLOSEPROCESS
+      END
+      
+      // Process the launch mode
+      SWITCH nMode
+      	CASE exeActive
+      		stExeRun.nShow = SW_SHOWNORMAL
+      	CASE exeIconize
+      		stExeRun.nShow = SW_SHOWMINIMIZED
+      	CASE exeInactive
+      		stExeRun.nShow = SW_SHOWNORMAL + SW_SHOWNOACTIVATE
+      	CASE exeMaximize
+      		stExeRun.nShow = SW_SHOWMAXIMIZED
+      END
+      IF sWorkingDirectory<>"" THEN
+      	stExeRun.nLpDirectory = &sWorkingDirectory
+      END
+      
+      // Call the API
+      bRet is boolean = API("shell32","ShellExecuteExA",&stExeRun)
+      IF bRet _AND_ nMode=exeActive THEN
+      	// If we have to wait for the end of exe
+      	IF stExeRun.nHProcess<>0 THEN
+      		nExitCode is 4-byte int
+      		WHILE API("kernel32","GetExitCodeProcess",stExeRun.nHProcess,&nExitCode)
+      			IF nExitCode<>259 THEN BREAK
+      			Multitask(-100)
+      		END
+      	END
+      END
+      
+      RESULT bRet
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1e5ba9db001ac393
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

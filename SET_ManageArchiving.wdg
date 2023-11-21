@@ -1,0 +1,201 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : SET_ManageArchiving
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x174d91a305ea2659
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAByrBDDiyHA6Gp8D/ef/REbENoiRQJKb0hNE5HvEbO4Va3Y7pbtJ/vRIWO4oxE7gXshqp1/WvOlMdgeyfZ2jBXLvz68zxjOXzhJgOhv65iA9Uqv6uqhpeMxvzrZrtBAU18b4bxEdZ42mlf54dSxFNCDPBGVukYeUpRrUaawBbl+BRhfdGehboxeobS4B+JOXgHx361LFHe3qa5GH58zm5mosnE6dXmprbzXVCEH/TVXPDzG+cOGHdAu2A==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : ArchiveAddFileList
+     procedure_id : 1679158365444056665
+     type_code : 15
+     code : |1+
+      // Summary: Adds into the archive the files found in the array
+      // Parameters:
+      //	arrFile (array): List of files to archive
+      //	nAddMode (integer: Mode for adding processes
+      //	ProgressBar (control): Progress Bar control that will be used by the zip function
+      // Return value:
+      // 	boolean: True if the addition was successful, False otherwise
+      //
+      PROCEDURE ArchiveAddFileList(arrFile is array of string,nAddMode is int,ProgressBar is Control) : boolean
+      
+      sListFile is string
+      
+      // Toggle the array to string
+      sListFile = ArrayToString(arrFile,CR)
+      
+      IF zipAddFileList(gMyArchive,sListFile,nAddMode,ProgressBar)> 0 THEN
+      	Error(ErrorInfo(errFullDetails))	
+      	RESULT False
+      ELSE
+      	RESULT True
+      END
+     type : 458752
+   -
+     name : ArchiveCreateArchive
+     procedure_id : 1679158365444122201
+     type_code : 15
+     code : |1-
+      // Summary: Creates an archive passed in parameter
+      // Parameters:
+      //	sArchiveFile (ANSI string): Path of the archive to create
+      // Return value:
+      // 	boolean: True if the creation was successful, False otherwise
+      //
+      FUNCTION ArchiveCreateArchive(sFileArchive is string) : boolean
+      
+      // Create the new archive
+      nOpeningResult 	is int
+      nOpeningResult = zipCreate(gMyArchive, sFileArchive)
+      
+      // Check the creation
+      IF nOpeningResult <> 0 THEN
+      	// Problem while creating the archive
+      	Error(<§@163ca2ca012797500001§> + sFileArchive + "'" + CR + zipMsgError(nOpeningResult))
+      	RESULT False
+      END
+      
+      // Indicate that the creation was successful
+      RESULT True
+     type : 458752
+   -
+     name : ArchiveOpenArchive
+     procedure_id : 1679158365444187737
+     type_code : 15
+     code : |1-
+      // Summary: Used to open an existing archive
+      // Parameters:
+      //	sArchive (ANSI string): Path of existing archive
+      // Return value:
+      // 	boolean: True if the opening was successful, False otherwise
+      //
+      FUNCTION ArchiveOpenArchive(sArchive is string) : boolean
+      
+      nCR is int
+      
+      // open the archive
+      nCR = zipOpen(gMyArchive, sArchive, zipWrite)
+      
+      //  Check the opening
+      IF nCR>0 THEN
+      	Error(<§@163ca2ca012797500006§>, zipMsgError(nCR))
+      	RESULT False
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : ArchiveExtractFiles
+     internal_properties : CAAAAAgAAAC8fFZTusKkCuYRCqBEPCvT4UZ7Zdu+UxSqQ0PzE2OLGSQXQpJi13B59JwWJ1C111zrG0hq0xdU5tcXFGA/nQbB/5uTIJyqV2TOnuHTkef8c9lkENPMOicC4g19LFnmIi8JyNtUAW7CgpZPyJe0rbChVJaZPOmSiBNAS+OS1mHZAuBH9jnBuSH87z4IiSGzDDztrLBF
+     procedure_id : 1679158365444253273
+     type_code : 15
+     code : |1+
+      // Summary: Extracts files from an archive
+      // Parameters:
+      //	arrFile (array): List of files
+      //	sDestination (ANSI string): Path for file extraction
+      //	nOption (integer): extraction option
+      //	ProgressBar (control): Progress Bar control that will be used by the zip function
+      // Return value:
+      // 	boolean: True if the extraction was successful, False otherwise
+      //
+      PROCEDURE ArchiveExtractFiles(arrFile is array of string,sDestination is string, nOption is int, progressbar is Control) : boolean
+      
+      sListFile is string
+      
+      // The array becomes a list
+      sListFile = ArrayToString(arrFile,CR)
+      
+      // Extract the list of files
+      IF zipExtractFileList(gMyArchive,sListFile,sDestination,nOption,ExtractionError,progressbar)> 0 THEN
+      	Error(ErrorInfo(errFullDetails))	
+      	RESULT True
+      END
+      
+      RESULT False
+      
+      
+      	//Callback in case of error, ignore the file in error by default
+      	INTERNAL PROCEDURE ExtractionError (nCode is int <useful>, sFileName is string <useful>)
+      	Error("File in error: " + sFileName + CR + "Error:  " + zipMsgError(nCode) + CR + CR)
+      	
+      	// A file in error, ignore it
+      	RESULT zipIgnore
+      	END 
+      
+      
+      
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x163ca2ca01279750
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : "No archive is opened.\r\nDo you want to create one?"
+     index : 0
+   -
+     text :
+      en-GB : Problem while creating the archive '
+     index : 1
+   -
+     text :
+      en-GB : "Reminder, the .tar.gz compression is performed when closing the archive."
+     index : 2
+   -
+     text :
+      en-GB : Total %1 files - %2
+     index : 3
+   -
+     text :
+      en-GB : Selected %1 files - %2
+     index : 4
+   -
+     text :
+      en-GB : "To add files to the archive, Drag and Drop the files from the explorer"
+     index : 5
+   -
+     text :
+      en-GB : The archive cannot be opened
+     index : 6
+   -
+     text :
+      en-GB : (read-only)
+     index : 7
+   -
+     text :
+      en-GB : No file is selected.
+     index : 8
+   -
+     text :
+      en-GB : Do you want to extract the full archive?
+     index : 9
+   -
+     text :
+      en-GB : No extraction directory is specified.
+     index : 10
+   -
+     text :
+      en-GB : "%1\r\nRead-only file, hidden file or system file.\r\nDo you want to replace it?"
+     index : 11
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
